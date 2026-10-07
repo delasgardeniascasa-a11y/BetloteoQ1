@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BetloteoQ · Ranking SoloQ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#090c12; --panel:#10151e; --panel-2:#151c28; --line:#1e2736; --line-2:#2b374c;
+  --text:#e8ecf3; --muted:#8c98ad; --dim:#5f6c82;
+  --gold:#d9b46a; --gold-soft:rgba(217,180,106,.12);
+  --up:#35c788; --down:#ef5b66; --blue:#6aa7ff;
+  --radius:18px;
+  --font:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:16.8px;line-height:1.5;-webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(900px 420px at 15% -10%,rgba(217,180,106,.07),transparent 60%),radial-gradient(800px 400px at 95% 0%,rgba(106,167,255,.06),transparent 60%);
+  background-repeat:no-repeat}
+button,input,select{font:inherit;color:inherit;max-width:100%}
+a{color:inherit}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.up{color:var(--up)} .down{color:var(--down)} .muted{color:var(--muted)}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:6px}
+
+/* Top bar */
+.topbar{position:sticky;top:0;z-index:20;background:rgba(9,12,18,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.topbar-in{max-width:1520px;margin:0 auto;padding:16px 32px;display:flex;align-items:center;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;margin-right:auto}
+.brand-mark{width:46px;height:46px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(145deg,#e6c780,#a9842f);color:#1a1405}
+.brand b{display:block;font-size:23px;font-weight:800;letter-spacing:-.01em;line-height:1.1}
+.brand span{font-size:13.8px;color:var(--muted);font-weight:500}
+.sync-pill{display:flex;align-items:center;gap:8px;font-size:14.4px;color:var(--muted);padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--panel)}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--up);box-shadow:0 0 0 3px rgba(53,199,136,.15)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:10px;border:1px solid var(--line-2);background:var(--panel-2);cursor:pointer;font-weight:600;font-size:15.6px;transition:.15s}
+.btn:hover{border-color:var(--gold);background:#1a2231}
+.btn.primary{background:var(--gold);color:#1a1405;border-color:var(--gold)}
+.btn.primary:hover{background:#e6c780}
+.btn.ghost{background:transparent}
+
+main{max-width:1520px;margin:0 auto;padding:44px 32px 72px;display:flex;flex-direction:column;gap:32px}
+
+/* Hero */
+.eyebrow{font-size:14.4px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:clamp(34px,5vw,56px);font-weight:800;letter-spacing:-.03em;line-height:1.1;margin:6px 0 8px}
+.sub{color:var(--muted);max-width:620px}
+.kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px;margin-top:32px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.kpi-l{font-size:13.8px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.kpi-v{font-size:26.4px;font-weight:800;letter-spacing:-.02em;margin:6px 0 2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kpi-s{font-size:14.4px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* Cards */
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:28px}
+.card-h{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;margin-bottom:16px}
+h2{font-size:19.2px;font-weight:700;letter-spacing:-.01em}
+.card-h p{font-size:15px;color:var(--muted);margin-top:2px}
+.grid-a{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:32px}
+.grid-b{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+
+/* Podium */
+.podium{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.pod{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:28px;cursor:pointer;transition:.15s;overflow:hidden;text-align:left;width:100%}
+.pod:hover{transform:translateY(-2px);border-color:var(--line-2)}
+.pod.p1{border-color:rgba(217,180,106,.55);background:linear-gradient(160deg,rgba(217,180,106,.10),var(--panel) 55%)}
+.pod-top{display:flex;align-items:center;gap:14px}
+.pod-pos{font-size:14.4px;font-weight:800;padding:3px 9px;border-radius:999px;background:var(--panel-2);border:1px solid var(--line-2);color:var(--muted)}
+.p1 .pod-pos{background:var(--gold);color:#1a1405;border-color:var(--gold)}
+.avatar{width:68px;height:68px;border-radius:18px;border:1px solid var(--line-2);background:var(--panel-2);object-fit:cover;flex:none}
+.pod-name{font-weight:800;font-size:20.4px;letter-spacing:-.02em;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pod-tag{font-size:14.4px;color:var(--muted)}
+.pod-elo{margin-top:18px;display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.pod-rank{font-size:24px;font-weight:800;letter-spacing:-.02em}
+.pod-lp{font-size:15.6px;color:var(--muted)}
+.pod-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
+.pod-stats div span{display:block;font-size:13.2px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.pod-stats div b{font-size:18px}
+
+/* Rank badge */
+.rank{display:inline-flex;align-items:center;gap:7px;font-weight:700;font-size:15.6px;white-space:nowrap}
+.rank i{width:10px;height:10px;border-radius:3px;transform:rotate(45deg);background:var(--c);box-shadow:0 0 10px -1px var(--c)}
+.role{display:inline-block;font-size:12.6px;font-weight:800;letter-spacing:.06em;padding:2px 7px;border-radius:6px;background:var(--panel-2);border:1px solid var(--line-2);color:var(--muted)}
+
+/* Chart */
+.chart{position:relative;width:100%}
+.chart svg{display:block;width:100%;overflow:visible}
+.chart text{font-family:var(--font);fill:var(--muted);font-size:13.2px}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.chip{display:inline-flex;align-items:center;gap:7px;padding:4px 10px;border-radius:999px;border:1px solid var(--line-2);background:transparent;font-size:14.4px;font-weight:600;cursor:pointer;color:var(--text);transition:.12s}
+.chip i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.chip[aria-pressed="false"]{opacity:.38}
+.chip:hover{border-color:var(--muted)}
+.chip.plain{color:var(--muted)}
+.tip{position:absolute;pointer-events:none;z-index:5;background:#0b0f16;border:1px solid var(--line-2);border-radius:10px;padding:10px 12px;font-size:14.4px;min-width:190px;box-shadow:0 12px 32px rgba(0,0,0,.5);opacity:0;transition:opacity .1s}
+.tip h4{font-size:13.8px;color:var(--muted);font-weight:600;margin-bottom:6px}
+.tip div{display:flex;align-items:center;gap:8px;padding:1.5px 0;white-space:nowrap}
+.tip div i{width:8px;height:8px;border-radius:50%;flex:none}
+.tip div em{font-style:normal;margin-left:auto;padding-left:12px;color:var(--muted)}
+.note{font-size:14.4px;color:var(--dim);margin-top:10px}
+
+/* Progress bars */
+.prow{display:grid;grid-template-columns:130px 1fr 70px;align-items:center;gap:10px;padding:6px 0;cursor:pointer}
+.prow:hover .pname{color:var(--gold)}
+.pname{font-weight:600;font-size:15.6px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ptrack{position:relative;height:12px;background:var(--panel-2);border-radius:99px}
+.pbar{position:absolute;top:0;height:100%;border-radius:99px}
+.pzero{position:absolute;top:-3px;bottom:-3px;width:1px;background:var(--line-2)}
+.pval{text-align:right;font-size:15px;font-weight:700}
+
+/* Lists */
+.hl{display:flex;flex-direction:column}
+.hl button{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;text-align:left;padding:12px 0;border:0;border-bottom:1px solid var(--line);background:none;cursor:pointer}
+.hl button:last-child{border-bottom:0}
+.hl button:hover b{color:var(--gold)}
+.hl small{grid-column:1;font-size:13.8px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.hl b{grid-column:1;font-size:16.8px}
+.hl .hv{grid-column:2;grid-row:1/3;font-size:19.2px;font-weight:700}
+.stack{display:flex;height:14px;border-radius:99px;overflow:hidden;gap:2px;margin-bottom:18px}
+.stack span{background:var(--c);min-width:6px}
+.dist{display:flex;flex-direction:column;gap:2px}
+.dist div{display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}
+.dist div:last-child{border-bottom:0}
+.dist small{color:var(--muted);font-size:14.4px;margin-left:8px}
+
+/* Toolbar + table */
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px}
+.field{height:44px;padding:0 12px;border-radius:10px;border:1px solid var(--line-2);background:var(--panel-2);min-width:0}
+.field::placeholder{color:var(--dim)}
+select.field{cursor:pointer}
+.search{flex:1 1 200px;max-width:280px}
+.seg{max-width:100%;overflow-x:auto;display:flex;gap:4px;padding:3px;background:var(--panel-2);border:1px solid var(--line-2);border-radius:10px}
+.seg button{border:0;background:none;padding:5px 10px;border-radius:7px;font-size:14.4px;font-weight:700;color:var(--muted);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--gold);color:#1a1405}
+.tw{overflow-x:auto;margin:0 -28px;padding:0 28px}
+table{width:100%;border-collapse:collapse;min-width:900px}
+th{font-size:13.2px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);text-align:left;padding:10px 10px;border-bottom:1px solid var(--line-2);white-space:nowrap}
+td{padding:16px 12px;border-bottom:1px solid var(--line);vertical-align:middle;white-space:nowrap}
+tbody tr{cursor:pointer;transition:background .12s}
+tbody tr:hover{background:var(--panel-2)}
+tbody tr:last-child td{border-bottom:0}
+.pos{font-weight:700;color:var(--muted);width:40px}
+.pos.t1{color:var(--gold)}
+.pl{display:flex;align-items:center;gap:12px}
+.pl img{width:48px;height:48px;border-radius:12px;border:1px solid var(--line-2);background:var(--panel-2)}
+.pl b{display:block;font-weight:700;font-size:17px;line-height:1.25;max-width:240px;overflow:hidden;text-overflow:ellipsis}
+.pl small{color:var(--muted);font-size:14.4px}
+.wr{display:flex;align-items:center;gap:10px;min-width:130px}
+.wr-bar{flex:1;height:6px;border-radius:99px;background:var(--down);opacity:.85;overflow:hidden}
+.wr-bar span{display:block;height:100%;background:var(--up)}
+.champs{display:flex}
+.champs img{width:34px;height:34px;border-radius:50%;border:2px solid var(--panel);margin-left:-6px;background:var(--panel-2)}
+.champs img:first-child{margin-left:0}
+tbody tr:hover .champs img{border-color:var(--panel-2)}
+.links a{font-size:13.8px;font-weight:700;color:var(--muted);text-decoration:none;padding:3px 7px;border:1px solid var(--line-2);border-radius:6px;margin-right:4px}
+.links a:hover{color:var(--text);border-color:var(--muted)}
+.empty{text-align:center;color:var(--muted);padding:36px 0}
+
+/* Dialogs */
+dialog{margin:auto;background:var(--panel);color:var(--text);border:1px solid var(--line-2);border-radius:18px;padding:0;width:min(920px,calc(100vw - 24px));max-height:calc(100vh - 32px);overflow:auto;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+dialog::backdrop{background:rgba(3,5,9,.72);backdrop-filter:blur(3px)}
+.dlg{padding:32px}
+.dlg-h{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+.dlg-h .avatar{width:84px;height:84px;border-radius:16px}
+.dlg-h h3{font-size:26.4px;font-weight:800;letter-spacing:-.02em;line-height:1.2}
+.x{margin-left:auto;align-self:flex-start;width:34px;height:34px;border-radius:10px;border:1px solid var(--line-2);background:var(--panel-2);cursor:pointer;font-size:21.6px;line-height:1}
+.x:hover{border-color:var(--gold)}
+.mgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0}
+.m{background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:12px}
+.m > span{display:block;font-size:13.2px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.m b{display:block;font-size:20.4px;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.m small{color:var(--muted);font-size:13.8px}
+.form{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.form label{display:flex;flex-direction:column;gap:6px;font-size:14.4px;color:var(--muted);font-weight:600}
+.form .full{grid-column:1/-1}
+.form .field{width:100%;color:var(--text)}
+.actions{display:flex;gap:10px;justify-content:flex-end;margin-top:20px;flex-wrap:wrap}
+.steps{margin:14px 0 0 20px;display:flex;flex-direction:column;gap:10px;color:var(--muted)}
+.steps b{color:var(--text)}
+code{font-family:var(--mono);font-size:14.4px;background:var(--panel-2);border:1px solid var(--line);padding:1px 6px;border-radius:5px;color:var(--text)}
+footer{max-width:1520px;margin:0 auto;padding:0 32px 48px;font-size:14.4px;color:var(--dim)}
+
+@media (max-width:1100px){
+  .kpis{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .grid-a,.grid-b{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:720px){
+  .topbar-in{padding:10px 16px;flex-wrap:wrap}
+  .sync-pill{display:none}
+  main{padding:24px 16px 40px}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .podium{grid-template-columns:minmax(0,1fr)}
+  .mgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .form{grid-template-columns:1fr}
+  .btn span.lbl{display:none}
+  .hide-m{display:none}
+  table{min-width:640px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-in">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>
+      </div>
+      <div><b>BetloteoQ</b><span>SoloQ entre amigos · LAS</span></div>
+    </div>
+    <div class="sync-pill" title="Los datos se actualizan automáticamente desde la API de Riot"><i class="dot"></i><span id="lastSync">Sin sincronizar</span></div>
+    <button class="btn" onclick="exportJson()"><span aria-hidden="true">↓</span><span class="lbl">Exportar</span></button>
+  </div>
+</header>
+
+<main>
+  <section>
+    <p class="eyebrow">Ranking en vivo</p>
+    <h1>Quién sube más rápido</h1>
+    <p class="sub">BetloteoQ: seguimiento del reto de SoloQ entre los 10 amigos: rango, LP ganados, winrate y evolución del Elo desde el inicio.</p>
+    <div class="kpis" id="kpis"></div>
+  </section>
+
+  <section class="podium" id="podium" aria-label="Top 3"></section>
+
+  <section class="grid-a">
+    <article class="card">
+      <div class="card-h">
+        <div><h2>Evolución del Elo</h2><p>Elo absoluto: Hierro IV = 0 · cada división = 100 · Maestro = 2800+</p></div>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div class="chart" id="evoChart"></div>
+      <p class="note" id="evoNote"></p>
+    </article>
+    <article class="card">
+      <div class="card-h"><div><h2>Progreso del reto</h2><p>LP ganados o perdidos desde el inicio</p></div></div>
+      <div id="progress"></div>
+    </article>
+  </section>
+
+  <section class="grid-b">
+    <article class="card">
+      <div class="card-h"><div><h2>Destacados</h2><p>Métricas que cuentan la historia del grupo</p></div></div>
+      <div class="hl" id="highlights"></div>
+    </article>
+    <article class="card">
+      <div class="card-h"><div><h2>Distribución por liga</h2><p>Dónde está parado el grupo</p></div></div>
+      <div class="stack" id="stack"></div>
+      <div class="dist" id="dist"></div>
+    </article>
+  </section>
+
+  <section class="card">
+    <div class="card-h"><div><h2>Clasificación</h2><p>Haz clic en un jugador para ver su detalle</p></div></div>
+    <div class="tools">
+      <input id="q" class="field search" type="search" placeholder="Buscar invocador…" aria-label="Buscar invocador">
+      <div class="seg" id="roleSeg" role="group" aria-label="Filtrar por rol"></div>
+      <select id="tierSel" class="field" aria-label="Filtrar por liga"></select>
+      <select id="sortSel" class="field" aria-label="Ordenar por" style="margin-left:auto">
+        <option value="pos">Orden: Elo</option>
+        <option value="gain">Orden: LP ganados</option>
+        <option value="wr">Orden: Winrate</option>
+        <option value="games">Orden: Partidas</option>
+        <option value="streak">Orden: Racha</option>
+      </select>
+    </div>
+    <div class="tw">
+      <table>
+        <thead><tr>
+          <th>#</th><th>Jugador</th><th>Rango</th><th>Progreso</th><th>Tendencia</th><th>Winrate</th><th>V / D</th><th>Racha</th><th class="hide-m">Campeones</th><th class="hide-m">Perfil</th>
+        </tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer>Datos obtenidos de la API oficial de Riot Games. Este sitio no está afiliado ni respaldado por Riot Games. League of Legends es marca registrada de Riot Games, Inc.</footer>
+
+<dialog id="playerDlg"><div class="dlg" id="playerBody"></div></dialog>
+
+<script>
+/* ============ Datos ============ */
+const DEFAULT_PLAYERS = [
+  {
+    "id": 1,
+    "name": "D WOLF",
+    "tag": "HMBLE",
+    "region": "las",
+    "role": "TOP",
+    "tier": "EMERALD",
+    "division": "II",
+    "lp": 100,
+    "initialTier": "EMERALD",
+    "initialDivision": "IV",
+    "initialLp": 0,
+    "wins": 36,
+    "losses": 26,
+    "champions": [
+      "Aatrox",
+      "Renekton",
+      "Darius"
+    ],
+    "profileIconId": 548,
+    "streak": 3,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/D+WOLF-HMBLE",
+    "opgg": "https://www.op.gg/summoners/las/D%20WOLF-HMBLE",
+    "history": [
+      {
+        "run": "start",
+        "tier": "EMERALD",
+        "division": "IV",
+        "lp": 0,
+        "elo": 2000
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "BlackMarvel",
+    "tag": "paint",
+    "region": "las",
+    "role": "JGL",
+    "tier": "DIAMOND",
+    "division": "IV",
+    "lp": 64,
+    "initialTier": "EMERALD",
+    "initialDivision": "II",
+    "initialLp": 50,
+    "wins": 44,
+    "losses": 30,
+    "champions": [
+      "Lee Sin",
+      "Viego",
+      "Graves"
+    ],
+    "profileIconId": 588,
+    "streak": 1,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/BlackMarvel-paint",
+    "opgg": "https://www.op.gg/summoners/las/BlackMarvel-paint",
+    "history": [
+      {
+        "run": "start",
+        "tier": "EMERALD",
+        "division": "II",
+        "lp": 50,
+        "elo": 2250
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Rekito sad",
+    "tag": "ptm",
+    "region": "las",
+    "role": "MID",
+    "tier": "DIAMOND",
+    "division": "III",
+    "lp": 100,
+    "initialTier": "DIAMOND",
+    "initialDivision": "IV",
+    "initialLp": 0,
+    "wins": 53,
+    "losses": 35,
+    "champions": [
+      "Ahri",
+      "Sylas",
+      "Orianna"
+    ],
+    "profileIconId": 1453,
+    "streak": 5,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Rekito+sad-ptm",
+    "opgg": "https://www.op.gg/summoners/las/Rekito%20sad-ptm",
+    "history": [
+      {
+        "run": "start",
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 0,
+        "elo": 2400
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Alta Frecuencia",
+    "tag": "3112",
+    "region": "las",
+    "role": "ADC",
+    "tier": "EMERALD",
+    "division": "I",
+    "lp": 100,
+    "initialTier": "EMERALD",
+    "initialDivision": "III",
+    "initialLp": 20,
+    "wins": 40,
+    "losses": 29,
+    "champions": [
+      "Jinx",
+      "Kai'Sa",
+      "Ezreal"
+    ],
+    "profileIconId": 4661,
+    "streak": -1,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Alta+Frecuencia-3112",
+    "opgg": "https://www.op.gg/summoners/las/Alta%20Frecuencia-3112",
+    "history": [
+      {
+        "run": "start",
+        "tier": "EMERALD",
+        "division": "III",
+        "lp": 20,
+        "elo": 2120
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "ZicordS",
+    "tag": "JODA",
+    "region": "las",
+    "role": "SUP",
+    "tier": "EMERALD",
+    "division": "III",
+    "lp": 78,
+    "initialTier": "EMERALD",
+    "initialDivision": "IV",
+    "initialLp": 0,
+    "wins": 31,
+    "losses": 25,
+    "champions": [
+      "Thresh",
+      "Nautilus",
+      "Lulu"
+    ],
+    "profileIconId": 744,
+    "streak": 2,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/ZicordS-JODA",
+    "opgg": "https://www.op.gg/summoners/las/ZicordS-JODA",
+    "history": [
+      {
+        "run": "start",
+        "tier": "EMERALD",
+        "division": "IV",
+        "lp": 0,
+        "elo": 2000
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "dachito34",
+    "tag": "LCP",
+    "region": "las",
+    "role": "TOP",
+    "tier": "PLATINUM",
+    "division": "I",
+    "lp": 100,
+    "initialTier": "PLATINUM",
+    "initialDivision": "III",
+    "initialLp": 10,
+    "wins": 35,
+    "losses": 28,
+    "champions": [
+      "Gnar",
+      "Jax",
+      "Camille"
+    ],
+    "profileIconId": 1665,
+    "streak": -2,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/dachito34-LCP",
+    "opgg": "https://www.op.gg/summoners/las/dachito34-LCP",
+    "history": [
+      {
+        "run": "start",
+        "tier": "PLATINUM",
+        "division": "III",
+        "lp": 10,
+        "elo": 1710
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Kamen Rider オーズ",
+    "tag": "Oink",
+    "region": "las",
+    "role": "MID",
+    "tier": "MASTER",
+    "division": "I",
+    "lp": 100,
+    "initialTier": "DIAMOND",
+    "initialDivision": "I",
+    "initialLp": 40,
+    "wins": 67,
+    "losses": 41,
+    "champions": [
+      "Yasuo",
+      "Yone",
+      "Zed"
+    ],
+    "profileIconId": 4832,
+    "streak": 4,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Kamen+Rider+オーズ-Oink",
+    "opgg": "https://www.op.gg/summoners/las/Kamen%20Rider%20%E3%82%AA%E3%83%BC%E3%82%BA-Oink",
+    "history": [
+      {
+        "run": "start",
+        "tier": "DIAMOND",
+        "division": "I",
+        "lp": 40,
+        "elo": 2740
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "MAESTRO POCHI",
+    "tag": "POOM",
+    "region": "las",
+    "role": "JGL",
+    "tier": "PLATINUM",
+    "division": "II",
+    "lp": 90,
+    "initialTier": "PLATINUM",
+    "initialDivision": "IV",
+    "initialLp": 0,
+    "wins": 27,
+    "losses": 23,
+    "champions": [
+      "Hecarim",
+      "Kayn",
+      "Jarvan IV"
+    ],
+    "profileIconId": 3154,
+    "streak": 1,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
+    "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
+    "history": [
+      {
+        "run": "start",
+        "tier": "PLATINUM",
+        "division": "IV",
+        "lp": 0,
+        "elo": 1600
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "L3CKER",
+    "tag": "LAS",
+    "region": "las",
+    "role": "ADC",
+    "tier": "EMERALD",
+    "division": "II",
+    "lp": 51,
+    "initialTier": "EMERALD",
+    "initialDivision": "III",
+    "initialLp": 0,
+    "wins": 33,
+    "losses": 27,
+    "champions": [
+      "Caitlyn",
+      "Varus",
+      "Ashe"
+    ],
+    "profileIconId": 1150,
+    "streak": -1,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/L3CKER-LAS",
+    "opgg": "https://www.op.gg/summoners/las/L3CKER-LAS",
+    "history": [
+      {
+        "run": "start",
+        "tier": "EMERALD",
+        "division": "III",
+        "lp": 0,
+        "elo": 2100
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Lanoni",
+    "tag": "2403",
+    "region": "las",
+    "role": "SUP",
+    "tier": "GOLD",
+    "division": "I",
+    "lp": 100,
+    "initialTier": "GOLD",
+    "initialDivision": "III",
+    "initialLp": 0,
+    "wins": 24,
+    "losses": 19,
+    "champions": [
+      "Leona",
+      "Rakan",
+      "Nami"
+    ],
+    "profileIconId": 984,
+    "streak": 2,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Lanoni-2403",
+    "opgg": "https://www.op.gg/summoners/las/Lanoni-2403",
+    "history": [
+      {
+        "run": "start",
+        "tier": "GOLD",
+        "division": "III",
+        "lp": 0,
+        "elo": 1300
+      }
+    ]
+  }
+];
+
+/* ============ Constantes ============ */
+const TIERS = ['IRON','BRONZE','SILVER','GOLD','PLATINUM','EMERALD','DIAMOND','MASTER','GRANDMASTER','CHALLENGER'];
+const TIER_BASE = {IRON:0,BRONZE:400,SILVER:800,GOLD:1200,PLATINUM:1600,EMERALD:2000,DIAMOND:2400,MASTER:2800,GRANDMASTER:2800,CHALLENGER:2800};
+const DIV_OFF = {IV:0,III:100,II:200,I:300};
+const TIER_ES = {IRON:'Hierro',BRONZE:'Bronce',SILVER:'Plata',GOLD:'Oro',PLATINUM:'Platino',EMERALD:'Esmeralda',DIAMOND:'Diamante',MASTER:'Maestro',GRANDMASTER:'Gran Maestro',CHALLENGER:'Retador'};
+const TIER_SHORT = {IRON:'Hie',BRONZE:'Bro',SILVER:'Pla',GOLD:'Oro',PLATINUM:'Pt',EMERALD:'Esm',DIAMOND:'Dia',MASTER:'Mae'};
+const TIER_COLOR = {IRON:'#8a7d78',BRONZE:'#c27b45',SILVER:'#9fb0c2',GOLD:'#e3b34c',PLATINUM:'#3fb8ae',EMERALD:'#2fc77a',DIAMOND:'#6aa7ff',MASTER:'#b76df0',GRANDMASTER:'#ef5b66',CHALLENGER:'#f4d98a'};
+const PALETTE = ['#6aa7ff','#f2b84b','#35c788','#ef5b66','#b27cf0','#2fd0d6','#ff8a5b','#d4e157','#f06fb0','#9fb0c2'];
+const DIVS = ['IV','III','II','I'];
+const ROLES = ['TOP','JGL','MID','ADC','SUP'];
+const CHAMP_FIX = {"Wukong":"MonkeyKing","Nunu & Willump":"Nunu","Renata Glasc":"Renata","Fiddlesticks":"Fiddlesticks","LeBlanc":"Leblanc"};
+
+/* ============ Utilidades ============ */
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmtSigned = n => (n > 0 ? '+' : n < 0 ? '−' : '±') + Math.abs(Math.round(n));
+const signClass = n => n > 0 ? 'up' : n < 0 ? 'down' : 'muted';
+const eloOf = (tier, div, lp) => {
+  const apex = ['MASTER','GRANDMASTER','CHALLENGER'].includes(tier);
+  return (TIER_BASE[tier] || 0) + (apex ? 0 : (DIV_OFF[div] || 0)) + (parseInt(lp) || 0);
+};
+const isApex = t => ['MASTER','GRANDMASTER','CHALLENGER'].includes(t);
+const tierGroup = t => isApex(t) ? 'MASTER' : t;
+const rankText = (tier, div, lp) => isApex(tier) ? `${TIER_ES[tier]} · ${lp} LP` : `${TIER_ES[tier] || tier} ${div} · ${lp} LP`;
+function eloLabel(e){
+  if (e >= 2800) return `Maestro+ · ${Math.round(e - 2800)} LP`;
+  const t = TIERS[Math.floor(e / 400)] || 'IRON';
+  const d = DIVS[Math.floor((e % 400) / 100)];
+  return `${TIER_ES[t]} ${d} · ${Math.round(e % 100)} LP`;
+}
+function eloShort(e){
+  if (e >= 2800) return 'Maestro';
+  const t = TIERS[Math.floor(e / 400)] || 'IRON';
+  return `${TIER_SHORT[t]} ${DIVS[Math.floor((e % 400) / 100)]}`;
+}
+const rankBadge = (tier, div, lp, withLp = true) =>
+  `<span class="rank" style="--c:${TIER_COLOR[tier] || '#888'}"><i></i>${esc(isApex(tier) ? TIER_ES[tier] : `${TIER_ES[tier] || tier} ${div}`)}${withLp ? ` <span class="num muted" style="font-weight:600">${lp} LP</span>` : ''}</span>`;
+const champId = n => CHAMP_FIX[n] || String(n).replace(/[^A-Za-z0-9]/g, '');
+const runMs = r => r === 'start' ? -Infinity : r === 'now' ? Infinity : Date.parse(r);
+const fmtRun = r => r === 'start' ? 'Inicio' : r === 'now' ? 'Actual'
+  : new Date(r).toLocaleString('es-PE', {day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'});
+function latestRunMs(list){
+  let m = 0;
+  list.forEach(p => (p.history || []).forEach(h => { const t = Date.parse(h.run); if (t > m) m = t; }));
+  return m;
+}
+
+/* ============ Estado ============ */
+let DD = '15.19.1';               // versión de Data Dragon
+let players = [];
+let ranked = [];
+let hidden = new Set();
+let hoverId = null;
+let roleFilter = 'ALL';
+
+const icon = id => `https://ddragon.leagueoflegends.com/cdn/${DD}/img/profileicon/${id || 29}.png`;
+const champImg = n => `https://ddragon.leagueoflegends.com/cdn/${DD}/img/champion/${champId(n)}.png`;
+const FALLBACK_ICON = () => `https://ddragon.leagueoflegends.com/cdn/${DD}/img/profileicon/29.png`;
+
+/* ============ Carga ============ */
+async function loadVersion(){
+  try {
+    const ctl = new AbortController(); setTimeout(() => ctl.abort(), 2500);
+    const r = await fetch('https://ddragon.leagueoflegends.com/api/versions.json', {signal: ctl.signal});
+    const v = await r.json(); if (v && v[0]) DD = v[0];
+  } catch (e) {}
+}
+async function loadPlayers(){
+  let data = DEFAULT_PLAYERS;
+  if (location.protocol.startsWith('http')) {
+    try {
+      const r = await fetch('players.json?' + Date.now(), {cache:'no-store'});
+      if (r.ok) {
+        const j = await r.json();
+        if (Array.isArray(j) && j.length && latestRunMs(j) >= latestRunMs(data)) data = j;
+      }
+    } catch (e) {}
+  }
+  data = JSON.parse(JSON.stringify(data));
+  players = data;
+}
+
+/* ============ Cálculo ============ */
+function seriesOf(p){
+  let h = (p.history || []).filter(e => Number.isFinite(e.elo)).map(e => ({...e}));
+  if (!h.some(e => e.run === 'start')) {
+    const t = p.initialTier || p.tier, d = p.initialDivision || p.division, l = p.initialLp || 0;
+    h.push({run:'start', tier:t, division:d, lp:l, elo:eloOf(t, d, l)});
+  }
+  h.sort((a, b) => runMs(a.run) - runMs(b.run));
+  const cur = eloOf(p.tier, p.division, p.lp);
+  if (h[h.length - 1].elo !== cur) h.push({run:'now', tier:p.tier, division:p.division, lp:p.lp, elo:cur});
+  return h;
+}
+function compute(){
+  players.forEach((p, i) => {
+    p._color = PALETTE[i % PALETTE.length];
+    p._elo = eloOf(p.tier, p.division, p.lp);
+    p._series = seriesOf(p);
+    p._init = p._series[0].elo;
+    p._gain = p._elo - p._init;
+    p._games = p.wins + p.losses;
+    p._wr = p._games ? p.wins / p._games * 100 : 0;
+    p._peak = p._series.reduce((a, b) => b.elo > a.elo ? b : a);
+  });
+  ranked = [...players].sort((a, b) => b._elo - a._elo || b.wins - a.wins);
+  ranked.forEach((p, i) => p._pos = i + 1);
+}
+const byId = id => players.find(p => p.id === id);
+
+/* ============ Render: cabecera y KPIs ============ */
+function renderKpis(){
+  const n = players.length || 1;
+  const games = players.reduce((s, p) => s + p._games, 0);
+  const wins = players.reduce((s, p) => s + p.wins, 0);
+  const gain = players.reduce((s, p) => s + p._gain, 0);
+  const avg = players.reduce((s, p) => s + p._elo, 0) / n;
+  const lead = ranked[0];
+  const top = [...players].sort((a, b) => b._gain - a._gain)[0];
+  const st = [...players].sort((a, b) => b.streak - a.streak)[0];
+  const k = (l, v, s) => `<div class="kpi"><div class="kpi-l">${l}</div><div class="kpi-v">${v}</div><div class="kpi-s">${s}</div></div>`;
+  $('#kpis').innerHTML =
+    k('Líder', esc(lead?.name || '-'), lead ? rankText(lead.tier, lead.division, lead.lp) : '') +
+    k('Elo promedio', eloShort(avg), eloLabel(avg)) +
+    k('LP netos del grupo', `<span class="num ${signClass(gain)}">${fmtSigned(gain)}</span>`, `${fmtSigned(gain / n)} por jugador`) +
+    k('Partidas', `<span class="num">${games.toLocaleString('es-PE')}</span>`, `Winrate global ${games ? (wins / games * 100).toFixed(1) : 0}%`) +
+    k('Mayor ascenso', top ? esc(top.name) : '-', top ? `<span class="num ${signClass(top._gain)}">${fmtSigned(top._gain)} LP</span>` : '') +
+    k('Mejor racha', st && st.streak > 0 ? `<span class="num">${st.streak}</span> victorias` : '-', st && st.streak > 0 ? esc(st.name) : 'Sin rachas activas');
+
+  const ms = latestRunMs(players);
+  $('#lastSync').textContent = ms ? 'Sync: ' + new Date(ms).toLocaleString('es-PE', {day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'}) : 'Sin sincronizar con Riot';
+}
+
+/* ============ Render: podio ============ */
+function renderPodium(){
+  $('#podium').innerHTML = ranked.slice(0, 3).map(p => `
+    <button class="pod p${p._pos}" onclick="openPlayer(${p.id})">
+      <div class="pod-top">
+        <img class="avatar" src="${icon(p.profileIconId)}" alt="" onerror="this.onerror=null;this.src=FALLBACK_ICON()">
+        <div style="min-width:0">
+          <div class="pod-name">${esc(p.name)}</div>
+          <div class="pod-tag">#${esc(p.tag)} · <span class="role">${esc(p.role)}</span></div>
+        </div>
+        <span class="pod-pos" style="margin-left:auto">#${p._pos}</span>
+      </div>
+      <div class="pod-elo">
+        <div class="pod-rank" style="color:${TIER_COLOR[p.tier]}">${esc(isApex(p.tier) ? TIER_ES[p.tier] : TIER_ES[p.tier] + ' ' + p.division)}</div>
+        <div class="pod-lp num">${p.lp} LP</div>
+      </div>
+      <div class="pod-stats">
+        <div><span>Reto</span><b class="num ${signClass(p._gain)}">${fmtSigned(p._gain)} LP</b></div>
+        <div><span>Winrate</span><b class="num">${p._wr.toFixed(0)}%</b></div>
+        <div><span>Partidas</span><b class="num">${p._games}</b></div>
+      </div>
+    </button>`).join('');
+}
+
+/* ============ Gráfica de líneas (SVG propio) ============ */
+function lineChart(el, cats, series, opts = {}){
+  const W = Math.max(el.clientWidth, 280), H = opts.height || 440;
+  const m = {l:70, r:20, t:16, b:38};
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const vis = series.filter(s => !hidden.has(s.id) || opts.single);
+  if (!vis.length || !cats.length) { el.innerHTML = '<div class="empty">Sin datos para mostrar.</div>'; return; }
+  const ys = vis.flatMap(s => s.points.map(p => p.y));
+  let lo = Math.floor((Math.min(...ys) - 30) / 100) * 100, hi = Math.ceil((Math.max(...ys) + 30) / 100) * 100;
+  if (hi - lo < 300) hi = lo + 300;
+  const step = hi - lo <= 600 ? 100 : hi - lo <= 1400 ? 200 : 400;
+  const pad = 22, n = cats.length;
+  const x = i => n === 1 ? m.l + iw / 2 : m.l + pad + i * (iw - pad * 2) / (n - 1);
+  const y = v => m.t + ih - (v - lo) / (hi - lo) * ih;
+
+  let g = '';
+  for (let v = Math.ceil(lo / step) * step; v <= hi; v += step) {
+    const boundary = v % 400 === 0 && v < 2800;
+    const tc = TIER_COLOR[TIERS[Math.floor(v / 400)]];
+    g += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="${boundary ? tc : '#1e2736'}" stroke-opacity="${boundary ? .45 : 1}" stroke-dasharray="${boundary ? '' : '3 4'}"/>`;
+    g += `<text x="${m.l - 10}" y="${y(v) + 4}" text-anchor="end" ${boundary ? `style="fill:${tc};font-weight:700"` : ''}>${v > 2800 ? (v - 2800) + ' LP' : eloShort(v)}</text>`;
+  }
+  const every = Math.ceil(n / Math.max(2, Math.floor(iw / 96)));
+  cats.forEach((c, i) => {
+    if (i % every === 0 || i === n - 1) g += `<text x="${x(i)}" y="${H - 8}" text-anchor="middle">${esc(fmtRun(c))}</text>`;
+  });
+
+  const dim = id => hoverId && hoverId !== id && !opts.single;
+  let paths = '', defs = '';
+  vis.forEach(s => {
+    const pts = s.points.map(p => [x(p.i), y(p.y)]);
+    const d = pts.map((p, i) => (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(' ');
+    const op = dim(s.id) ? .15 : 1, sw = hoverId === s.id ? 3.2 : 2.2;
+    if (opts.single && pts.length > 1) {
+      defs += `<linearGradient id="ag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${s.color}" stop-opacity=".28"/><stop offset="1" stop-color="${s.color}" stop-opacity="0"/></linearGradient>`;
+      paths += `<path d="${d} L${pts[pts.length-1][0]} ${m.t + ih} L${pts[0][0]} ${m.t + ih}Z" fill="url(#ag)"/>`;
+    }
+    paths += `<path d="${d}" fill="none" stroke="${s.color}" stroke-width="${sw}" stroke-linejoin="round" stroke-linecap="round" opacity="${op}"/>`;
+    pts.forEach((p, i) => {
+      const last = i === pts.length - 1;
+      paths += `<circle cx="${p[0]}" cy="${p[1]}" r="${last ? 4.5 : 3}" fill="${last ? s.color : '#10151e'}" stroke="${s.color}" stroke-width="2" opacity="${op}"/>`;
+    });
+  });
+
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" height="${H}" role="img" aria-label="${esc(opts.label || 'Evolución del Elo')}">
+    <defs>${defs}</defs>${g}${paths}
+    <line class="guide" y1="${m.t}" y2="${m.t + ih}" stroke="#8c98ad" stroke-opacity=".5" stroke-dasharray="3 3" style="display:none"/>
+    <rect class="hit" x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/>
+  </svg><div class="tip"></div>`;
+
+  const svg = el.querySelector('svg'), guide = svg.querySelector('.guide'), tip = el.querySelector('.tip');
+  const hit = svg.querySelector('.hit');
+  hit.addEventListener('mousemove', ev => {
+    const r = svg.getBoundingClientRect();
+    const px = (ev.clientX - r.left) * (W / r.width);
+    let idx = 0, best = 1e9;
+    cats.forEach((_, i) => { const dd = Math.abs(x(i) - px); if (dd < best) { best = dd; idx = i; } });
+    guide.setAttribute('x1', x(idx)); guide.setAttribute('x2', x(idx)); guide.style.display = '';
+    const rows = vis.map(s => ({s, p: s.points.find(p => p.i === idx)})).filter(o => o.p).sort((a, b) => b.p.y - a.p.y);
+    tip.innerHTML = `<h4>${esc(fmtRun(cats[idx]))}</h4>` + rows.map(o =>
+      `<div><i style="background:${o.s.color}"></i>${esc(o.s.name)}<em class="num">${esc(o.p.label)}</em></div>`).join('');
+    const tw = tip.offsetWidth || 200;
+    let left = x(idx) * (r.width / W) + 14;
+    if (left + tw > r.width) left = x(idx) * (r.width / W) - tw - 14;
+    tip.style.left = Math.max(0, left) + 'px';
+    tip.style.top = Math.max(0, (ev.clientY - r.top) - 20) + 'px';
+    tip.style.opacity = 1;
+  });
+  hit.addEventListener('mouseleave', () => { guide.style.display = 'none'; tip.style.opacity = 0; });
+}
+function toSeries(p, cats){
+  return {
+    id:p.id, name:p.name, color:p._color,
+    points:p._series.map(e => ({i:cats.indexOf(e.run), y:e.elo,
+      label: e.tier ? rankText(e.tier, e.division, e.lp) : eloLabel(e.elo)}))
+  };
+}
+function catsOf(list){
+  const s = new Set();
+  list.forEach(p => p._series.forEach(e => s.add(e.run)));
+  return [...s].sort((a, b) => runMs(a) - runMs(b));
+}
+
+function renderEvolution(){
+  const cats = catsOf(players);
+  // Leyenda
+  $('#legend').innerHTML =
+    `<button class="chip plain" data-act="top3" aria-pressed="false">Top 3</button><button class="chip plain" data-act="all" aria-pressed="false">Todos</button>` +
+    ranked.map(p => `<button class="chip" data-id="${p.id}" style="--c:${p._color}" aria-pressed="${!hidden.has(p.id)}"><i></i>${esc(p.name)}</button>`).join('');
+  drawEvolution(cats);
+  const pts = Math.max(...players.map(p => p._series.length));
+  $('#evoNote').textContent = pts <= 2
+    ? 'Por ahora solo hay dos puntos: el inicio del reto y el rango actual. Cada vez que ejecutes actualizar.bat se añade un punto nuevo y la gráfica se va llenando.'
+    : `${pts} registros por jugador. Pasa el cursor sobre la gráfica para ver el rango en cada momento.`;
+}
+function drawEvolution(cats){
+  lineChart($('#evoChart'), cats, players.map(p => toSeries(p, cats)), {height:440});
+}
+$('#legend').addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if (!b) return;
+  if (b.dataset.act === 'top3') { hidden = new Set(ranked.slice(3).map(p => p.id)); }
+  else if (b.dataset.act === 'all') { hidden = new Set(); }
+  else { const id = +b.dataset.id; hidden.has(id) ? hidden.delete(id) : hidden.add(id); }
+  renderEvolution();
+});
+$('#legend').addEventListener('mouseover', e => {
+  const b = e.target.closest('.chip[data-id]'); const id = b ? +b.dataset.id : null;
+  if (id !== hoverId) { hoverId = id; drawEvolution(catsOf(players)); }
+});
+$('#legend').addEventListener('mouseleave', () => { if (hoverId) { hoverId = null; drawEvolution(catsOf(players)); } });
+
+/* ============ Progreso, destacados, distribución ============ */
+function renderProgress(){
+  const list = [...players].sort((a, b) => b._gain - a._gain);
+  const pos = Math.max(0, ...list.map(p => p._gain)), neg = Math.max(0, ...list.map(p => -p._gain));
+  const total = (pos + neg) || 1, zero = neg / total * 100;
+  $('#progress').innerHTML = list.map(p => {
+    const w = Math.abs(p._gain) / total * 100;
+    const left = p._gain >= 0 ? zero : zero - w;
+    return `<div class="prow" onclick="openPlayer(${p.id})">
+      <span class="pname">${esc(p.name)}</span>
+      <div class="ptrack"><div class="pbar" style="left:${left}%;width:${Math.max(w, .8)}%;background:${p._gain >= 0 ? 'var(--up)' : 'var(--down)'}"></div>${neg ? `<div class="pzero" style="left:${zero}%"></div>` : ''}</div>
+      <span class="pval num ${signClass(p._gain)}">${fmtSigned(p._gain)}</span></div>`;
+  }).join('');
+}
+function renderHighlights(){
+  const row = (label, p, val) => p ? `<button onclick="openPlayer(${p.id})"><small>${label}</small><b>${esc(p.name)}</b><span class="hv num">${val}</span></button>` : '';
+  const elig = players.filter(p => p._games >= 20);
+  const bestWr = [...(elig.length ? elig : players)].sort((a, b) => b._wr - a._wr)[0];
+  const busiest = [...players].sort((a, b) => b._games - a._games)[0];
+  const netw = [...players].sort((a, b) => (b.wins - b.losses) - (a.wins - a.losses))[0];
+  const worst = [...players].sort((a, b) => a._gain - b._gain)[0];
+  const close = players.filter(p => !isApex(p.tier)).sort((a, b) => (100 - a.lp) - (100 - b.lp))[0];
+  const peak = [...players].sort((a, b) => b._peak.elo - a._peak.elo)[0];
+  $('#highlights').innerHTML =
+    row('Mejor winrate (mín. 20 partidas)', bestWr, bestWr ? bestWr._wr.toFixed(1) + '%' : '') +
+    row('Más partidas jugadas', busiest, busiest?._games) +
+    row('Mayor diferencia de victorias', netw, netw ? fmtSigned(netw.wins - netw.losses) : '') +
+    row('Más cerca de subir de división', close, close ? (close.lp >= 100 ? 'En promo' : (100 - close.lp) + ' LP') : '') +
+    row('Elo más alto alcanzado', peak, peak ? eloShort(peak._peak.elo) : '') +
+    (worst && worst._gain < 0 ? row('Mayor caída de LP', worst, `<span class="down">${fmtSigned(worst._gain)}</span>`) : '');
+}
+function renderTiers(){
+  const cnt = {};
+  players.forEach(p => { const g = tierGroup(p.tier); cnt[g] = (cnt[g] || 0) + 1; });
+  const order = TIERS.filter(t => cnt[t]).reverse();
+  $('#stack').innerHTML = order.map(t => `<span style="--c:${TIER_COLOR[t]};flex:${cnt[t]}" title="${TIER_ES[t]}: ${cnt[t]}"></span>`).join('');
+  $('#dist').innerHTML = order.map(t => {
+    const names = players.filter(p => tierGroup(p.tier) === t).map(p => p.name).join(', ');
+    return `<div><span><span class="rank" style="--c:${TIER_COLOR[t]}"><i></i>${t === 'MASTER' ? 'Maestro+' : TIER_ES[t]}</span><small>${esc(names)}</small></span><b class="num">${cnt[t]}</b></div>`;
+  }).join('');
+}
+
+/* ============ Tabla ============ */
+function spark(p){
+  const v = p._series.map(e => e.elo), w = 84, h = 28;
+  const lo = Math.min(...v), hi = Math.max(...v), r = (hi - lo) || 1;
+  const pts = v.map((e, i) => [v.length === 1 ? w / 2 : 2 + i * (w - 4) / (v.length - 1), h - 3 - (e - lo) / r * (h - 6)]);
+  const c = p._gain > 0 ? '#35c788' : p._gain < 0 ? '#ef5b66' : '#8c98ad';
+  const last = pts[pts.length - 1];
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><path d="${pts.map((q, i) => (i ? 'L' : 'M') + q[0].toFixed(1) + ' ' + q[1].toFixed(1)).join(' ')}" fill="none" stroke="${c}" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${last[0]}" cy="${last[1]}" r="2.6" fill="${c}"/></svg>`;
+}
+function initFilters(){
+  $('#roleSeg').innerHTML = ['ALL', ...ROLES].map(r => `<button data-r="${r}" aria-pressed="${r === roleFilter}">${r === 'ALL' ? 'Todos' : r}</button>`).join('');
+  $('#tierSel').innerHTML = `<option value="ALL">Todas las ligas</option>` + [...TIERS.slice(0, 7), 'MASTER'].reverse().map(t => `<option value="${t}">${t === 'MASTER' ? 'Maestro+' : TIER_ES[t]}</option>`).join('');
+  $('#roleSeg').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    roleFilter = b.dataset.r;
+    $('#roleSeg').querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x.dataset.r === roleFilter));
+    renderTable();
+  });
+  ['#q', '#tierSel', '#sortSel'].forEach(s => $(s).addEventListener('input', renderTable));
+}
+function renderTable(){
+  const q = $('#q').value.trim().toLowerCase(), tf = $('#tierSel').value, sort = $('#sortSel').value;
+  let list = players.filter(p =>
+    (!q || p.name.toLowerCase().includes(q) || String(p.tag).toLowerCase().includes(q)) &&
+    (roleFilter === 'ALL' || p.role === roleFilter) &&
+    (tf === 'ALL' || tierGroup(p.tier) === tf));
+  const key = {pos:p => p._pos, gain:p => -p._gain, wr:p => -p._wr, games:p => -p._games, streak:p => -p.streak}[sort];
+  list.sort((a, b) => key(a) - key(b) || a._pos - b._pos);
+  if (!list.length) { $('#tbody').innerHTML = `<tr><td colspan="10" class="empty">Ningún jugador coincide con los filtros.</td></tr>`; return; }
+  $('#tbody').innerHTML = list.map(p => `
+    <tr onclick="openPlayer(${p.id})" tabindex="0" onkeydown="if(event.key==='Enter')openPlayer(${p.id})">
+      <td class="pos num ${p._pos === 1 ? 't1' : ''}">${p._pos}</td>
+      <td><div class="pl"><img src="${icon(p.profileIconId)}" alt="" loading="lazy" onerror="this.onerror=null;this.src=FALLBACK_ICON()">
+        <div><b>${esc(p.name)}</b><small>#${esc(p.tag)} · <span class="role">${esc(p.role)}</span></small></div></div></td>
+      <td>${rankBadge(p.tier, p.division, p.lp)}</td>
+      <td class="num ${signClass(p._gain)}"><b>${fmtSigned(p._gain)}</b> <span class="muted" style="font-size:13.2px">LP</span></td>
+      <td>${spark(p)}</td>
+      <td><div class="wr"><b class="num" style="min-width:38px">${p._wr.toFixed(0)}%</b><div class="wr-bar"><span style="width:${p._wr}%"></span></div></div></td>
+      <td class="num"><span class="up">${p.wins}</span> <span class="muted">/</span> <span class="down">${p.losses}</span></td>
+      <td class="num ${p.streak > 0 ? 'up' : p.streak < 0 ? 'down' : 'muted'}">${p.streak > 0 ? '▲ ' + p.streak + 'V' : p.streak < 0 ? '▼ ' + Math.abs(p.streak) + 'D' : '–'}</td>
+      <td class="hide-m"><div class="champs">${(p.champions || []).slice(0, 3).map(c => `<img src="${champImg(c)}" alt="${esc(c)}" title="${esc(c)}" loading="lazy" onerror="this.style.visibility='hidden'">`).join('')}</div></td>
+      <td class="hide-m links" onclick="event.stopPropagation()">${p.opgg ? `<a href="${esc(p.opgg)}" target="_blank" rel="noopener">OP.GG</a>` : ''}${p.leagueOfGraphs ? `<a href="${esc(p.leagueOfGraphs)}" target="_blank" rel="noopener">LoG</a>` : ''}</td>
+    </tr>`).join('');
+}
+
+/* ============ Detalle de jugador ============ */
+function openPlayer(id){
+  const p = byId(id); if (!p) return;
+  const above = ranked[p._pos - 2], lead = ranked[0];
+  const m = (l, v, s) => `<div class="m"><span>${l}</span><b class="num">${v}</b>${s ? `<small>${s}</small>` : ''}</div>`;
+  const toNext = isApex(p.tier) ? '—' : (p.lp >= 100 ? 'En promo' : (100 - p.lp) + ' LP');
+  $('#playerBody').innerHTML = `
+    <div class="dlg-h">
+      <img class="avatar" src="${icon(p.profileIconId)}" alt="" onerror="this.onerror=null;this.src=FALLBACK_ICON()">
+      <div style="min-width:0"><h3>${esc(p.name)} <span class="muted" style="font-weight:600;font-size:18px">#${esc(p.tag)}</span></h3>
+        <div style="margin-top:6px;display:flex;gap:10px;align-items:center;flex-wrap:wrap">${rankBadge(p.tier, p.division, p.lp)}<span class="role">${esc(p.role)}</span><span class="muted">Puesto #${p._pos} de ${players.length}</span></div></div>
+      <button class="x" onclick="closeDlg('playerDlg')" aria-label="Cerrar">×</button>
+    </div>
+    <div class="chart" id="pChart"></div>
+    <div class="mgrid">
+      ${m('Reto', `<span class="${signClass(p._gain)}">${fmtSigned(p._gain)} LP</span>`, 'desde el inicio')}
+      ${m('Elo pico', eloShort(p._peak.elo), eloLabel(p._peak.elo))}
+      ${m('Winrate', p._wr.toFixed(1) + '%', `${p.wins}V / ${p.losses}D`)}
+      ${m('Partidas', p._games, `Dif. ${fmtSigned(p.wins - p.losses)} victorias`)}
+      ${m('Racha', p.streak > 0 ? `<span class="up">${p.streak}V</span>` : p.streak < 0 ? `<span class="down">${Math.abs(p.streak)}D</span>` : '–', '')}
+      ${m('Siguiente división', toNext, '')}
+      ${m('Al puesto de arriba', above ? (above._elo - p._elo) + ' LP' : '—', above ? 'vs ' + esc(above.name) : 'Es el líder')}
+      ${m('Distancia al líder', p._pos === 1 ? '—' : (lead._elo - p._elo) + ' LP', p._pos === 1 ? '' : 'vs ' + esc(lead.name))}
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
+      <div class="champs">${(p.champions || []).map(c => `<img src="${champImg(c)}" alt="${esc(c)}" title="${esc(c)}" style="width:34px;height:34px;border-color:var(--panel)" onerror="this.style.visibility='hidden'">`).join('')}</div>
+      <div class="links">${p.opgg ? `<a href="${esc(p.opgg)}" target="_blank" rel="noopener">OP.GG</a>` : ''}${p.leagueOfGraphs ? `<a href="${esc(p.leagueOfGraphs)}" target="_blank" rel="noopener">League of Graphs</a>` : ''}</div>
+    </div>`;
+  $('#playerDlg').showModal();
+  const cats = catsOf([p]);
+  lineChart($('#pChart'), cats, [toSeries(p, cats)], {height:320, single:true, label:'Evolución del Elo de ' + p.name});
+  p._series.length <= 2 && $('#pChart').insertAdjacentHTML('afterend', '<p class="note" style="margin-top:-6px">Aún no hay historial intermedio: se completa con cada sincronización.</p>');
+}
+
+/* ============ Edición / exportación ============ */
+const openDlg = id => $('#' + id).showModal();
+const closeDlg = id => $('#' + id).close();
+document.querySelectorAll('dialog').forEach(d => d.addEventListener('click', e => { if (e.target === d) d.close(); }));
+
+function exportJson(){
+  const clean = players.map(p => Object.fromEntries(Object.entries(p).filter(([k]) => !k.startsWith('_'))));
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(clean, null, 2)], {type:'application/json'}));
+  a.download = 'players.json'; document.body.appendChild(a); a.click(); a.remove();
+}
+
+/* ============ Arranque ============ */
+function renderAll(){
+  compute(); renderKpis(); renderPodium(); renderEvolution(); renderProgress(); renderHighlights(); renderTiers(); renderTable();
+}
+let rz; window.addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(() => players.length && drawEvolution(catsOf(players)), 120); });
+(async function(){
+  initFilters();
+  await Promise.all([loadVersion(), loadPlayers()]);
+  renderAll();
+})();
+</script>
+</body>
+</html>

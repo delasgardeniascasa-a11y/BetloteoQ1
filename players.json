@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1,
+    "name": "D WOLF",
+    "tag": "HMBLE",
+    "region": "las",
+    "role": "TOP",
+    "tier": "EMERALD",
+    "division": "II",
+    "lp": 100,
+    "initialTier": "EMERALD",
+    "initialDivision": "IV",
+    "initialLp": 0,
+    "wins": 36,
+    "losses": 26,
+    "champions": [
+      "Aatrox",
+      "Renekton",
+      "Darius"
+    ],
+    "profileIconId": 548,
+    "streak": 3,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/D+WOLF-HMBLE",
+    "opgg": "https://www.op.gg/summoners/las/D%20WOLF-HMBLE",
+    "history": [
+      {
+        "run": "start",
+        "tier": "EMERALD",
+        "division": "IV",
+        "lp": 0,
+        "elo": 2000
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "BlackMarvel",
+    "tag": "paint",
+    "region": "las",
+    "role": "JGL",
+    "tier": "DIAMOND",
+    "division": "IV",
+    "lp": 64,
+    "initialTier": "EMERALD",
+    "initialDivision": "II",
+    "initialLp": 50,
+    "wins": 44,
+    "losses": 30,
+    "champions": [
+      "Lee Sin",
+      "Viego",
+      "Graves"
+    ],
+    "profileIconId": 588,
+    "streak": 1,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/BlackMarvel-paint",
+    "opgg": "https://www.op.gg/summoners/las/BlackMarvel-paint",
+    "history": [
+      {
+        "run": "start",
+        "tier": "EMERALD",
+        "division": "II",
+        "lp": 50,
+        "elo": 2250
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Rekito sad",
+    "tag": "ptm",
+    "region": "las",
+    "role": "MID",
+    "tier": "DIAMOND",
+    "division": "III",
+    "lp": 100,
+    "initialTier": "DIAMOND",
+    "initialDivision": "IV",
+    "initialLp": 0,
+    "wins": 53,
+    "losses": 35,
+    "champions": [
+      "Ahri",
+      "Sylas",
+      "Orianna"
+    ],
+    "profileIconId": 1453,
+    "streak": 5,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Rekito+sad-ptm",
+    "opgg": "https://www.op.gg/summoners/las/Rekito%20sad-ptm",
+    "history": [
+      {
+        "run": "start",
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 0,
+        "elo": 2400
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Alta Frecuencia",
+    "tag": "3112",
+    "region": "las",
+    "role": "ADC",
+    "tier": "EMERALD",
+    "division": "I",
+    "lp": 100,
+    "initialTier": "EMERALD",
+    "initialDivision": "III",
+    "initialLp": 20,
+    "wins": 40,
+    "losses": 29,
+    "champions": [
+      "Jinx",
+      "Kai'Sa",
+      "Ezreal"
+    ],
+    "profileIconId": 4661,
+    "streak": -1,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Alta+Frecuencia-3112",
+    "opgg": "https://www.op.gg/summoners/las/Alta%20Frecuencia-3112",
+    "history": [
+      {
+        "run": "start",
+        "tier": "EMERALD",
+        "division": "III",
+        "lp": 20,
+        "elo": 2120
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "ZicordS",
+    "tag": "JODA",
+    "region": "las",
+    "role": "SUP",
+    "tier": "EMERALD",
+    "division": "III",
+    "lp": 78,
+    "initialTier": "EMERALD",
+    "initialDivision": "IV",
+    "initialLp": 0,
+    "wins": 31,
+    "losses": 25,
+    "champions": [
+      "Thresh",
+      "Nautilus",
+      "Lulu"
+    ],
+    "profileIconId": 744,
+    "streak": 2,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/ZicordS-JODA",
+    "opgg": "https://www.op.gg/summoners/las/ZicordS-JODA",
+    "history": [
+      {
+        "run": "start",
+        "tier": "EMERALD",
+        "division": "IV",
+        "lp": 0,
+        "elo": 2000
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "dachito34",
+    "tag": "LCP",
+    "region": "las",
+    "role": "TOP",
+    "tier": "PLATINUM",
+    "division": "I",
+    "lp": 100,
+    "initialTier": "PLATINUM",
+    "initialDivision": "III",
+    "initialLp": 10,
+    "wins": 35,
+    "losses": 28,
+    "champions": [
+      "Gnar",
+      "Jax",
+      "Camille"
+    ],
+    "profileIconId": 1665,
+    "streak": -2,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/dachito34-LCP",
+    "opgg": "https://www.op.gg/summoners/las/dachito34-LCP",
+    "history": [
+      {
+        "run": "start",
+        "tier": "PLATINUM",
+        "division": "III",
+        "lp": 10,
+        "elo": 1710
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Kamen Rider オーズ",
+    "tag": "Oink",
+    "region": "las",
+    "role": "MID",
+    "tier": "MASTER",
+    "division": "I",
+    "lp": 100,
+    "initialTier": "DIAMOND",
+    "initialDivision": "I",
+    "initialLp": 40,
+    "wins": 67,
+    "losses": 41,
+    "champions": [
+      "Yasuo",
+      "Yone",
+      "Zed"
+    ],
+    "profileIconId": 4832,
+    "streak": 4,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Kamen+Rider+オーズ-Oink",
+    "opgg": "https://www.op.gg/summoners/las/Kamen%20Rider%20%E3%82%AA%E3%83%BC%E3%82%BA-Oink",
+    "history": [
+      {
+        "run": "start",
+        "tier": "DIAMOND",
+        "division": "I",
+        "lp": 40,
+        "elo": 2740
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "MAESTRO POCHI",
+    "tag": "POOM",
+    "region": "las",
+    "role": "JGL",
+    "tier": "PLATINUM",
+    "division": "II",
+    "lp": 90,
+    "initialTier": "PLATINUM",
+    "initialDivision": "IV",
+    "initialLp": 0,
+    "wins": 27,
+    "losses": 23,
+    "champions": [
+      "Hecarim",
+      "Kayn",
+      "Jarvan IV"
+    ],
+    "profileIconId": 3154,
+    "streak": 1,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
+    "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
+    "history": [
+      {
+        "run": "start",
+        "tier": "PLATINUM",
+        "division": "IV",
+        "lp": 0,
+        "elo": 1600
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "L3CKER",
+    "tag": "LAS",
+    "region": "las",
+    "role": "ADC",
+    "tier": "EMERALD",
+    "division": "II",
+    "lp": 51,
+    "initialTier": "EMERALD",
+    "initialDivision": "III",
+    "initialLp": 0,
+    "wins": 33,
+    "losses": 27,
+    "champions": [
+      "Caitlyn",
+      "Varus",
+      "Ashe"
+    ],
+    "profileIconId": 1150,
+    "streak": -1,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/L3CKER-LAS",
+    "opgg": "https://www.op.gg/summoners/las/L3CKER-LAS",
+    "history": [
+      {
+        "run": "start",
+        "tier": "EMERALD",
+        "division": "III",
+        "lp": 0,
+        "elo": 2100
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Lanoni",
+    "tag": "2403",
+    "region": "las",
+    "role": "SUP",
+    "tier": "GOLD",
+    "division": "I",
+    "lp": 100,
+    "initialTier": "GOLD",
+    "initialDivision": "III",
+    "initialLp": 0,
+    "wins": 24,
+    "losses": 19,
+    "champions": [
+      "Leona",
+      "Rakan",
+      "Nami"
+    ],
+    "profileIconId": 984,
+    "streak": 2,
+    "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Lanoni-2403",
+    "opgg": "https://www.op.gg/summoners/las/Lanoni-2403",
+    "history": [
+      {
+        "run": "start",
+        "tier": "GOLD",
+        "division": "III",
+        "lp": 0,
+        "elo": 1300
+      }
+    ]
+  }
+]
