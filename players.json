@@ -301,11 +301,11 @@
     "role": "JGL",
     "tier": "DIAMOND",
     "division": "I",
-    "lp": 53,
+    "lp": 75,
     "initialTier": "PLATINUM",
     "initialDivision": "IV",
     "initialLp": 0,
-    "wins": 313,
+    "wins": 314,
     "losses": 294,
     "champions": [
       "Sylas",
@@ -385,6 +385,15 @@
         "lp": 53,
         "elo": 2753,
         "wins": 313,
+        "losses": 294
+      },
+      {
+        "run": "2026-10-07T20:42:28Z",
+        "tier": "DIAMOND",
+        "division": "I",
+        "lp": 75,
+        "elo": 2775,
+        "wins": 314,
         "losses": 294
       }
     ]
