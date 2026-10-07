@@ -385,12 +385,12 @@
     "role": "SUP",
     "tier": "DIAMOND",
     "division": "IV",
-    "lp": 10,
+    "lp": 0,
     "initialTier": "GOLD",
     "initialDivision": "III",
     "initialLp": 0,
     "wins": 137,
-    "losses": 122,
+    "losses": 123,
     "champions": [
       "Sett",
       "Malphite",
@@ -416,6 +416,15 @@
         "elo": 2410,
         "wins": 137,
         "losses": 122
+      },
+      {
+        "run": "2026-10-07T14:10:59Z",
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 0,
+        "elo": 2400,
+        "wins": 137,
+        "losses": 123
       }
     ]
   }
