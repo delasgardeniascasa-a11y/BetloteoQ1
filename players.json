@@ -299,13 +299,13 @@
     "tag": "POOM",
     "region": "las",
     "role": "JGL",
-    "tier": "DIAMOND",
+    "tier": "MASTER",
     "division": "I",
-    "lp": 96,
+    "lp": 17,
     "initialTier": "PLATINUM",
     "initialDivision": "IV",
     "initialLp": 0,
-    "wins": 315,
+    "wins": 316,
     "losses": 294,
     "champions": [
       "Sylas",
@@ -404,6 +404,15 @@
         "elo": 2796,
         "wins": 315,
         "losses": 294
+      },
+      {
+        "run": "2026-10-07T21:43:02Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 17,
+        "elo": 2817,
+        "wins": 316,
+        "losses": 294
       }
     ]
   },
@@ -415,11 +424,11 @@
     "role": "ADC",
     "tier": "EMERALD",
     "division": "II",
-    "lp": 1,
+    "lp": 19,
     "initialTier": "EMERALD",
     "initialDivision": "III",
     "initialLp": 0,
-    "wins": 301,
+    "wins": 302,
     "losses": 286,
     "champions": [
       "Jhin",
@@ -445,6 +454,15 @@
         "lp": 1,
         "elo": 2201,
         "wins": 301,
+        "losses": 286
+      },
+      {
+        "run": "2026-10-07T21:43:02Z",
+        "tier": "EMERALD",
+        "division": "II",
+        "lp": 19,
+        "elo": 2219,
+        "wins": 302,
         "losses": 286
       }
     ]
