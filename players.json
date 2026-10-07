@@ -175,11 +175,11 @@
     "role": "SUP",
     "tier": "EMERALD",
     "division": "I",
-    "lp": 26,
+    "lp": 47,
     "initialTier": "EMERALD",
     "initialDivision": "IV",
     "initialLp": 0,
-    "wins": 67,
+    "wins": 68,
     "losses": 47,
     "champions": [
       "Diana",
@@ -214,6 +214,15 @@
         "lp": 26,
         "elo": 2326,
         "wins": 67,
+        "losses": 47
+      },
+      {
+        "run": "2026-10-07T23:40:46Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 47,
+        "elo": 2347,
+        "wins": 68,
         "losses": 47
       }
     ]
@@ -433,11 +442,11 @@
     "role": "ADC",
     "tier": "EMERALD",
     "division": "II",
-    "lp": 19,
+    "lp": 37,
     "initialTier": "EMERALD",
     "initialDivision": "III",
     "initialLp": 0,
-    "wins": 302,
+    "wins": 303,
     "losses": 286,
     "champions": [
       "Jhin",
@@ -472,6 +481,15 @@
         "lp": 19,
         "elo": 2219,
         "wins": 302,
+        "losses": 286
+      },
+      {
+        "run": "2026-10-07T23:40:46Z",
+        "tier": "EMERALD",
+        "division": "II",
+        "lp": 37,
+        "elo": 2237,
+        "wins": 303,
         "losses": 286
       }
     ]
