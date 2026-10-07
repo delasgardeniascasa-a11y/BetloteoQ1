@@ -175,11 +175,11 @@
     "role": "SUP",
     "tier": "EMERALD",
     "division": "I",
-    "lp": 5,
+    "lp": 26,
     "initialTier": "EMERALD",
     "initialDivision": "IV",
     "initialLp": 0,
-    "wins": 66,
+    "wins": 67,
     "losses": 47,
     "champions": [
       "Diana",
@@ -205,6 +205,15 @@
         "lp": 5,
         "elo": 2305,
         "wins": 66,
+        "losses": 47
+      },
+      {
+        "run": "2026-10-07T23:07:16Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 26,
+        "elo": 2326,
+        "wins": 67,
         "losses": 47
       }
     ]
