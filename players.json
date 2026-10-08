@@ -49,11 +49,11 @@
     "role": "JGL",
     "tier": "GOLD",
     "division": "I",
-    "lp": 24,
+    "lp": 43,
     "initialTier": "EMERALD",
     "initialDivision": "II",
     "initialLp": 50,
-    "wins": 405,
+    "wins": 406,
     "losses": 393,
     "champions": [
       "Warwick",
@@ -79,6 +79,15 @@
         "lp": 24,
         "elo": 1524,
         "wins": 405,
+        "losses": 393
+      },
+      {
+        "run": "2026-10-08T01:12:16Z",
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 43,
+        "elo": 1543,
+        "wins": 406,
         "losses": 393
       }
     ]
@@ -175,12 +184,12 @@
     "role": "SUP",
     "tier": "EMERALD",
     "division": "I",
-    "lp": 28,
+    "lp": 9,
     "initialTier": "EMERALD",
     "initialDivision": "IV",
     "initialLp": 0,
     "wins": 68,
-    "losses": 48,
+    "losses": 49,
     "champions": [
       "Diana",
       "MasterYi",
@@ -233,6 +242,15 @@
         "elo": 2328,
         "wins": 68,
         "losses": 48
+      },
+      {
+        "run": "2026-10-08T01:12:16Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 9,
+        "elo": 2309,
+        "wins": 68,
+        "losses": 49
       }
     ]
   },
@@ -328,12 +346,12 @@
     "role": "JGL",
     "tier": "MASTER",
     "division": "I",
-    "lp": 17,
+    "lp": 0,
     "initialTier": "PLATINUM",
     "initialDivision": "IV",
     "initialLp": 0,
     "wins": 316,
-    "losses": 294,
+    "losses": 295,
     "champions": [
       "Sylas",
       "LeeSin",
@@ -440,6 +458,15 @@
         "elo": 2817,
         "wins": 316,
         "losses": 294
+      },
+      {
+        "run": "2026-10-08T01:12:16Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 0,
+        "elo": 2800,
+        "wins": 316,
+        "losses": 295
       }
     ]
   },
@@ -450,13 +477,13 @@
     "region": "las",
     "role": "ADC",
     "tier": "EMERALD",
-    "division": "II",
-    "lp": 15,
+    "division": "III",
+    "lp": 93,
     "initialTier": "EMERALD",
     "initialDivision": "III",
     "initialLp": 0,
     "wins": 303,
-    "losses": 287,
+    "losses": 288,
     "champions": [
       "Jhin",
       "Lucian",
@@ -509,6 +536,15 @@
         "elo": 2215,
         "wins": 303,
         "losses": 287
+      },
+      {
+        "run": "2026-10-08T01:12:16Z",
+        "tier": "EMERALD",
+        "division": "III",
+        "lp": 93,
+        "elo": 2193,
+        "wins": 303,
+        "losses": 288
       }
     ]
   },
