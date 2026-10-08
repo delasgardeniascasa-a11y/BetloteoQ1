@@ -41,14 +41,28 @@ ACCOUNT_ROUTING = {
     "euw": "europe.api.riotgames.com"
 }
 
+_last_call = [0.0]
+
 def fetch_json(url, api_key=None):
-    req = urllib.request.Request(url)
-    if api_key:
-        req.add_header("X-Riot-Token", api_key)
-    req.add_header("User-Agent", "SoloQChallenge-SyncBot/1.0")
-    
-    with urllib.request.urlopen(req, timeout=10) as response:
-        return json.loads(response.read().decode("utf-8"))
+    """GET con límite de ritmo (la clave de desarrollo permite 100 llamadas / 2 min) y reintento en 429."""
+    for attempt in range(4):
+        if api_key:
+            wait = 1.3 - (time.time() - _last_call[0])
+            if wait > 0:
+                time.sleep(wait)
+            _last_call[0] = time.time()
+        req = urllib.request.Request(url)
+        if api_key:
+            req.add_header("X-Riot-Token", api_key)
+        req.add_header("User-Agent", "SoloQChallenge-SyncBot/1.0")
+        try:
+            with urllib.request.urlopen(req, timeout=15) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 3:
+                time.sleep(int(e.headers.get("Retry-After", "10")) + 1)
+                continue
+            raise
 
 def get_champion_name_map():
     """Descarga el diccionario de campeones de Data Dragon para convertir championId a Nombre"""
@@ -69,6 +83,49 @@ def get_champion_name_map():
 
 RUN_ID = __import__("datetime").datetime.now(__import__("datetime").timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
+
+HIST_KEYS = ("run", "tier", "division", "lp", "wins", "losses")
+
+def migrate(player):
+    """Quita datos de ejemplo (initial*, registros 'start') y fija la línea base con datos reales."""
+    for k in ("initialTier", "initialDivision", "initialLp"):
+        player.pop(k, None)
+    hist = [h for h in player.get("history", []) if h.get("run") != "start" and h.get("wins") is not None]
+    player["history"] = hist
+    if not player.get("baseline") and hist:
+        player["baseline"] = {k: hist[0][k] for k in HIST_KEYS}
+
+def update_recent(player, puuid, api_key, host):
+    """Lee las últimas partidas SoloQ (solo pide el detalle de las que no conocemos) y calcula la racha real."""
+    ids_url = f"https://{host}/lol/match/v5/matches/by-puuid/{puuid}/ids?queue=420&type=ranked&start=0&count=10"
+    ids = fetch_json(ids_url, api_key)
+    known = {r["id"]: r for r in player.get("recent", [])}
+    out = []
+    for mid in ids:
+        if mid in known:
+            out.append(known[mid])
+            continue
+        info = fetch_json(f"https://{host}/lol/match/v5/matches/{mid}", api_key).get("info", {})
+        me = next((x for x in info.get("participants", []) if x.get("puuid") == puuid), None)
+        if not me:
+            continue
+        remake = bool(me.get("gameEndedInEarlySurrender")) or info.get("gameDuration", 9999) < 300
+        out.append({"id": mid, "win": bool(me.get("win")), "remake": remake,
+                    "ts": info.get("gameEndTimestamp") or info.get("gameStartTimestamp") or 0})
+    out = [r for r in out if not r.get("remake")]
+    out.sort(key=lambda r: r.get("ts", 0), reverse=True)
+    out = out[:10]
+    player["recent"] = out
+    streak = 0
+    for r in out:
+        if streak == 0:
+            streak = 1 if r["win"] else -1
+        elif (streak > 0) == r["win"]:
+            streak += 1 if r["win"] else -1
+        else:
+            break
+    player["streak"] = streak
+
 def update_player_via_riot_api(player, api_key, champ_map):
     name = player["name"]
     tag = player["tag"]
@@ -77,6 +134,7 @@ def update_player_via_riot_api(player, api_key, champ_map):
     account_host = ACCOUNT_ROUTING.get(region, "americas.api.riotgames.com")
     platform_host = REGION_ROUTING.get(region, "la2.api.riotgames.com")
 
+    migrate(player)
     print(f"[*] Consultando a Riot API: {name}#{tag} ({region.upper()})...")
 
     # 1. Obtener PUUID vía Account-V1
@@ -118,6 +176,9 @@ def update_player_via_riot_api(player, api_key, champ_map):
         apex = player["tier"] in ("MASTER","GRANDMASTER","CHALLENGER")
         elo = base.get(player["tier"],0) + (0 if apex else off.get(player["division"],0)) + player["lp"]
         hist = player.setdefault("history", [])
+        if not player.get("baseline"):
+            player["baseline"] = {"run": RUN_ID, "tier": player["tier"], "division": player["division"], "lp": player["lp"], "wins": player["wins"], "losses": player["losses"]}
+        player["lastSync"] = RUN_ID
         if not hist or hist[-1].get("elo") != elo or hist[-1].get("wins") != player["wins"] or hist[-1].get("losses") != player["losses"]:
             hist.append({"run": RUN_ID, "tier": player["tier"], "division": player["division"], "lp": player["lp"], "elo": elo, "wins": player["wins"], "losses": player["losses"]})
         print(f"    -> Rango: {player['tier']} {player['division']} ({player['lp']} LP) | {player['wins']}W / {player['losses']}L")
@@ -139,6 +200,11 @@ def update_player_via_riot_api(player, api_key, champ_map):
             player["champions"] = top_champs
     except Exception as e:
         print(f"    -> Nota: No se pudieron leer maestrías: {e}")
+
+    try:
+        update_recent(player, puuid, api_key, account_host)
+    except Exception as e:
+        print(f"    -> Nota: no se pudieron leer las últimas partidas: {e}")
 
     return player
 

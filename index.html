@@ -238,7 +238,7 @@ footer{max-width:1520px;margin:0 auto;padding:0 32px 48px;font-size:14.4px;color
       <p class="note" id="evoNote"></p>
     </article>
     <article class="card">
-      <div class="card-h"><div><h2>Progreso del reto</h2><p>LP ganados o perdidos desde el inicio</p></div></div>
+      <div class="card-h"><div><h2>Progreso del reto</h2><p id="progSub">LP ganados o perdidos desde el inicio</p></div></div>
       <div id="progress"></div>
     </article>
   </section>
@@ -272,7 +272,7 @@ footer{max-width:1520px;margin:0 auto;padding:0 32px 48px;font-size:14.4px;color
     <div class="tw">
       <table>
         <thead><tr>
-          <th>#</th><th>Jugador</th><th>Rango</th><th>Progreso</th><th>Tendencia</th><th>Winrate</th><th>V / D</th><th>Racha</th><th class="hide-m">Campeones</th><th class="hide-m">Perfil</th>
+          <th>#</th><th>Jugador</th><th>Rango</th><th>Progreso</th><th>Tendencia</th><th title="Desde el inicio del reto">Winrate</th><th title="Desde el inicio del reto (pasa el cursor sobre cada fila para ver la temporada)">V / D</th><th>Racha</th><th class="hide-m">Campeones</th><th class="hide-m">Perfil</th>
         </tr></thead>
         <tbody id="tbody"></tbody>
       </table>
@@ -296,9 +296,6 @@ const DEFAULT_PLAYERS = [
     "tier": "EMERALD",
     "division": "II",
     "lp": 100,
-    "initialTier": "EMERALD",
-    "initialDivision": "IV",
-    "initialLp": 0,
     "wins": 36,
     "losses": 26,
     "champions": [
@@ -307,18 +304,9 @@ const DEFAULT_PLAYERS = [
       "Darius"
     ],
     "profileIconId": 548,
-    "streak": 3,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/D+WOLF-HMBLE",
     "opgg": "https://www.op.gg/summoners/las/D%20WOLF-HMBLE",
-    "history": [
-      {
-        "run": "start",
-        "tier": "EMERALD",
-        "division": "IV",
-        "lp": 0,
-        "elo": 2000
-      }
-    ]
+    "history": []
   },
   {
     "id": 2,
@@ -329,9 +317,6 @@ const DEFAULT_PLAYERS = [
     "tier": "DIAMOND",
     "division": "IV",
     "lp": 64,
-    "initialTier": "EMERALD",
-    "initialDivision": "II",
-    "initialLp": 50,
     "wins": 44,
     "losses": 30,
     "champions": [
@@ -340,18 +325,9 @@ const DEFAULT_PLAYERS = [
       "Graves"
     ],
     "profileIconId": 588,
-    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/BlackMarvel-paint",
     "opgg": "https://www.op.gg/summoners/las/BlackMarvel-paint",
-    "history": [
-      {
-        "run": "start",
-        "tier": "EMERALD",
-        "division": "II",
-        "lp": 50,
-        "elo": 2250
-      }
-    ]
+    "history": []
   },
   {
     "id": 3,
@@ -362,9 +338,6 @@ const DEFAULT_PLAYERS = [
     "tier": "DIAMOND",
     "division": "III",
     "lp": 100,
-    "initialTier": "DIAMOND",
-    "initialDivision": "IV",
-    "initialLp": 0,
     "wins": 53,
     "losses": 35,
     "champions": [
@@ -373,18 +346,9 @@ const DEFAULT_PLAYERS = [
       "Orianna"
     ],
     "profileIconId": 1453,
-    "streak": 5,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Rekito+sad-ptm",
     "opgg": "https://www.op.gg/summoners/las/Rekito%20sad-ptm",
-    "history": [
-      {
-        "run": "start",
-        "tier": "DIAMOND",
-        "division": "IV",
-        "lp": 0,
-        "elo": 2400
-      }
-    ]
+    "history": []
   },
   {
     "id": 4,
@@ -395,9 +359,6 @@ const DEFAULT_PLAYERS = [
     "tier": "EMERALD",
     "division": "I",
     "lp": 100,
-    "initialTier": "EMERALD",
-    "initialDivision": "III",
-    "initialLp": 20,
     "wins": 40,
     "losses": 29,
     "champions": [
@@ -406,18 +367,9 @@ const DEFAULT_PLAYERS = [
       "Ezreal"
     ],
     "profileIconId": 4661,
-    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Alta+Frecuencia-3112",
     "opgg": "https://www.op.gg/summoners/las/Alta%20Frecuencia-3112",
-    "history": [
-      {
-        "run": "start",
-        "tier": "EMERALD",
-        "division": "III",
-        "lp": 20,
-        "elo": 2120
-      }
-    ]
+    "history": []
   },
   {
     "id": 5,
@@ -428,9 +380,6 @@ const DEFAULT_PLAYERS = [
     "tier": "EMERALD",
     "division": "III",
     "lp": 78,
-    "initialTier": "EMERALD",
-    "initialDivision": "IV",
-    "initialLp": 0,
     "wins": 31,
     "losses": 25,
     "champions": [
@@ -439,18 +388,9 @@ const DEFAULT_PLAYERS = [
       "Lulu"
     ],
     "profileIconId": 744,
-    "streak": 2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/ZicordS-JODA",
     "opgg": "https://www.op.gg/summoners/las/ZicordS-JODA",
-    "history": [
-      {
-        "run": "start",
-        "tier": "EMERALD",
-        "division": "IV",
-        "lp": 0,
-        "elo": 2000
-      }
-    ]
+    "history": []
   },
   {
     "id": 6,
@@ -461,9 +401,6 @@ const DEFAULT_PLAYERS = [
     "tier": "PLATINUM",
     "division": "I",
     "lp": 100,
-    "initialTier": "PLATINUM",
-    "initialDivision": "III",
-    "initialLp": 10,
     "wins": 35,
     "losses": 28,
     "champions": [
@@ -472,18 +409,9 @@ const DEFAULT_PLAYERS = [
       "Camille"
     ],
     "profileIconId": 1665,
-    "streak": -2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/dachito34-LCP",
     "opgg": "https://www.op.gg/summoners/las/dachito34-LCP",
-    "history": [
-      {
-        "run": "start",
-        "tier": "PLATINUM",
-        "division": "III",
-        "lp": 10,
-        "elo": 1710
-      }
-    ]
+    "history": []
   },
   {
     "id": 7,
@@ -494,9 +422,6 @@ const DEFAULT_PLAYERS = [
     "tier": "MASTER",
     "division": "I",
     "lp": 100,
-    "initialTier": "DIAMOND",
-    "initialDivision": "I",
-    "initialLp": 40,
     "wins": 67,
     "losses": 41,
     "champions": [
@@ -505,18 +430,9 @@ const DEFAULT_PLAYERS = [
       "Zed"
     ],
     "profileIconId": 4832,
-    "streak": 4,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Kamen+Rider+オーズ-Oink",
     "opgg": "https://www.op.gg/summoners/las/Kamen%20Rider%20%E3%82%AA%E3%83%BC%E3%82%BA-Oink",
-    "history": [
-      {
-        "run": "start",
-        "tier": "DIAMOND",
-        "division": "I",
-        "lp": 40,
-        "elo": 2740
-      }
-    ]
+    "history": []
   },
   {
     "id": 8,
@@ -527,9 +443,6 @@ const DEFAULT_PLAYERS = [
     "tier": "PLATINUM",
     "division": "II",
     "lp": 90,
-    "initialTier": "PLATINUM",
-    "initialDivision": "IV",
-    "initialLp": 0,
     "wins": 27,
     "losses": 23,
     "champions": [
@@ -538,18 +451,9 @@ const DEFAULT_PLAYERS = [
       "Jarvan IV"
     ],
     "profileIconId": 3154,
-    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
     "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
-    "history": [
-      {
-        "run": "start",
-        "tier": "PLATINUM",
-        "division": "IV",
-        "lp": 0,
-        "elo": 1600
-      }
-    ]
+    "history": []
   },
   {
     "id": 9,
@@ -560,9 +464,6 @@ const DEFAULT_PLAYERS = [
     "tier": "EMERALD",
     "division": "II",
     "lp": 51,
-    "initialTier": "EMERALD",
-    "initialDivision": "III",
-    "initialLp": 0,
     "wins": 33,
     "losses": 27,
     "champions": [
@@ -571,18 +472,9 @@ const DEFAULT_PLAYERS = [
       "Ashe"
     ],
     "profileIconId": 1150,
-    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/L3CKER-LAS",
     "opgg": "https://www.op.gg/summoners/las/L3CKER-LAS",
-    "history": [
-      {
-        "run": "start",
-        "tier": "EMERALD",
-        "division": "III",
-        "lp": 0,
-        "elo": 2100
-      }
-    ]
+    "history": []
   },
   {
     "id": 10,
@@ -593,9 +485,6 @@ const DEFAULT_PLAYERS = [
     "tier": "GOLD",
     "division": "I",
     "lp": 100,
-    "initialTier": "GOLD",
-    "initialDivision": "III",
-    "initialLp": 0,
     "wins": 24,
     "losses": 19,
     "champions": [
@@ -604,18 +493,9 @@ const DEFAULT_PLAYERS = [
       "Nami"
     ],
     "profileIconId": 984,
-    "streak": 2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Lanoni-2403",
     "opgg": "https://www.op.gg/summoners/las/Lanoni-2403",
-    "history": [
-      {
-        "run": "start",
-        "tier": "GOLD",
-        "division": "III",
-        "lp": 0,
-        "elo": 1300
-      }
-    ]
+    "history": []
   }
 ];
 
@@ -657,12 +537,15 @@ function eloShort(e){
 const rankBadge = (tier, div, lp, withLp = true) =>
   `<span class="rank" style="--c:${TIER_COLOR[tier] || '#888'}"><i></i>${esc(isApex(tier) ? TIER_ES[tier] : `${TIER_ES[tier] || tier} ${div}`)}${withLp ? ` <span class="num muted" style="font-weight:600">${lp} LP</span>` : ''}</span>`;
 const champId = n => CHAMP_FIX[n] || String(n).replace(/[^A-Za-z0-9]/g, '');
-const runMs = r => r === 'start' ? -Infinity : r === 'now' ? Infinity : Date.parse(r);
-const fmtRun = r => r === 'start' ? 'Inicio' : r === 'now' ? 'Actual'
-  : new Date(r).toLocaleString('es-PE', {day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'});
+const FMT = {day:'numeric', month:'short', hour:'2-digit', minute:'2-digit', hour12:false};
+const fmtT = t => new Date(t).toLocaleString('es-PE', FMT);
+const fmtD = t => new Date(t).toLocaleDateString('es-PE', {day:'numeric', month:'short'});
 function latestRunMs(list){
   let m = 0;
-  list.forEach(p => (p.history || []).forEach(h => { const t = Date.parse(h.run); if (t > m) m = t; }));
+  list.forEach(p => {
+    const t = Date.parse(p.lastSync); if (t > m) m = t;
+    (p.history || []).forEach(h => { const u = Date.parse(h.run); if (u > m) m = u; });
+  });
   return m;
 }
 
@@ -702,27 +585,53 @@ async function loadPlayers(){
 }
 
 /* ============ Cálculo ============ */
-function seriesOf(p){
-  let h = (p.history || []).filter(e => Number.isFinite(e.elo)).map(e => ({...e}));
-  if (!h.some(e => e.run === 'start')) {
-    const t = p.initialTier || p.tier, d = p.initialDivision || p.division, l = p.initialLp || 0;
-    h.push({run:'start', tier:t, division:d, lp:l, elo:eloOf(t, d, l)});
-  }
-  h.sort((a, b) => runMs(a.run) - runMs(b.run));
-  const cur = eloOf(p.tier, p.division, p.lp);
-  if (h[h.length - 1].elo !== cur) h.push({run:'now', tier:p.tier, division:p.division, lp:p.lp, elo:cur});
-  return h;
+/* Solo se usan datos reales de la API. Los registros "start" y los campos initial* eran de ejemplo y se ignoran. */
+function realHistory(p){
+  return (p.history || [])
+    .filter(e => e.run !== 'start' && e.wins != null && e.tier)
+    .map(e => ({...e, t:Date.parse(e.run), elo:eloOf(e.tier, e.division, e.lp)}))
+    .filter(e => Number.isFinite(e.t))
+    .sort((a, b) => a.t - b.t);
 }
+function baselineOf(p, h){
+  const b = p.baseline;
+  if (b && b.tier) {
+    const t = b.run ? Date.parse(b.run) : (h[0] ? h[0].t : Date.now());
+    return {...b, t, elo:eloOf(b.tier, b.division, b.lp), manual:true};
+  }
+  return h[0] || null;
+}
+let tEnd = 0, baseT = 0, baseManual = false;
 function compute(){
+  tEnd = latestRunMs(players);
+  baseT = Infinity; baseManual = false;
   players.forEach((p, i) => {
     p._color = PALETTE[i % PALETTE.length];
     p._elo = eloOf(p.tier, p.division, p.lp);
-    p._series = seriesOf(p);
-    p._init = p._series[0].elo;
-    p._gain = p._elo - p._init;
+    const h = realHistory(p), base = baselineOf(p, h);
+    p._base = base;
+    if (base) { baseT = Math.min(baseT, base.t); if (base.manual) baseManual = true; }
+    const rows = base ? [base] : [];
+    h.forEach(e => { if (!base || e.t > base.t) rows.push(e); });
+    p._pts = rows.map(e => ({t:e.t, y:e.elo, label:rankText(e.tier, e.division, e.lp)}));
+    p._gain = base ? p._elo - base.elo : 0;
     p._games = p.wins + p.losses;
     p._wr = p._games ? p.wins / p._games * 100 : 0;
-    p._peak = p._series.reduce((a, b) => b.elo > a.elo ? b : a);
+    const hasB = base && base.wins != null && base.losses != null;
+    p._cw = hasB ? Math.max(0, p.wins - base.wins) : null;
+    p._cl = hasB ? Math.max(0, p.losses - base.losses) : null;
+    p._cg = hasB ? p._cw + p._cl : null;
+    p._cwr = p._cg ? p._cw / p._cg * 100 : null;
+    p._streak = Array.isArray(p.recent) ? (p.streak || 0) : null;   // sin partidas leídas de la API no hay racha real
+  });
+  if (!isFinite(baseT)) baseT = 0;
+  const end = tEnd || Date.now();
+  players.forEach(p => {
+    const last = p._pts[p._pts.length - 1];
+    const cur = {t:end, y:p._elo, label:rankText(p.tier, p.division, p.lp), ext:true};
+    if (!last) p._pts = [cur];
+    else if (end - last.t > 1000) p._pts.push(cur);
+    p._peak = p._pts.reduce((a, b) => b.y > a.y ? b : a);
   });
   ranked = [...players].sort((a, b) => b._elo - a._elo || b.wins - a.wins);
   ranked.forEach((p, i) => p._pos = i + 1);
@@ -732,24 +641,27 @@ const byId = id => players.find(p => p.id === id);
 /* ============ Render: cabecera y KPIs ============ */
 function renderKpis(){
   const n = players.length || 1;
-  const games = players.reduce((s, p) => s + p._games, 0);
-  const wins = players.reduce((s, p) => s + p.wins, 0);
+  const withC = players.filter(p => p._cg != null);
+  const games = withC.reduce((s, p) => s + p._cg, 0);
+  const wins = withC.reduce((s, p) => s + p._cw, 0);
   const gain = players.reduce((s, p) => s + p._gain, 0);
   const avg = players.reduce((s, p) => s + p._elo, 0) / n;
   const lead = ranked[0];
   const top = [...players].sort((a, b) => b._gain - a._gain)[0];
-  const st = [...players].sort((a, b) => b.streak - a.streak)[0];
+  const st = players.filter(p => p._streak != null).sort((a, b) => b._streak - a._streak)[0];
   const k = (l, v, s) => `<div class="kpi"><div class="kpi-l">${l}</div><div class="kpi-v">${v}</div><div class="kpi-s">${s}</div></div>`;
   $('#kpis').innerHTML =
     k('Líder', esc(lead?.name || '-'), lead ? rankText(lead.tier, lead.division, lead.lp) : '') +
     k('Elo promedio', eloShort(avg), eloLabel(avg)) +
     k('LP netos del grupo', `<span class="num ${signClass(gain)}">${fmtSigned(gain)}</span>`, `${fmtSigned(gain / n)} por jugador`) +
-    k('Partidas', `<span class="num">${games.toLocaleString('es-PE')}</span>`, `Winrate global ${games ? (wins / games * 100).toFixed(1) : 0}%`) +
-    k('Mayor ascenso', top ? esc(top.name) : '-', top ? `<span class="num ${signClass(top._gain)}">${fmtSigned(top._gain)} LP</span>` : '') +
-    k('Mejor racha', st && st.streak > 0 ? `<span class="num">${st.streak}</span> victorias` : '-', st && st.streak > 0 ? esc(st.name) : 'Sin rachas activas');
+    k('Partidas del reto', `<span class="num">${games.toLocaleString('es-PE')}</span>`, games ? `Winrate del reto ${(wins / games * 100).toFixed(1)}%` : 'Aún sin partidas nuevas') +
+    k('Mayor ascenso', top && top._gain > 0 ? esc(top.name) : '-', top && top._gain > 0 ? `<span class="num ${signClass(top._gain)}">${fmtSigned(top._gain)} LP</span>` : 'Nadie ha subido aún') +
+    k('Mejor racha', st && st._streak > 0 ? `<span class="num">${st._streak}</span> victorias` : '-', st && st._streak > 0 ? esc(st.name) : 'Sin rachas activas');
 
-  const ms = latestRunMs(players);
-  $('#lastSync').textContent = ms ? 'Sync: ' + new Date(ms).toLocaleString('es-PE', {day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'}) : 'Sin sincronizar con Riot';
+  $('#lastSync').textContent = tEnd ? 'Actualizado: ' + fmtT(tEnd) : 'Sin sincronizar con Riot';
+  $('#progSub').textContent = baseT
+    ? (baseManual ? `LP ganados o perdidos desde el inicio del reto` : `LP ganados o perdidos desde la primera sincronización (${fmtT(baseT)})`)
+    : 'Aún no hay una medición inicial';
 }
 
 /* ============ Render: podio ============ */
@@ -770,25 +682,28 @@ function renderPodium(){
       </div>
       <div class="pod-stats">
         <div><span>Reto</span><b class="num ${signClass(p._gain)}">${fmtSigned(p._gain)} LP</b></div>
-        <div><span>Winrate</span><b class="num">${p._wr.toFixed(0)}%</b></div>
-        <div><span>Partidas</span><b class="num">${p._games}</b></div>
+        <div><span>Winrate reto</span><b class="num">${p._cg ? p._cwr.toFixed(0) + '%' : '—'}</b></div>
+        <div><span>Partidas reto</span><b class="num">${p._cg ?? '—'}</b></div>
       </div>
     </button>`).join('');
 }
 
 /* ============ Gráfica de líneas (SVG propio) ============ */
-function lineChart(el, cats, series, opts = {}){
+function lineChart(el, series, opts = {}){
   const W = Math.max(el.clientWidth, 280), H = opts.height || 440;
-  const m = {l:70, r:20, t:16, b:38};
+  const m = {l:70, r:24, t:16, b:40};
   const iw = W - m.l - m.r, ih = H - m.t - m.b;
   const vis = series.filter(s => !hidden.has(s.id) || opts.single);
-  if (!vis.length || !cats.length) { el.innerHTML = '<div class="empty">Sin datos para mostrar.</div>'; return; }
+  if (!vis.length) { el.innerHTML = '<div class="empty">Sin datos para mostrar.</div>'; return; }
   const ys = vis.flatMap(s => s.points.map(p => p.y));
   let lo = Math.floor((Math.min(...ys) - 30) / 100) * 100, hi = Math.ceil((Math.max(...ys) + 30) / 100) * 100;
   if (hi - lo < 300) hi = lo + 300;
   const step = hi - lo <= 600 ? 100 : hi - lo <= 1400 ? 200 : 400;
-  const pad = 22, n = cats.length;
-  const x = i => n === 1 ? m.l + iw / 2 : m.l + pad + i * (iw - pad * 2) / (n - 1);
+  const ts = vis.flatMap(s => s.points.map(p => p.t));
+  let t0 = Math.min(...ts), t1 = Math.max(...ts);
+  if (t1 - t0 < 3600e3) t1 = t0 + 3600e3;
+  const pad = 14;
+  const x = t => m.l + pad + (t - t0) / (t1 - t0) * (iw - pad * 2);
   const y = v => m.t + ih - (v - lo) / (hi - lo) * ih;
 
   let g = '';
@@ -798,25 +713,30 @@ function lineChart(el, cats, series, opts = {}){
     g += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="${boundary ? tc : '#1e2736'}" stroke-opacity="${boundary ? .45 : 1}" stroke-dasharray="${boundary ? '' : '3 4'}"/>`;
     g += `<text x="${m.l - 10}" y="${y(v) + 4}" text-anchor="end" ${boundary ? `style="fill:${tc};font-weight:700"` : ''}>${v > 2800 ? (v - 2800) + ' LP' : eloShort(v)}</text>`;
   }
-  const every = Math.ceil(n / Math.max(2, Math.floor(iw / 96)));
-  cats.forEach((c, i) => {
-    if (i % every === 0 || i === n - 1) g += `<text x="${x(i)}" y="${H - 8}" text-anchor="middle">${esc(fmtRun(c))}</text>`;
-  });
+  const nt = Math.max(2, Math.min(7, Math.floor(iw / 150)));
+  const dayOnly = (t1 - t0) > 4 * 86400e3;
+  for (let i = 0; i < nt; i++) {
+    const t = t0 + (t1 - t0) * i / (nt - 1);
+    const anchor = i === 0 ? 'start' : i === nt - 1 ? 'end' : 'middle';
+    g += `<text x="${x(t)}" y="${H - 10}" text-anchor="${anchor}">${esc(dayOnly ? fmtD(t) : fmtT(t))}</text>`;
+  }
 
   const dim = id => hoverId && hoverId !== id && !opts.single;
   let paths = '', defs = '';
   vis.forEach(s => {
-    const pts = s.points.map(p => [x(p.i), y(p.y)]);
-    const d = pts.map((p, i) => (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(' ');
+    const P = s.points;
+    let d = `M${x(P[0].t).toFixed(1)} ${y(P[0].y).toFixed(1)}`;
+    for (let i = 1; i < P.length; i++) d += ` L${x(P[i].t).toFixed(1)} ${y(P[i - 1].y).toFixed(1)} L${x(P[i].t).toFixed(1)} ${y(P[i].y).toFixed(1)}`;
     const op = dim(s.id) ? .15 : 1, sw = hoverId === s.id ? 3.2 : 2.2;
-    if (opts.single && pts.length > 1) {
+    if (opts.single && P.length > 1) {
       defs += `<linearGradient id="ag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${s.color}" stop-opacity=".28"/><stop offset="1" stop-color="${s.color}" stop-opacity="0"/></linearGradient>`;
-      paths += `<path d="${d} L${pts[pts.length-1][0]} ${m.t + ih} L${pts[0][0]} ${m.t + ih}Z" fill="url(#ag)"/>`;
+      paths += `<path d="${d} L${x(P[P.length-1].t)} ${m.t + ih} L${x(P[0].t)} ${m.t + ih}Z" fill="url(#ag)"/>`;
     }
     paths += `<path d="${d}" fill="none" stroke="${s.color}" stroke-width="${sw}" stroke-linejoin="round" stroke-linecap="round" opacity="${op}"/>`;
-    pts.forEach((p, i) => {
-      const last = i === pts.length - 1;
-      paths += `<circle cx="${p[0]}" cy="${p[1]}" r="${last ? 4.5 : 3}" fill="${last ? s.color : '#10151e'}" stroke="${s.color}" stroke-width="2" opacity="${op}"/>`;
+    P.forEach((p, i) => {
+      const last = i === P.length - 1;
+      if (p.ext && !last) return;
+      paths += `<circle cx="${x(p.t)}" cy="${y(p.y)}" r="${last ? 4.5 : 3}" fill="${last ? s.color : '#10151e'}" stroke="${s.color}" stroke-width="2" opacity="${op}"/>`;
     });
   });
 
@@ -828,51 +748,38 @@ function lineChart(el, cats, series, opts = {}){
 
   const svg = el.querySelector('svg'), guide = svg.querySelector('.guide'), tip = el.querySelector('.tip');
   const hit = svg.querySelector('.hit');
+  const valueAt = (s, t) => { let v = null; for (const p of s.points) { if (p.t <= t) v = p; else break; } return v; };
   hit.addEventListener('mousemove', ev => {
     const r = svg.getBoundingClientRect();
     const px = (ev.clientX - r.left) * (W / r.width);
-    let idx = 0, best = 1e9;
-    cats.forEach((_, i) => { const dd = Math.abs(x(i) - px); if (dd < best) { best = dd; idx = i; } });
-    guide.setAttribute('x1', x(idx)); guide.setAttribute('x2', x(idx)); guide.style.display = '';
-    const rows = vis.map(s => ({s, p: s.points.find(p => p.i === idx)})).filter(o => o.p).sort((a, b) => b.p.y - a.p.y);
-    tip.innerHTML = `<h4>${esc(fmtRun(cats[idx]))}</h4>` + rows.map(o =>
+    const t = Math.min(t1, Math.max(t0, t0 + (px - m.l - pad) / (iw - pad * 2) * (t1 - t0)));
+    guide.setAttribute('x1', x(t)); guide.setAttribute('x2', x(t)); guide.style.display = '';
+    const rows = vis.map(s => ({s, p:valueAt(s, t)})).filter(o => o.p).sort((a, b) => b.p.y - a.p.y);
+    tip.innerHTML = `<h4>${esc(fmtT(t))}</h4>` + rows.map(o =>
       `<div><i style="background:${o.s.color}"></i>${esc(o.s.name)}<em class="num">${esc(o.p.label)}</em></div>`).join('');
-    const tw = tip.offsetWidth || 200;
-    let left = x(idx) * (r.width / W) + 14;
-    if (left + tw > r.width) left = x(idx) * (r.width / W) - tw - 14;
+    const tw = tip.offsetWidth || 220;
+    let left = x(t) * (r.width / W) + 14;
+    if (left + tw > r.width) left = x(t) * (r.width / W) - tw - 14;
     tip.style.left = Math.max(0, left) + 'px';
     tip.style.top = Math.max(0, (ev.clientY - r.top) - 20) + 'px';
     tip.style.opacity = 1;
   });
   hit.addEventListener('mouseleave', () => { guide.style.display = 'none'; tip.style.opacity = 0; });
 }
-function toSeries(p, cats){
-  return {
-    id:p.id, name:p.name, color:p._color,
-    points:p._series.map(e => ({i:cats.indexOf(e.run), y:e.elo,
-      label: e.tier ? rankText(e.tier, e.division, e.lp) : eloLabel(e.elo)}))
-  };
-}
-function catsOf(list){
-  const s = new Set();
-  list.forEach(p => p._series.forEach(e => s.add(e.run)));
-  return [...s].sort((a, b) => runMs(a) - runMs(b));
-}
+const toSeries = p => ({id:p.id, name:p.name, color:p._color, points:p._pts});
 
 function renderEvolution(){
-  const cats = catsOf(players);
-  // Leyenda
   $('#legend').innerHTML =
     `<button class="chip plain" data-act="top3" aria-pressed="false">Top 3</button><button class="chip plain" data-act="all" aria-pressed="false">Todos</button>` +
     ranked.map(p => `<button class="chip" data-id="${p.id}" style="--c:${p._color}" aria-pressed="${!hidden.has(p.id)}"><i></i>${esc(p.name)}</button>`).join('');
-  drawEvolution(cats);
-  const pts = Math.max(...players.map(p => p._series.length));
+  drawEvolution();
+  const pts = Math.max(...players.map(p => p._pts.length));
   $('#evoNote').textContent = pts <= 2
-    ? 'Por ahora solo hay dos puntos: el inicio del reto y el rango actual. Cada vez que ejecutes actualizar.bat se añade un punto nuevo y la gráfica se va llenando.'
-    : `${pts} registros por jugador. Pasa el cursor sobre la gráfica para ver el rango en cada momento.`;
+    ? 'El historial empieza en la primera sincronización. Cada cambio de rango se registra solo y la gráfica se va completando con el tiempo.'
+    : `Medido desde ${fmtT(baseT)}. Cada cambio de LP se guarda automáticamente. Pasa el cursor sobre la gráfica para ver el rango de todos en ese momento.`;
 }
-function drawEvolution(cats){
-  lineChart($('#evoChart'), cats, players.map(p => toSeries(p, cats)), {height:440});
+function drawEvolution(){
+  lineChart($('#evoChart'), players.map(toSeries), {height:440});
 }
 $('#legend').addEventListener('click', e => {
   const b = e.target.closest('.chip'); if (!b) return;
@@ -883,9 +790,9 @@ $('#legend').addEventListener('click', e => {
 });
 $('#legend').addEventListener('mouseover', e => {
   const b = e.target.closest('.chip[data-id]'); const id = b ? +b.dataset.id : null;
-  if (id !== hoverId) { hoverId = id; drawEvolution(catsOf(players)); }
+  if (id !== hoverId) { hoverId = id; drawEvolution(); }
 });
-$('#legend').addEventListener('mouseleave', () => { if (hoverId) { hoverId = null; drawEvolution(catsOf(players)); } });
+$('#legend').addEventListener('mouseleave', () => { if (hoverId) { hoverId = null; drawEvolution(); } });
 
 /* ============ Progreso, destacados, distribución ============ */
 function renderProgress(){
@@ -903,20 +810,22 @@ function renderProgress(){
 }
 function renderHighlights(){
   const row = (label, p, val) => p ? `<button onclick="openPlayer(${p.id})"><small>${label}</small><b>${esc(p.name)}</b><span class="hv num">${val}</span></button>` : '';
-  const elig = players.filter(p => p._games >= 20);
-  const bestWr = [...(elig.length ? elig : players)].sort((a, b) => b._wr - a._wr)[0];
-  const busiest = [...players].sort((a, b) => b._games - a._games)[0];
-  const netw = [...players].sort((a, b) => (b.wins - b.losses) - (a.wins - a.losses))[0];
+  const pl = players.filter(p => p._cg > 0);
+  const best = (arr, f) => arr.length ? [...arr].sort((a, b) => f(b) - f(a))[0] : null;
+  const bestWr = best(pl.filter(p => p._cg >= 5), p => p._cwr);
+  const busiest = best(pl, p => p._cg);
+  const netw = best(pl, p => p._cw - p._cl);
   const worst = [...players].sort((a, b) => a._gain - b._gain)[0];
   const close = players.filter(p => !isApex(p.tier)).sort((a, b) => (100 - a.lp) - (100 - b.lp))[0];
-  const peak = [...players].sort((a, b) => b._peak.elo - a._peak.elo)[0];
+  const peak = best(players.filter(p => p._pts.length > 1), p => p._peak.y);
   $('#highlights').innerHTML =
-    row('Mejor winrate (mín. 20 partidas)', bestWr, bestWr ? bestWr._wr.toFixed(1) + '%' : '') +
-    row('Más partidas jugadas', busiest, busiest?._games) +
-    row('Mayor diferencia de victorias', netw, netw ? fmtSigned(netw.wins - netw.losses) : '') +
+    row('Mejor winrate del reto (mín. 5 partidas)', bestWr, bestWr ? bestWr._cwr.toFixed(1) + '%' : '') +
+    row('Más partidas en el reto', busiest, busiest?._cg) +
+    row('Mejor diferencia de victorias en el reto', netw, netw ? fmtSigned(netw._cw - netw._cl) : '') +
     row('Más cerca de subir de división', close, close ? (close.lp >= 100 ? 'En promo' : (100 - close.lp) + ' LP') : '') +
-    row('Elo más alto alcanzado', peak, peak ? eloShort(peak._peak.elo) : '') +
-    (worst && worst._gain < 0 ? row('Mayor caída de LP', worst, `<span class="down">${fmtSigned(worst._gain)}</span>`) : '');
+    row('Elo más alto durante el reto', peak, peak ? eloShort(peak._peak.y) : '') +
+    (worst && worst._gain < 0 ? row('Mayor caída de LP', worst, `<span class="down">${fmtSigned(worst._gain)}</span>`) : '') ||
+    '<div class="empty">Aún no hay partidas registradas desde el inicio del reto.</div>';
 }
 function renderTiers(){
   const cnt = {};
@@ -931,12 +840,15 @@ function renderTiers(){
 
 /* ============ Tabla ============ */
 function spark(p){
-  const v = p._series.map(e => e.elo), w = 84, h = 28;
-  const lo = Math.min(...v), hi = Math.max(...v), r = (hi - lo) || 1;
-  const pts = v.map((e, i) => [v.length === 1 ? w / 2 : 2 + i * (w - 4) / (v.length - 1), h - 3 - (e - lo) / r * (h - 6)]);
+  const P = p._pts, w = 84, h = 28;
+  const ys = P.map(q => q.y), lo = Math.min(...ys), hi = Math.max(...ys), r = (hi - lo) || 1;
+  const t0 = P[0].t, tr = (P[P.length - 1].t - t0) || 1;
+  const X = t => 2 + (t - t0) / tr * (w - 4), Y = v => h - 3 - (v - lo) / r * (h - 6);
+  let d = `M${X(P[0].t).toFixed(1)} ${Y(P[0].y).toFixed(1)}`;
+  for (let i = 1; i < P.length; i++) d += ` L${X(P[i].t).toFixed(1)} ${Y(P[i - 1].y).toFixed(1)} L${X(P[i].t).toFixed(1)} ${Y(P[i].y).toFixed(1)}`;
+  if (P.length === 1) d += ` L${w - 2} ${Y(P[0].y).toFixed(1)}`;
   const c = p._gain > 0 ? '#35c788' : p._gain < 0 ? '#ef5b66' : '#8c98ad';
-  const last = pts[pts.length - 1];
-  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><path d="${pts.map((q, i) => (i ? 'L' : 'M') + q[0].toFixed(1) + ' ' + q[1].toFixed(1)).join(' ')}" fill="none" stroke="${c}" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${last[0]}" cy="${last[1]}" r="2.6" fill="${c}"/></svg>`;
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><path d="${d}" fill="none" stroke="${c}" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${P.length === 1 ? w - 2 : X(P[P.length - 1].t)}" cy="${Y(P[P.length - 1].y)}" r="2.6" fill="${c}"/></svg>`;
 }
 function initFilters(){
   $('#roleSeg').innerHTML = ['ALL', ...ROLES].map(r => `<button data-r="${r}" aria-pressed="${r === roleFilter}">${r === 'ALL' ? 'Todos' : r}</button>`).join('');
@@ -955,7 +867,7 @@ function renderTable(){
     (!q || p.name.toLowerCase().includes(q) || String(p.tag).toLowerCase().includes(q)) &&
     (roleFilter === 'ALL' || p.role === roleFilter) &&
     (tf === 'ALL' || tierGroup(p.tier) === tf));
-  const key = {pos:p => p._pos, gain:p => -p._gain, wr:p => -p._wr, games:p => -p._games, streak:p => -p.streak}[sort];
+  const key = {pos:p => p._pos, gain:p => -p._gain, wr:p => -(p._cwr ?? -1), games:p => -(p._cg ?? -1), streak:p => -(p._streak ?? -99)}[sort];
   list.sort((a, b) => key(a) - key(b) || a._pos - b._pos);
   if (!list.length) { $('#tbody').innerHTML = `<tr><td colspan="10" class="empty">Ningún jugador coincide con los filtros.</td></tr>`; return; }
   $('#tbody').innerHTML = list.map(p => `
@@ -966,15 +878,16 @@ function renderTable(){
       <td>${rankBadge(p.tier, p.division, p.lp)}</td>
       <td class="num ${signClass(p._gain)}"><b>${fmtSigned(p._gain)}</b> <span class="muted" style="font-size:13.2px">LP</span></td>
       <td>${spark(p)}</td>
-      <td><div class="wr"><b class="num" style="min-width:38px">${p._wr.toFixed(0)}%</b><div class="wr-bar"><span style="width:${p._wr}%"></span></div></div></td>
-      <td class="num"><span class="up">${p.wins}</span> <span class="muted">/</span> <span class="down">${p.losses}</span></td>
-      <td class="num ${p.streak > 0 ? 'up' : p.streak < 0 ? 'down' : 'muted'}">${p.streak > 0 ? '▲ ' + p.streak + 'V' : p.streak < 0 ? '▼ ' + Math.abs(p.streak) + 'D' : '–'}</td>
+      <td>${p._cg ? `<div class="wr"><b class="num" style="min-width:38px">${p._cwr.toFixed(0)}%</b><div class="wr-bar"><span style="width:${p._cwr}%"></span></div></div>` : '<span class="muted">—</span>'}</td>
+      <td class="num" title="Temporada: ${p.wins}V / ${p.losses}D (${p._wr.toFixed(0)}%)">${p._cg != null ? `<span class="up">${p._cw}</span> <span class="muted">/</span> <span class="down">${p._cl}</span>` : '<span class="muted">—</span>'}</td>
+      <td class="num ${p._streak > 0 ? 'up' : p._streak < 0 ? 'down' : 'muted'}">${p._streak > 0 ? '▲ ' + p._streak + 'V' : p._streak < 0 ? '▼ ' + Math.abs(p._streak) + 'D' : '–'}</td>
       <td class="hide-m"><div class="champs">${(p.champions || []).slice(0, 3).map(c => `<img src="${champImg(c)}" alt="${esc(c)}" title="${esc(c)}" loading="lazy" onerror="this.style.visibility='hidden'">`).join('')}</div></td>
       <td class="hide-m links" onclick="event.stopPropagation()">${p.opgg ? `<a href="${esc(p.opgg)}" target="_blank" rel="noopener">OP.GG</a>` : ''}${p.leagueOfGraphs ? `<a href="${esc(p.leagueOfGraphs)}" target="_blank" rel="noopener">LoG</a>` : ''}</td>
     </tr>`).join('');
 }
 
 /* ============ Detalle de jugador ============ */
+const form = p => Array.isArray(p.recent) && p.recent.length ? 'Últimas: ' + p.recent.slice(0, 5).map(r => r.win ? '<span class="up">V</span>' : '<span class="down">D</span>').join(' ') : '';
 function openPlayer(id){
   const p = byId(id); if (!p) return;
   const above = ranked[p._pos - 2], lead = ranked[0];
@@ -989,23 +902,22 @@ function openPlayer(id){
     </div>
     <div class="chart" id="pChart"></div>
     <div class="mgrid">
-      ${m('Reto', `<span class="${signClass(p._gain)}">${fmtSigned(p._gain)} LP</span>`, 'desde el inicio')}
-      ${m('Elo pico', eloShort(p._peak.elo), eloLabel(p._peak.elo))}
-      ${m('Winrate', p._wr.toFixed(1) + '%', `${p.wins}V / ${p.losses}D`)}
-      ${m('Partidas', p._games, `Dif. ${fmtSigned(p.wins - p.losses)} victorias`)}
-      ${m('Racha', p.streak > 0 ? `<span class="up">${p.streak}V</span>` : p.streak < 0 ? `<span class="down">${Math.abs(p.streak)}D</span>` : '–', '')}
+      ${m('Reto', `<span class="${signClass(p._gain)}">${fmtSigned(p._gain)} LP</span>`, p._base ? 'desde ' + fmtT(p._base.t) : 'sin medición inicial')}
+      ${m('Elo pico', eloShort(p._peak.y), esc(p._peak.label))}
+      ${m('Winrate del reto', p._cg ? p._cwr.toFixed(1) + '%' : '—', p._cg != null ? `${p._cw}V / ${p._cl}D` : '')}
+      ${m('Partidas del reto', p._cg ?? '—', p._cg ? `Dif. ${fmtSigned(p._cw - p._cl)} victorias` : '')}
+      ${m('Racha', p._streak > 0 ? `<span class="up">${p._streak}V</span>` : p._streak < 0 ? `<span class="down">${Math.abs(p._streak)}D</span>` : '–', form(p))}
+      ${m('Temporada', `${p._wr.toFixed(0)}%`, `${p.wins}V / ${p.losses}D · ${p._games} partidas`)}
       ${m('Siguiente división', toNext, '')}
       ${m('Al puesto de arriba', above ? (above._elo - p._elo) + ' LP' : '—', above ? 'vs ' + esc(above.name) : 'Es el líder')}
-      ${m('Distancia al líder', p._pos === 1 ? '—' : (lead._elo - p._elo) + ' LP', p._pos === 1 ? '' : 'vs ' + esc(lead.name))}
     </div>
     <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
       <div class="champs">${(p.champions || []).map(c => `<img src="${champImg(c)}" alt="${esc(c)}" title="${esc(c)}" style="width:34px;height:34px;border-color:var(--panel)" onerror="this.style.visibility='hidden'">`).join('')}</div>
       <div class="links">${p.opgg ? `<a href="${esc(p.opgg)}" target="_blank" rel="noopener">OP.GG</a>` : ''}${p.leagueOfGraphs ? `<a href="${esc(p.leagueOfGraphs)}" target="_blank" rel="noopener">League of Graphs</a>` : ''}</div>
     </div>`;
   $('#playerDlg').showModal();
-  const cats = catsOf([p]);
-  lineChart($('#pChart'), cats, [toSeries(p, cats)], {height:320, single:true, label:'Evolución del Elo de ' + p.name});
-  p._series.length <= 2 && $('#pChart').insertAdjacentHTML('afterend', '<p class="note" style="margin-top:-6px">Aún no hay historial intermedio: se completa con cada sincronización.</p>');
+  lineChart($('#pChart'), [toSeries(p)], {height:320, single:true, label:'Evolución del Elo de ' + p.name});
+  p._pts.length <= 2 && $('#pChart').insertAdjacentHTML('afterend', '<p class="note" style="margin-top:-6px">El historial se completa con cada cambio de LP.</p>');
 }
 
 /* ============ Edición / exportación ============ */
@@ -1024,7 +936,7 @@ function exportJson(){
 function renderAll(){
   compute(); renderKpis(); renderPodium(); renderEvolution(); renderProgress(); renderHighlights(); renderTiers(); renderTable();
 }
-let rz; window.addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(() => players.length && drawEvolution(catsOf(players)), 120); });
+let rz; window.addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(() => players.length && drawEvolution(), 120); });
 (async function(){
   initFilters();
   await Promise.all([loadVersion(), loadPlayers()]);
