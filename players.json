@@ -49,12 +49,12 @@
     "role": "JGL",
     "tier": "GOLD",
     "division": "I",
-    "lp": 43,
+    "lp": 22,
     "initialTier": "EMERALD",
     "initialDivision": "II",
     "initialLp": 50,
     "wins": 407,
-    "losses": 394,
+    "losses": 395,
     "champions": [
       "Warwick",
       "Sylas",
@@ -107,6 +107,15 @@
         "elo": 1543,
         "wins": 407,
         "losses": 394
+      },
+      {
+        "run": "2026-10-08T06:13:41Z",
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 22,
+        "elo": 1522,
+        "wins": 407,
+        "losses": 395
       }
     ]
   },
