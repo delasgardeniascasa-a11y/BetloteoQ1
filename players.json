@@ -486,12 +486,12 @@
     "region": "las",
     "role": "ADC",
     "tier": "EMERALD",
-    "division": "III",
-    "lp": 93,
+    "division": "II",
+    "lp": 11,
     "initialTier": "EMERALD",
     "initialDivision": "III",
     "initialLp": 0,
-    "wins": 303,
+    "wins": 304,
     "losses": 288,
     "champions": [
       "Jhin",
@@ -553,6 +553,15 @@
         "lp": 93,
         "elo": 2193,
         "wins": 303,
+        "losses": 288
+      },
+      {
+        "run": "2026-10-08T04:10:27Z",
+        "tier": "EMERALD",
+        "division": "II",
+        "lp": 11,
+        "elo": 2211,
+        "wins": 304,
         "losses": 288
       }
     ]
