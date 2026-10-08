@@ -169,11 +169,11 @@
     "role": "ADC",
     "tier": "MASTER",
     "division": "I",
-    "lp": 486,
+    "lp": 524,
     "initialTier": "EMERALD",
     "initialDivision": "III",
     "initialLp": 20,
-    "wins": 202,
+    "wins": 203,
     "losses": 196,
     "champions": [
       "Fiddlesticks",
@@ -199,6 +199,15 @@
         "lp": 486,
         "elo": 3286,
         "wins": 202,
+        "losses": 196
+      },
+      {
+        "run": "2026-10-08T06:49:56Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 524,
+        "elo": 3324,
+        "wins": 203,
         "losses": 196
       }
     ]
