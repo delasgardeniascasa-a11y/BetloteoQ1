@@ -49,12 +49,12 @@
     "role": "JGL",
     "tier": "GOLD",
     "division": "I",
-    "lp": 63,
+    "lp": 43,
     "initialTier": "EMERALD",
     "initialDivision": "II",
     "initialLp": 50,
     "wins": 407,
-    "losses": 393,
+    "losses": 394,
     "champions": [
       "Warwick",
       "Sylas",
@@ -98,6 +98,15 @@
         "elo": 1563,
         "wins": 407,
         "losses": 393
+      },
+      {
+        "run": "2026-10-08T05:42:52Z",
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 43,
+        "elo": 1543,
+        "wins": 407,
+        "losses": 394
       }
     ]
   },
@@ -496,11 +505,11 @@
     "role": "ADC",
     "tier": "EMERALD",
     "division": "II",
-    "lp": 29,
+    "lp": 48,
     "initialTier": "EMERALD",
     "initialDivision": "III",
     "initialLp": 0,
-    "wins": 305,
+    "wins": 306,
     "losses": 288,
     "champions": [
       "Jhin",
@@ -580,6 +589,15 @@
         "lp": 29,
         "elo": 2229,
         "wins": 305,
+        "losses": 288
+      },
+      {
+        "run": "2026-10-08T05:42:52Z",
+        "tier": "EMERALD",
+        "division": "II",
+        "lp": 48,
+        "elo": 2248,
+        "wins": 306,
         "losses": 288
       }
     ]
