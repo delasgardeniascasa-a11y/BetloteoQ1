@@ -56,7 +56,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-08T21:11:15Z",
+    "lastSync": "2026-10-08T21:43:44Z",
     "recent": [
       {
         "id": "LA2_1629158671",
@@ -128,8 +128,8 @@
     "role": "JGL",
     "tier": "GOLD",
     "division": "I",
-    "lp": 19,
-    "wins": 409,
+    "lp": 39,
+    "wins": 410,
     "losses": 397,
     "champions": [
       "Warwick",
@@ -137,7 +137,7 @@
       "Viego"
     ],
     "profileIconId": 3546,
-    "streak": 1,
+    "streak": 2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/BlackMarvel-paint",
     "opgg": "https://www.op.gg/summoners/las/BlackMarvel-paint",
     "history": [
@@ -212,6 +212,15 @@
         "elo": 1519,
         "wins": 409,
         "losses": 397
+      },
+      {
+        "run": "2026-10-08T21:43:44Z",
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 39,
+        "elo": 1539,
+        "wins": 410,
+        "losses": 397
       }
     ],
     "baseline": {
@@ -222,8 +231,14 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-08T21:11:15Z",
+    "lastSync": "2026-10-08T21:43:44Z",
     "recent": [
+      {
+        "id": "LA2_1629226577",
+        "win": true,
+        "remake": false,
+        "ts": 1791494108340
+      },
       {
         "id": "LA2_1629218522",
         "win": true,
@@ -277,12 +292,6 @@
         "win": true,
         "remake": false,
         "ts": 1791258996441
-      },
-      {
-        "id": "LA2_1628569045",
-        "win": true,
-        "remake": false,
-        "ts": 1791181959824
       }
     ]
   },
@@ -343,7 +352,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-08T21:11:15Z",
+    "lastSync": "2026-10-08T21:43:44Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -482,7 +491,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-08T21:11:15Z",
+    "lastSync": "2026-10-08T21:43:44Z",
     "recent": [
       {
         "id": "LA2_1629157921",
@@ -621,7 +630,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-08T21:11:15Z",
+    "lastSync": "2026-10-08T21:43:44Z",
     "recent": [
       {
         "id": "LA2_1629065948",
@@ -718,7 +727,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-08T21:11:15Z",
+    "lastSync": "2026-10-08T21:43:44Z",
     "recent": [
       {
         "id": "LA2_1627104331",
@@ -809,7 +818,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-08T21:11:15Z",
+    "lastSync": "2026-10-08T21:43:44Z",
     "recent": [
       {
         "id": "LA2_1628556128",
@@ -881,9 +890,9 @@
     "role": "JGL",
     "tier": "MASTER",
     "division": "I",
-    "lp": 46,
+    "lp": 26,
     "wins": 322,
-    "losses": 300,
+    "losses": 301,
     "champions": [
       "Sylas",
       "LeeSin",
@@ -1073,6 +1082,15 @@
         "elo": 2846,
         "wins": 322,
         "losses": 300
+      },
+      {
+        "run": "2026-10-08T21:43:44Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 26,
+        "elo": 2826,
+        "wins": 322,
+        "losses": 301
       }
     ],
     "baseline": {
@@ -1083,7 +1101,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-08T21:11:15Z",
+    "lastSync": "2026-10-08T21:43:44Z",
     "recent": [
       {
         "id": "LA2_1629213275",
@@ -1138,12 +1156,6 @@
         "win": true,
         "remake": false,
         "ts": 1791444344486
-      },
-      {
-        "id": "LA2_1629157043",
-        "win": true,
-        "remake": false,
-        "ts": 1791442596478
       }
     ]
   },
@@ -1294,7 +1306,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-08T21:11:15Z",
+    "lastSync": "2026-10-08T21:43:44Z",
     "recent": [
       {
         "id": "LA2_1629204455",
@@ -1415,7 +1427,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-08T21:11:15Z",
+    "lastSync": "2026-10-08T21:43:44Z",
     "recent": [
       {
         "id": "LA2_1629112610",
