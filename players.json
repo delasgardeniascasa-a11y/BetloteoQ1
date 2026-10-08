@@ -175,12 +175,12 @@
     "role": "SUP",
     "tier": "EMERALD",
     "division": "I",
-    "lp": 47,
+    "lp": 28,
     "initialTier": "EMERALD",
     "initialDivision": "IV",
     "initialLp": 0,
     "wins": 68,
-    "losses": 47,
+    "losses": 48,
     "champions": [
       "Diana",
       "MasterYi",
@@ -224,6 +224,15 @@
         "elo": 2347,
         "wins": 68,
         "losses": 47
+      },
+      {
+        "run": "2026-10-08T00:51:39Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 28,
+        "elo": 2328,
+        "wins": 68,
+        "losses": 48
       }
     ]
   },
@@ -442,12 +451,12 @@
     "role": "ADC",
     "tier": "EMERALD",
     "division": "II",
-    "lp": 37,
+    "lp": 15,
     "initialTier": "EMERALD",
     "initialDivision": "III",
     "initialLp": 0,
     "wins": 303,
-    "losses": 286,
+    "losses": 287,
     "champions": [
       "Jhin",
       "Lucian",
@@ -491,6 +500,15 @@
         "elo": 2237,
         "wins": 303,
         "losses": 286
+      },
+      {
+        "run": "2026-10-08T00:51:39Z",
+        "tier": "EMERALD",
+        "division": "II",
+        "lp": 15,
+        "elo": 2215,
+        "wins": 303,
+        "losses": 287
       }
     ]
   },
