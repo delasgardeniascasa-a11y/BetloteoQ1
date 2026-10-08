@@ -351,7 +351,7 @@
     "initialDivision": "IV",
     "initialLp": 0,
     "wins": 316,
-    "losses": 295,
+    "losses": 296,
     "champions": [
       "Sylas",
       "LeeSin",
@@ -467,6 +467,15 @@
         "elo": 2800,
         "wins": 316,
         "losses": 295
+      },
+      {
+        "run": "2026-10-08T02:09:45Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 0,
+        "elo": 2800,
+        "wins": 316,
+        "losses": 296
       }
     ]
   },
