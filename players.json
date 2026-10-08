@@ -187,12 +187,12 @@
     "role": "ADC",
     "tier": "MASTER",
     "division": "I",
-    "lp": 503,
+    "lp": 482,
     "initialTier": "EMERALD",
     "initialDivision": "III",
     "initialLp": 20,
     "wins": 203,
-    "losses": 197,
+    "losses": 198,
     "champions": [
       "Fiddlesticks",
       "Pyke",
@@ -236,6 +236,15 @@
         "elo": 3303,
         "wins": 203,
         "losses": 197
+      },
+      {
+        "run": "2026-10-08T07:44:38Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 482,
+        "elo": 3282,
+        "wins": 203,
+        "losses": 198
       }
     ]
   },
@@ -409,11 +418,11 @@
     "role": "JGL",
     "tier": "MASTER",
     "division": "I",
-    "lp": 21,
+    "lp": 42,
     "initialTier": "PLATINUM",
     "initialDivision": "IV",
     "initialLp": 0,
-    "wins": 317,
+    "wins": 318,
     "losses": 296,
     "champions": [
       "Sylas",
@@ -547,6 +556,15 @@
         "lp": 21,
         "elo": 2821,
         "wins": 317,
+        "losses": 296
+      },
+      {
+        "run": "2026-10-08T07:44:38Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 42,
+        "elo": 2842,
+        "wins": 318,
         "losses": 296
       }
     ]
