@@ -12,7 +12,7 @@
     "initialDivision": "IV",
     "initialLp": 0,
     "wins": 384,
-    "losses": 388,
+    "losses": 389,
     "champions": [
       "Sett",
       "Garen",
@@ -38,6 +38,15 @@
         "elo": 1334,
         "wins": 384,
         "losses": 388
+      },
+      {
+        "run": "2026-10-08T07:13:06Z",
+        "tier": "GOLD",
+        "division": "III",
+        "lp": 34,
+        "elo": 1334,
+        "wins": 384,
+        "losses": 389
       }
     ]
   },
@@ -49,11 +58,11 @@
     "role": "JGL",
     "tier": "GOLD",
     "division": "I",
-    "lp": 22,
+    "lp": 41,
     "initialTier": "EMERALD",
     "initialDivision": "II",
     "initialLp": 50,
-    "wins": 407,
+    "wins": 408,
     "losses": 395,
     "champions": [
       "Warwick",
@@ -116,6 +125,15 @@
         "elo": 1522,
         "wins": 407,
         "losses": 395
+      },
+      {
+        "run": "2026-10-08T07:13:06Z",
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 41,
+        "elo": 1541,
+        "wins": 408,
+        "losses": 395
       }
     ]
   },
@@ -169,12 +187,12 @@
     "role": "ADC",
     "tier": "MASTER",
     "division": "I",
-    "lp": 524,
+    "lp": 503,
     "initialTier": "EMERALD",
     "initialDivision": "III",
     "initialLp": 20,
     "wins": 203,
-    "losses": 196,
+    "losses": 197,
     "champions": [
       "Fiddlesticks",
       "Pyke",
@@ -209,6 +227,15 @@
         "elo": 3324,
         "wins": 203,
         "losses": 196
+      },
+      {
+        "run": "2026-10-08T07:13:06Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 503,
+        "elo": 3303,
+        "wins": 203,
+        "losses": 197
       }
     ]
   },
@@ -382,11 +409,11 @@
     "role": "JGL",
     "tier": "MASTER",
     "division": "I",
-    "lp": 0,
+    "lp": 21,
     "initialTier": "PLATINUM",
     "initialDivision": "IV",
     "initialLp": 0,
-    "wins": 316,
+    "wins": 317,
     "losses": 296,
     "champions": [
       "Sylas",
@@ -511,6 +538,15 @@
         "lp": 0,
         "elo": 2800,
         "wins": 316,
+        "losses": 296
+      },
+      {
+        "run": "2026-10-08T07:13:06Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 21,
+        "elo": 2821,
+        "wins": 317,
         "losses": 296
       }
     ]
