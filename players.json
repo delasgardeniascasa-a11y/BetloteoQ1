@@ -56,7 +56,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-08T17:43:19Z",
+    "lastSync": "2026-10-08T18:11:29Z",
     "recent": [
       {
         "id": "LA2_1629158671",
@@ -213,7 +213,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-08T17:43:19Z",
+    "lastSync": "2026-10-08T18:11:29Z",
     "recent": [
       {
         "id": "LA2_1629162229",
@@ -334,7 +334,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-08T17:43:19Z",
+    "lastSync": "2026-10-08T18:11:29Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -473,7 +473,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-08T17:43:19Z",
+    "lastSync": "2026-10-08T18:11:29Z",
     "recent": [
       {
         "id": "LA2_1629157921",
@@ -612,7 +612,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-08T17:43:19Z",
+    "lastSync": "2026-10-08T18:11:29Z",
     "recent": [
       {
         "id": "LA2_1629065948",
@@ -709,7 +709,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-08T17:43:19Z",
+    "lastSync": "2026-10-08T18:11:29Z",
     "recent": [
       {
         "id": "LA2_1627104331",
@@ -800,7 +800,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-08T17:43:19Z",
+    "lastSync": "2026-10-08T18:11:29Z",
     "recent": [
       {
         "id": "LA2_1628556128",
@@ -1065,7 +1065,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-08T17:43:19Z",
+    "lastSync": "2026-10-08T18:11:29Z",
     "recent": [
       {
         "id": "LA2_1629191783",
@@ -1137,8 +1137,8 @@
     "role": "ADC",
     "tier": "EMERALD",
     "division": "II",
-    "lp": 64,
-    "wins": 307,
+    "lp": 82,
+    "wins": 308,
     "losses": 289,
     "champions": [
       "Jhin",
@@ -1146,7 +1146,7 @@
       "Vayne"
     ],
     "profileIconId": 1388,
-    "streak": -1,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/L3CKER-LAS",
     "opgg": "https://www.op.gg/summoners/las/L3CKER-LAS",
     "history": [
@@ -1239,6 +1239,15 @@
         "elo": 2264,
         "wins": 307,
         "losses": 289
+      },
+      {
+        "run": "2026-10-08T18:11:29Z",
+        "tier": "EMERALD",
+        "division": "II",
+        "lp": 82,
+        "elo": 2282,
+        "wins": 308,
+        "losses": 289
       }
     ],
     "baseline": {
@@ -1249,8 +1258,14 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-08T17:43:19Z",
+    "lastSync": "2026-10-08T18:11:29Z",
     "recent": [
+      {
+        "id": "LA2_1629196273",
+        "win": true,
+        "remake": false,
+        "ts": 1791482370287
+      },
       {
         "id": "LA2_1629187448",
         "win": false,
@@ -1304,12 +1319,6 @@
         "win": true,
         "remake": false,
         "ts": 1791407873198
-      },
-      {
-        "id": "LA2_1628825569",
-        "win": false,
-        "remake": false,
-        "ts": 1791320647525
       }
     ]
   },
@@ -1370,7 +1379,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-08T17:43:19Z",
+    "lastSync": "2026-10-08T18:11:29Z",
     "recent": [
       {
         "id": "LA2_1629112610",
