@@ -65,7 +65,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-09T05:10:37Z",
+    "lastSync": "2026-10-09T05:43:37Z",
     "recent": [
       {
         "id": "LA2_1629294643",
@@ -276,7 +276,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-09T05:10:37Z",
+    "lastSync": "2026-10-09T05:43:37Z",
     "recent": [
       {
         "id": "LA2_1629332208",
@@ -391,7 +391,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-09T05:10:37Z",
+    "lastSync": "2026-10-09T05:43:37Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -463,8 +463,8 @@
     "role": "ADC",
     "tier": "MASTER",
     "division": "I",
-    "lp": 512,
-    "wins": 209,
+    "lp": 531,
+    "wins": 210,
     "losses": 202,
     "champions": [
       "Fiddlesticks",
@@ -472,7 +472,7 @@
       "Mordekaiser"
     ],
     "profileIconId": 7144,
-    "streak": -1,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Alta+Frecuencia-3112",
     "opgg": "https://www.op.gg/summoners/las/Alta%20Frecuencia-3112",
     "history": [
@@ -601,6 +601,15 @@
         "elo": 3312,
         "wins": 209,
         "losses": 202
+      },
+      {
+        "run": "2026-10-09T05:43:37Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 531,
+        "elo": 3331,
+        "wins": 210,
+        "losses": 202
       }
     ],
     "baseline": {
@@ -611,8 +620,14 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-09T05:10:37Z",
+    "lastSync": "2026-10-09T05:43:37Z",
     "recent": [
+      {
+        "id": "LA2_1629354893",
+        "win": true,
+        "remake": false,
+        "ts": 1791523837457
+      },
       {
         "id": "LA2_1629353844",
         "win": false,
@@ -666,12 +681,6 @@
         "win": true,
         "remake": false,
         "ts": 1791496060053
-      },
-      {
-        "id": "LA2_1629157921",
-        "win": true,
-        "remake": false,
-        "ts": 1791447744058
       }
     ]
   },
@@ -795,7 +804,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-09T05:10:37Z",
+    "lastSync": "2026-10-09T05:43:37Z",
     "recent": [
       {
         "id": "LA2_1629296633",
@@ -898,7 +907,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-09T05:10:37Z",
+    "lastSync": "2026-10-09T05:43:37Z",
     "recent": [
       {
         "id": "LA2_1627104331",
@@ -989,7 +998,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-09T05:10:37Z",
+    "lastSync": "2026-10-09T05:43:37Z",
     "recent": [
       {
         "id": "LA2_1628556128",
@@ -1317,7 +1326,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-09T05:10:37Z",
+    "lastSync": "2026-10-09T05:43:37Z",
     "recent": [
       {
         "id": "LA2_1629353553",
@@ -1558,7 +1567,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-09T05:10:37Z",
+    "lastSync": "2026-10-09T05:43:37Z",
     "recent": [
       {
         "id": "LA2_1629296633",
@@ -1679,7 +1688,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-09T05:10:37Z",
+    "lastSync": "2026-10-09T05:43:37Z",
     "recent": [
       {
         "id": "LA2_1629112610",
