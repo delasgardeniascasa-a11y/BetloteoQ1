@@ -7,8 +7,8 @@
     "role": "TOP",
     "tier": "GOLD",
     "division": "III",
-    "lp": 50,
-    "wins": 385,
+    "lp": 66,
+    "wins": 386,
     "losses": 389,
     "champions": [
       "Sett",
@@ -16,7 +16,7 @@
       "Pantheon"
     ],
     "profileIconId": 7094,
-    "streak": 1,
+    "streak": 2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/D+WOLF-HMBLE",
     "opgg": "https://www.op.gg/summoners/las/D%20WOLF-HMBLE",
     "history": [
@@ -46,6 +46,15 @@
         "elo": 1350,
         "wins": 385,
         "losses": 389
+      },
+      {
+        "run": "2026-10-09T02:10:22Z",
+        "tier": "GOLD",
+        "division": "III",
+        "lp": 66,
+        "elo": 1366,
+        "wins": 386,
+        "losses": 389
       }
     ],
     "baseline": {
@@ -56,8 +65,14 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-09T01:44:16Z",
+    "lastSync": "2026-10-09T02:10:22Z",
     "recent": [
+      {
+        "id": "LA2_1629294643",
+        "win": true,
+        "remake": false,
+        "ts": 1791511598657
+      },
       {
         "id": "LA2_1629158671",
         "win": true,
@@ -111,12 +126,6 @@
         "win": false,
         "remake": false,
         "ts": 1791160222622
-      },
-      {
-        "id": "LA2_1628465386",
-        "win": true,
-        "remake": false,
-        "ts": 1791158023121
       }
     ]
   },
@@ -249,7 +258,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-09T01:44:16Z",
+    "lastSync": "2026-10-09T02:10:22Z",
     "recent": [
       {
         "id": "LA2_1629293240",
@@ -370,7 +379,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-09T01:44:16Z",
+    "lastSync": "2026-10-09T02:10:22Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -545,7 +554,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-09T01:44:16Z",
+    "lastSync": "2026-10-09T02:10:22Z",
     "recent": [
       {
         "id": "LA2_1629261021",
@@ -617,8 +626,8 @@
     "role": "SUP",
     "tier": "EMERALD",
     "division": "I",
-    "lp": 53,
-    "wins": 71,
+    "lp": 74,
+    "wins": 72,
     "losses": 50,
     "champions": [
       "Diana",
@@ -626,7 +635,7 @@
       "XinZhao"
     ],
     "profileIconId": 1162,
-    "streak": 1,
+    "streak": 2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/ZicordS-JODA",
     "opgg": "https://www.op.gg/summoners/las/ZicordS-JODA",
     "history": [
@@ -710,6 +719,15 @@
         "elo": 2353,
         "wins": 71,
         "losses": 50
+      },
+      {
+        "run": "2026-10-09T02:10:22Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 74,
+        "elo": 2374,
+        "wins": 72,
+        "losses": 50
       }
     ],
     "baseline": {
@@ -720,8 +738,14 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-09T01:44:16Z",
+    "lastSync": "2026-10-09T02:10:22Z",
     "recent": [
+      {
+        "id": "LA2_1629296633",
+        "win": true,
+        "remake": false,
+        "ts": 1791510824792
+      },
       {
         "id": "LA2_1629286518",
         "win": true,
@@ -775,12 +799,6 @@
         "win": true,
         "remake": false,
         "ts": 1791158625945
-      },
-      {
-        "id": "LA2_1628242991",
-        "win": false,
-        "remake": false,
-        "ts": 1791074982404
       }
     ]
   },
@@ -823,7 +841,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-09T01:44:16Z",
+    "lastSync": "2026-10-09T02:10:22Z",
     "recent": [
       {
         "id": "LA2_1627104331",
@@ -914,7 +932,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-09T01:44:16Z",
+    "lastSync": "2026-10-09T02:10:22Z",
     "recent": [
       {
         "id": "LA2_1628556128",
@@ -1224,7 +1242,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-09T01:44:16Z",
+    "lastSync": "2026-10-09T02:10:22Z",
     "recent": [
       {
         "id": "LA2_1629273835",
@@ -1290,8 +1308,8 @@
     "role": "ADC",
     "tier": "EMERALD",
     "division": "I",
-    "lp": 36,
-    "wins": 312,
+    "lp": 55,
+    "wins": 313,
     "losses": 290,
     "champions": [
       "Jhin",
@@ -1299,7 +1317,7 @@
       "Vayne"
     ],
     "profileIconId": 1388,
-    "streak": 1,
+    "streak": 2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/L3CKER-LAS",
     "opgg": "https://www.op.gg/summoners/las/L3CKER-LAS",
     "history": [
@@ -1446,6 +1464,15 @@
         "elo": 2336,
         "wins": 312,
         "losses": 290
+      },
+      {
+        "run": "2026-10-09T02:10:22Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 55,
+        "elo": 2355,
+        "wins": 313,
+        "losses": 290
       }
     ],
     "baseline": {
@@ -1456,8 +1483,14 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-09T01:44:16Z",
+    "lastSync": "2026-10-09T02:10:22Z",
     "recent": [
+      {
+        "id": "LA2_1629296633",
+        "win": true,
+        "remake": false,
+        "ts": 1791510824792
+      },
       {
         "id": "LA2_1629286518",
         "win": true,
@@ -1511,12 +1544,6 @@
         "win": true,
         "remake": false,
         "ts": 1791437069753
-      },
-      {
-        "id": "LA2_1629137156",
-        "win": true,
-        "remake": false,
-        "ts": 1791434341109
       }
     ]
   },
@@ -1577,7 +1604,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-09T01:44:16Z",
+    "lastSync": "2026-10-09T02:10:22Z",
     "recent": [
       {
         "id": "LA2_1629112610",
