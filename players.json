@@ -56,7 +56,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-09T01:14:30Z",
+    "lastSync": "2026-10-09T01:44:16Z",
     "recent": [
       {
         "id": "LA2_1629158671",
@@ -128,8 +128,8 @@
     "role": "JGL",
     "tier": "GOLD",
     "division": "I",
-    "lp": 19,
-    "wins": 410,
+    "lp": 59,
+    "wins": 411,
     "losses": 398,
     "champions": [
       "Warwick",
@@ -137,7 +137,7 @@
       "Viego"
     ],
     "profileIconId": 3546,
-    "streak": -1,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/BlackMarvel-paint",
     "opgg": "https://www.op.gg/summoners/las/BlackMarvel-paint",
     "history": [
@@ -230,6 +230,15 @@
         "elo": 1519,
         "wins": 410,
         "losses": 398
+      },
+      {
+        "run": "2026-10-09T01:44:16Z",
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 59,
+        "elo": 1559,
+        "wins": 411,
+        "losses": 398
       }
     ],
     "baseline": {
@@ -240,8 +249,14 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-09T01:14:30Z",
+    "lastSync": "2026-10-09T01:44:16Z",
     "recent": [
+      {
+        "id": "LA2_1629293240",
+        "win": true,
+        "remake": false,
+        "ts": 1791509565364
+      },
       {
         "id": "LA2_1629280084",
         "win": false,
@@ -295,12 +310,6 @@
         "win": true,
         "remake": false,
         "ts": 1791433842912
-      },
-      {
-        "id": "LA2_1629061187",
-        "win": true,
-        "remake": false,
-        "ts": 1791420926405
       }
     ]
   },
@@ -361,7 +370,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-09T01:14:30Z",
+    "lastSync": "2026-10-09T01:44:16Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -536,7 +545,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-09T01:14:30Z",
+    "lastSync": "2026-10-09T01:44:16Z",
     "recent": [
       {
         "id": "LA2_1629261021",
@@ -608,8 +617,8 @@
     "role": "SUP",
     "tier": "EMERALD",
     "division": "I",
-    "lp": 32,
-    "wins": 70,
+    "lp": 53,
+    "wins": 71,
     "losses": 50,
     "champions": [
       "Diana",
@@ -617,7 +626,7 @@
       "XinZhao"
     ],
     "profileIconId": 1162,
-    "streak": -1,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/ZicordS-JODA",
     "opgg": "https://www.op.gg/summoners/las/ZicordS-JODA",
     "history": [
@@ -692,6 +701,15 @@
         "elo": 2332,
         "wins": 70,
         "losses": 50
+      },
+      {
+        "run": "2026-10-09T01:44:16Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 53,
+        "elo": 2353,
+        "wins": 71,
+        "losses": 50
       }
     ],
     "baseline": {
@@ -702,8 +720,14 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-09T01:14:30Z",
+    "lastSync": "2026-10-09T01:44:16Z",
     "recent": [
+      {
+        "id": "LA2_1629286518",
+        "win": true,
+        "remake": false,
+        "ts": 1791508996563
+      },
       {
         "id": "LA2_1629273463",
         "win": false,
@@ -757,12 +781,6 @@
         "win": false,
         "remake": false,
         "ts": 1791074982404
-      },
-      {
-        "id": "LA2_1628230668",
-        "win": true,
-        "remake": false,
-        "ts": 1791070778158
       }
     ]
   },
@@ -805,7 +823,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-09T01:14:30Z",
+    "lastSync": "2026-10-09T01:44:16Z",
     "recent": [
       {
         "id": "LA2_1627104331",
@@ -896,7 +914,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-09T01:14:30Z",
+    "lastSync": "2026-10-09T01:44:16Z",
     "recent": [
       {
         "id": "LA2_1628556128",
@@ -1206,7 +1224,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-09T01:14:30Z",
+    "lastSync": "2026-10-09T01:44:16Z",
     "recent": [
       {
         "id": "LA2_1629273835",
@@ -1272,8 +1290,8 @@
     "role": "ADC",
     "tier": "EMERALD",
     "division": "I",
-    "lp": 17,
-    "wins": 311,
+    "lp": 36,
+    "wins": 312,
     "losses": 290,
     "champions": [
       "Jhin",
@@ -1281,7 +1299,7 @@
       "Vayne"
     ],
     "profileIconId": 1388,
-    "streak": -1,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/L3CKER-LAS",
     "opgg": "https://www.op.gg/summoners/las/L3CKER-LAS",
     "history": [
@@ -1419,6 +1437,15 @@
         "elo": 2317,
         "wins": 311,
         "losses": 290
+      },
+      {
+        "run": "2026-10-09T01:44:16Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 36,
+        "elo": 2336,
+        "wins": 312,
+        "losses": 290
       }
     ],
     "baseline": {
@@ -1429,8 +1456,14 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-09T01:14:30Z",
+    "lastSync": "2026-10-09T01:44:16Z",
     "recent": [
+      {
+        "id": "LA2_1629286518",
+        "win": true,
+        "remake": false,
+        "ts": 1791508996563
+      },
       {
         "id": "LA2_1629273463",
         "win": false,
@@ -1484,12 +1517,6 @@
         "win": true,
         "remake": false,
         "ts": 1791434341109
-      },
-      {
-        "id": "LA2_1629124436",
-        "win": true,
-        "remake": false,
-        "ts": 1791431517021
       }
     ]
   },
@@ -1550,7 +1577,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-09T01:14:30Z",
+    "lastSync": "2026-10-09T01:44:16Z",
     "recent": [
       {
         "id": "LA2_1629112610",
