@@ -56,7 +56,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-09T00:15:21Z",
+    "lastSync": "2026-10-09T00:54:16Z",
     "recent": [
       {
         "id": "LA2_1629158671",
@@ -231,7 +231,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-09T00:15:21Z",
+    "lastSync": "2026-10-09T00:54:16Z",
     "recent": [
       {
         "id": "LA2_1629226577",
@@ -352,7 +352,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-09T00:15:21Z",
+    "lastSync": "2026-10-09T00:54:16Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -527,7 +527,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-09T00:15:21Z",
+    "lastSync": "2026-10-09T00:54:16Z",
     "recent": [
       {
         "id": "LA2_1629261021",
@@ -599,16 +599,16 @@
     "role": "SUP",
     "tier": "EMERALD",
     "division": "I",
-    "lp": 51,
+    "lp": 32,
     "wins": 70,
-    "losses": 49,
+    "losses": 50,
     "champions": [
       "Diana",
       "MasterYi",
       "XinZhao"
     ],
     "profileIconId": 1162,
-    "streak": 2,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/ZicordS-JODA",
     "opgg": "https://www.op.gg/summoners/las/ZicordS-JODA",
     "history": [
@@ -674,6 +674,15 @@
         "elo": 2351,
         "wins": 70,
         "losses": 49
+      },
+      {
+        "run": "2026-10-09T00:54:16Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 32,
+        "elo": 2332,
+        "wins": 70,
+        "losses": 50
       }
     ],
     "baseline": {
@@ -684,8 +693,14 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-09T00:15:21Z",
+    "lastSync": "2026-10-09T00:54:16Z",
     "recent": [
+      {
+        "id": "LA2_1629273463",
+        "win": false,
+        "remake": false,
+        "ts": 1791506673887
+      },
       {
         "id": "LA2_1629263510",
         "win": true,
@@ -739,12 +754,6 @@
         "win": true,
         "remake": false,
         "ts": 1791070778158
-      },
-      {
-        "id": "LA2_1628224361",
-        "win": true,
-        "remake": false,
-        "ts": 1791069003800
       }
     ]
   },
@@ -787,7 +796,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-09T00:15:21Z",
+    "lastSync": "2026-10-09T00:54:16Z",
     "recent": [
       {
         "id": "LA2_1627104331",
@@ -878,7 +887,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-09T00:15:21Z",
+    "lastSync": "2026-10-09T00:54:16Z",
     "recent": [
       {
         "id": "LA2_1628556128",
@@ -950,16 +959,16 @@
     "role": "JGL",
     "tier": "MASTER",
     "division": "I",
-    "lp": 7,
+    "lp": 0,
     "wins": 322,
-    "losses": 303,
+    "losses": 304,
     "champions": [
       "Sylas",
       "LeeSin",
       "Briar"
     ],
     "profileIconId": 7221,
-    "streak": -5,
+    "streak": -6,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
     "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
     "history": [
@@ -1169,6 +1178,15 @@
         "elo": 2807,
         "wins": 322,
         "losses": 303
+      },
+      {
+        "run": "2026-10-09T00:54:16Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 0,
+        "elo": 2800,
+        "wins": 322,
+        "losses": 304
       }
     ],
     "baseline": {
@@ -1179,8 +1197,14 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-09T00:15:21Z",
+    "lastSync": "2026-10-09T00:54:16Z",
     "recent": [
+      {
+        "id": "LA2_1629273835",
+        "win": false,
+        "remake": false,
+        "ts": 1791507173684
+      },
       {
         "id": "LA2_1629241688",
         "win": false,
@@ -1228,12 +1252,6 @@
         "win": true,
         "remake": false,
         "ts": 1791450327371
-      },
-      {
-        "id": "LA2_1629164082",
-        "win": false,
-        "remake": false,
-        "ts": 1791448095476
       }
     ]
   },
@@ -1245,16 +1263,16 @@
     "role": "ADC",
     "tier": "EMERALD",
     "division": "I",
-    "lp": 38,
+    "lp": 17,
     "wins": 311,
-    "losses": 289,
+    "losses": 290,
     "champions": [
       "Jhin",
       "Lucian",
       "Vayne"
     ],
     "profileIconId": 1388,
-    "streak": 4,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/L3CKER-LAS",
     "opgg": "https://www.op.gg/summoners/las/L3CKER-LAS",
     "history": [
@@ -1383,6 +1401,15 @@
         "elo": 2338,
         "wins": 311,
         "losses": 289
+      },
+      {
+        "run": "2026-10-09T00:54:16Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 17,
+        "elo": 2317,
+        "wins": 311,
+        "losses": 290
       }
     ],
     "baseline": {
@@ -1393,8 +1420,14 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-09T00:15:21Z",
+    "lastSync": "2026-10-09T00:54:16Z",
     "recent": [
+      {
+        "id": "LA2_1629273463",
+        "win": false,
+        "remake": false,
+        "ts": 1791506673887
+      },
       {
         "id": "LA2_1629263510",
         "win": true,
@@ -1448,12 +1481,6 @@
         "win": true,
         "remake": false,
         "ts": 1791431517021
-      },
-      {
-        "id": "LA2_1629065948",
-        "win": false,
-        "remake": false,
-        "ts": 1791420733350
       }
     ]
   },
@@ -1514,7 +1541,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-09T00:15:21Z",
+    "lastSync": "2026-10-09T00:54:16Z",
     "recent": [
       {
         "id": "LA2_1629112610",
