@@ -65,7 +65,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-09T19:42:26Z",
+    "lastSync": "2026-10-09T20:08:50Z",
     "recent": [
       {
         "id": "LA2_1629294643",
@@ -285,7 +285,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-09T19:42:26Z",
+    "lastSync": "2026-10-09T20:08:50Z",
     "recent": [
       {
         "id": "LA2_1629413848",
@@ -400,7 +400,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-09T19:42:26Z",
+    "lastSync": "2026-10-09T20:08:50Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -638,7 +638,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-09T19:42:26Z",
+    "lastSync": "2026-10-09T20:08:50Z",
     "recent": [
       {
         "id": "LA2_1629396079",
@@ -840,7 +840,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-09T19:42:26Z",
+    "lastSync": "2026-10-09T20:08:50Z",
     "recent": [
       {
         "id": "LA2_1629371454",
@@ -943,7 +943,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-09T19:42:26Z",
+    "lastSync": "2026-10-09T20:08:50Z",
     "recent": [
       {
         "id": "LA2_1627104331",
@@ -1034,7 +1034,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-09T19:42:26Z",
+    "lastSync": "2026-10-09T20:08:50Z",
     "recent": [
       {
         "id": "LA2_1628556128",
@@ -1104,18 +1104,18 @@
     "tag": "POOM",
     "region": "las",
     "role": "JGL",
-    "tier": "MASTER",
+    "tier": "DIAMOND",
     "division": "I",
-    "lp": 0,
+    "lp": 75,
     "wins": 322,
-    "losses": 306,
+    "losses": 307,
     "champions": [
       "Sylas",
       "LeeSin",
       "Briar"
     ],
     "profileIconId": 7221,
-    "streak": -8,
+    "streak": -9,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
     "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
     "history": [
@@ -1352,6 +1352,15 @@
         "elo": 2800,
         "wins": 322,
         "losses": 306
+      },
+      {
+        "run": "2026-10-09T20:08:50Z",
+        "tier": "DIAMOND",
+        "division": "I",
+        "lp": 75,
+        "elo": 2775,
+        "wins": 322,
+        "losses": 307
       }
     ],
     "baseline": {
@@ -1362,8 +1371,14 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-09T19:42:26Z",
+    "lastSync": "2026-10-09T20:08:50Z",
     "recent": [
+      {
+        "id": "LA2_1629424242",
+        "win": false,
+        "remake": false,
+        "ts": 1791575063902
+      },
       {
         "id": "LA2_1629353553",
         "win": false,
@@ -1411,12 +1426,6 @@
         "win": false,
         "remake": false,
         "ts": 1791478923257
-      },
-      {
-        "id": "LA2_1629163471",
-        "win": true,
-        "remake": false,
-        "ts": 1791455043291
       }
     ]
   },
@@ -1612,7 +1621,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-09T19:42:26Z",
+    "lastSync": "2026-10-09T20:08:50Z",
     "recent": [
       {
         "id": "LA2_1629381851",
@@ -1733,7 +1742,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-09T19:42:26Z",
+    "lastSync": "2026-10-09T20:08:50Z",
     "recent": [
       {
         "id": "LA2_1629112610",
