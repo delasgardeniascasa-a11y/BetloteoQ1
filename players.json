@@ -110,7 +110,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-10T04:09:49Z",
+    "lastSync": "2026-10-10T04:44:59Z",
     "recent": [
       {
         "id": "LA2_1629536451",
@@ -182,16 +182,16 @@
     "role": "JGL",
     "tier": "GOLD",
     "division": "I",
-    "lp": 53,
-    "wins": 414,
-    "losses": 402,
+    "lp": 49,
+    "wins": 415,
+    "losses": 403,
     "champions": [
       "Warwick",
       "Sylas",
       "Viego"
     ],
     "profileIconId": 3546,
-    "streak": -4,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/BlackMarvel-paint",
     "opgg": "https://www.op.gg/summoners/las/BlackMarvel-paint",
     "history": [
@@ -356,6 +356,15 @@
         "elo": 1553,
         "wins": 414,
         "losses": 402
+      },
+      {
+        "run": "2026-10-10T04:44:59Z",
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 49,
+        "elo": 1549,
+        "wins": 415,
+        "losses": 403
       }
     ],
     "baseline": {
@@ -366,8 +375,20 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-10T04:09:49Z",
+    "lastSync": "2026-10-10T04:44:59Z",
     "recent": [
+      {
+        "id": "LA2_1629561311",
+        "win": false,
+        "remake": false,
+        "ts": 1791607426111
+      },
+      {
+        "id": "LA2_1629549789",
+        "win": true,
+        "remake": false,
+        "ts": 1791605851598
+      },
       {
         "id": "LA2_1629536722",
         "win": false,
@@ -409,18 +430,6 @@
         "win": true,
         "remake": false,
         "ts": 1791513896792
-      },
-      {
-        "id": "LA2_1629293240",
-        "win": true,
-        "remake": false,
-        "ts": 1791509565364
-      },
-      {
-        "id": "LA2_1629280084",
-        "win": false,
-        "remake": false,
-        "ts": 1791507895883
       }
     ]
   },
@@ -481,7 +490,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-10T04:09:49Z",
+    "lastSync": "2026-10-10T04:44:59Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -719,7 +728,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-10T04:09:49Z",
+    "lastSync": "2026-10-10T04:44:59Z",
     "recent": [
       {
         "id": "LA2_1629396079",
@@ -921,7 +930,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-10T04:09:49Z",
+    "lastSync": "2026-10-10T04:44:59Z",
     "recent": [
       {
         "id": "LA2_1629371454",
@@ -1042,7 +1051,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-10T04:09:49Z",
+    "lastSync": "2026-10-10T04:44:59Z",
     "recent": [
       {
         "id": "LA2_1629533244",
@@ -1139,7 +1148,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-10T04:09:49Z",
+    "lastSync": "2026-10-10T04:44:59Z",
     "recent": [
       {
         "id": "LA2_1628556128",
@@ -1521,7 +1530,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-10T04:09:49Z",
+    "lastSync": "2026-10-10T04:44:59Z",
     "recent": [
       {
         "id": "LA2_1629541384",
@@ -1795,7 +1804,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-10T04:09:49Z",
+    "lastSync": "2026-10-10T04:44:59Z",
     "recent": [
       {
         "id": "LA2_1629448333",
@@ -1916,7 +1925,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-10T04:09:49Z",
+    "lastSync": "2026-10-10T04:44:59Z",
     "recent": [
       {
         "id": "LA2_1629112610",
