@@ -6,9 +6,9 @@
     "region": "las",
     "role": "TOP",
     "tier": "GOLD",
-    "division": "IV",
-    "lp": 94,
-    "wins": 386,
+    "division": "III",
+    "lp": 10,
+    "wins": 387,
     "losses": 392,
     "champions": [
       "Sett",
@@ -16,7 +16,7 @@
       "Pantheon"
     ],
     "profileIconId": 7094,
-    "streak": -3,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/D+WOLF-HMBLE",
     "opgg": "https://www.op.gg/summoners/las/D%20WOLF-HMBLE",
     "history": [
@@ -82,6 +82,15 @@
         "elo": 1294,
         "wins": 386,
         "losses": 392
+      },
+      {
+        "run": "2026-10-10T03:09:38Z",
+        "tier": "GOLD",
+        "division": "III",
+        "lp": 10,
+        "elo": 1310,
+        "wins": 387,
+        "losses": 392
       }
     ],
     "baseline": {
@@ -92,8 +101,14 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-10T02:43:19Z",
+    "lastSync": "2026-10-10T03:09:38Z",
     "recent": [
+      {
+        "id": "LA2_1629517997",
+        "win": true,
+        "remake": false,
+        "ts": 1791601350689
+      },
       {
         "id": "LA2_1629505663",
         "win": false,
@@ -147,12 +162,6 @@
         "win": false,
         "remake": false,
         "ts": 1791170991236
-      },
-      {
-        "id": "LA2_1628524062",
-        "win": false,
-        "remake": false,
-        "ts": 1791168871480
       }
     ]
   },
@@ -330,7 +339,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-10T02:43:19Z",
+    "lastSync": "2026-10-10T03:09:38Z",
     "recent": [
       {
         "id": "LA2_1629503935",
@@ -445,7 +454,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-10T02:43:19Z",
+    "lastSync": "2026-10-10T03:09:38Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -683,7 +692,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-10T02:43:19Z",
+    "lastSync": "2026-10-10T03:09:38Z",
     "recent": [
       {
         "id": "LA2_1629396079",
@@ -885,7 +894,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-10T02:43:19Z",
+    "lastSync": "2026-10-10T03:09:38Z",
     "recent": [
       {
         "id": "LA2_1629371454",
@@ -957,16 +966,16 @@
     "role": "TOP",
     "tier": "SILVER",
     "division": "II",
-    "lp": 30,
+    "lp": 20,
     "wins": 3,
-    "losses": 5,
+    "losses": 6,
     "champions": [
       "Sett",
       "Ekko",
       "Ezreal"
     ],
     "profileIconId": 4652,
-    "streak": -1,
+    "streak": -2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/dachito34-LCP",
     "opgg": "https://www.op.gg/summoners/las/dachito34-LCP",
     "history": [
@@ -978,6 +987,15 @@
         "elo": 1030,
         "wins": 3,
         "losses": 5
+      },
+      {
+        "run": "2026-10-10T03:09:38Z",
+        "tier": "SILVER",
+        "division": "II",
+        "lp": 20,
+        "elo": 1020,
+        "wins": 3,
+        "losses": 6
       }
     ],
     "baseline": {
@@ -988,8 +1006,14 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-10T02:43:19Z",
+    "lastSync": "2026-10-10T03:09:38Z",
     "recent": [
+      {
+        "id": "LA2_1629519340",
+        "win": false,
+        "remake": false,
+        "ts": 1791600487973
+      },
       {
         "id": "LA2_1627104331",
         "win": false,
@@ -1079,7 +1103,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-10T02:43:19Z",
+    "lastSync": "2026-10-10T03:09:38Z",
     "recent": [
       {
         "id": "LA2_1628556128",
@@ -1443,7 +1467,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-10T02:43:19Z",
+    "lastSync": "2026-10-10T03:09:38Z",
     "recent": [
       {
         "id": "LA2_1629508815",
@@ -1711,7 +1735,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-10T02:43:19Z",
+    "lastSync": "2026-10-10T03:09:38Z",
     "recent": [
       {
         "id": "LA2_1629448333",
@@ -1832,7 +1856,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-10T02:43:19Z",
+    "lastSync": "2026-10-10T03:09:38Z",
     "recent": [
       {
         "id": "LA2_1629112610",
