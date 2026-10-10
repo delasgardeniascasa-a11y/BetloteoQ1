@@ -110,7 +110,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-10T16:07:50Z",
+    "lastSync": "2026-10-10T16:42:55Z",
     "recent": [
       {
         "id": "LA2_1629536451",
@@ -393,7 +393,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-10T16:07:50Z",
+    "lastSync": "2026-10-10T16:42:55Z",
     "recent": [
       {
         "id": "LA2_1629591026",
@@ -514,7 +514,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-10T16:07:50Z",
+    "lastSync": "2026-10-10T16:42:55Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -779,7 +779,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-10T16:07:50Z",
+    "lastSync": "2026-10-10T16:42:55Z",
     "recent": [
       {
         "id": "LA2_1629590960",
@@ -851,8 +851,8 @@
     "role": "SUP",
     "tier": "EMERALD",
     "division": "I",
-    "lp": 76,
-    "wins": 73,
+    "lp": 97,
+    "wins": 74,
     "losses": 51,
     "champions": [
       "Diana",
@@ -860,7 +860,7 @@
       "XinZhao"
     ],
     "profileIconId": 1162,
-    "streak": -1,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/ZicordS-JODA",
     "opgg": "https://www.op.gg/summoners/las/ZicordS-JODA",
     "history": [
@@ -971,6 +971,15 @@
         "elo": 2376,
         "wins": 73,
         "losses": 51
+      },
+      {
+        "run": "2026-10-10T16:42:55Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 97,
+        "elo": 2397,
+        "wins": 74,
+        "losses": 51
       }
     ],
     "baseline": {
@@ -981,8 +990,14 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-10T16:07:50Z",
+    "lastSync": "2026-10-10T16:42:55Z",
     "recent": [
+      {
+        "id": "LA2_1629619301",
+        "win": true,
+        "remake": false,
+        "ts": 1791650538863
+      },
       {
         "id": "LA2_1629371454",
         "win": false,
@@ -1036,12 +1051,6 @@
         "win": false,
         "remake": false,
         "ts": 1791418576550
-      },
-      {
-        "id": "LA2_1629042743",
-        "win": true,
-        "remake": false,
-        "ts": 1791415952054
       }
     ]
   },
@@ -1102,7 +1111,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-10T16:07:50Z",
+    "lastSync": "2026-10-10T16:42:55Z",
     "recent": [
       {
         "id": "LA2_1629533244",
@@ -1168,16 +1177,16 @@
     "role": "MID",
     "tier": "GOLD",
     "division": "III",
-    "lp": 72,
+    "lp": 62,
     "wins": 11,
-    "losses": 6,
+    "losses": 7,
     "champions": [
       "Vex",
       "Milio",
       "Zilean"
     ],
     "profileIconId": 6077,
-    "streak": 2,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Kamen+Rider+オーズ-Oink",
     "opgg": "https://www.op.gg/summoners/las/Kamen%20Rider%20%E3%82%AA%E3%83%BC%E3%82%BA-Oink",
     "history": [
@@ -1189,6 +1198,15 @@
         "elo": 1372,
         "wins": 11,
         "losses": 6
+      },
+      {
+        "run": "2026-10-10T16:42:55Z",
+        "tier": "GOLD",
+        "division": "III",
+        "lp": 62,
+        "elo": 1362,
+        "wins": 11,
+        "losses": 7
       }
     ],
     "baseline": {
@@ -1199,8 +1217,14 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-10T16:07:50Z",
+    "lastSync": "2026-10-10T16:42:55Z",
     "recent": [
+      {
+        "id": "LA2_1629618455",
+        "win": false,
+        "remake": false,
+        "ts": 1791650114842
+      },
       {
         "id": "LA2_1628556128",
         "win": true,
@@ -1254,12 +1278,6 @@
         "win": true,
         "remake": false,
         "ts": 1788890606608
-      },
-      {
-        "id": "LA2_1622776496",
-        "win": false,
-        "remake": false,
-        "ts": 1788888955701
       }
     ]
   },
@@ -1608,7 +1626,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-10T16:07:50Z",
+    "lastSync": "2026-10-10T16:42:55Z",
     "recent": [
       {
         "id": "LA2_1629599034",
@@ -1680,8 +1698,8 @@
     "role": "ADC",
     "tier": "DIAMOND",
     "division": "IV",
-    "lp": 0,
-    "wins": 316,
+    "lp": 19,
+    "wins": 317,
     "losses": 292,
     "champions": [
       "Jhin",
@@ -1689,7 +1707,7 @@
       "Vayne"
     ],
     "profileIconId": 1388,
-    "streak": -2,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/L3CKER-LAS",
     "opgg": "https://www.op.gg/summoners/las/L3CKER-LAS",
     "history": [
@@ -1890,6 +1908,15 @@
         "elo": 2400,
         "wins": 316,
         "losses": 292
+      },
+      {
+        "run": "2026-10-10T16:42:55Z",
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 19,
+        "elo": 2419,
+        "wins": 317,
+        "losses": 292
       }
     ],
     "baseline": {
@@ -1900,8 +1927,14 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-10T16:07:50Z",
+    "lastSync": "2026-10-10T16:42:55Z",
     "recent": [
+      {
+        "id": "LA2_1629619301",
+        "win": true,
+        "remake": false,
+        "ts": 1791650538863
+      },
       {
         "id": "LA2_1629613520",
         "win": false,
@@ -1955,12 +1988,6 @@
         "win": true,
         "remake": false,
         "ts": 1791503974349
-      },
-      {
-        "id": "LA2_1629204455",
-        "win": true,
-        "remake": false,
-        "ts": 1791486925013
       }
     ]
   },
@@ -2021,7 +2048,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-10T16:07:50Z",
+    "lastSync": "2026-10-10T16:42:55Z",
     "recent": [
       {
         "id": "LA2_1629112610",
