@@ -110,7 +110,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-10T07:41:54Z",
+    "lastSync": "2026-10-10T08:09:14Z",
     "recent": [
       {
         "id": "LA2_1629536451",
@@ -393,7 +393,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-10T07:41:54Z",
+    "lastSync": "2026-10-10T08:09:14Z",
     "recent": [
       {
         "id": "LA2_1629591026",
@@ -514,7 +514,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-10T07:41:54Z",
+    "lastSync": "2026-10-10T08:09:14Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -586,16 +586,16 @@
     "role": "ADC",
     "tier": "MASTER",
     "division": "I",
-    "lp": 529,
+    "lp": 508,
     "wins": 211,
-    "losses": 203,
+    "losses": 204,
     "champions": [
       "Fiddlesticks",
       "Pyke",
       "Mordekaiser"
     ],
     "profileIconId": 7144,
-    "streak": -1,
+    "streak": -2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Alta+Frecuencia-3112",
     "opgg": "https://www.op.gg/summoners/las/Alta%20Frecuencia-3112",
     "history": [
@@ -751,6 +751,15 @@
         "elo": 3329,
         "wins": 211,
         "losses": 203
+      },
+      {
+        "run": "2026-10-10T08:09:14Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 508,
+        "elo": 3308,
+        "wins": 211,
+        "losses": 204
       }
     ],
     "baseline": {
@@ -761,8 +770,14 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-10T07:41:54Z",
+    "lastSync": "2026-10-10T08:09:14Z",
     "recent": [
+      {
+        "id": "LA2_1629588959",
+        "win": false,
+        "remake": false,
+        "ts": 1791618352132
+      },
       {
         "id": "LA2_1629585920",
         "win": false,
@@ -816,12 +831,6 @@
         "win": false,
         "remake": false,
         "ts": 1791502956434
-      },
-      {
-        "id": "LA2_1629247629",
-        "win": false,
-        "remake": false,
-        "ts": 1791500745959
       }
     ]
   },
@@ -963,7 +972,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-10T07:41:54Z",
+    "lastSync": "2026-10-10T08:09:14Z",
     "recent": [
       {
         "id": "LA2_1629371454",
@@ -1084,7 +1093,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-10T07:41:54Z",
+    "lastSync": "2026-10-10T08:09:14Z",
     "recent": [
       {
         "id": "LA2_1629533244",
@@ -1181,7 +1190,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-10T07:41:54Z",
+    "lastSync": "2026-10-10T08:09:14Z",
     "recent": [
       {
         "id": "LA2_1628556128",
@@ -1253,16 +1262,16 @@
     "role": "JGL",
     "tier": "DIAMOND",
     "division": "I",
-    "lp": 21,
+    "lp": 2,
     "wins": 323,
-    "losses": 311,
+    "losses": 312,
     "champions": [
       "Sylas",
       "LeeSin",
       "Briar"
     ],
     "profileIconId": 7,
-    "streak": -2,
+    "streak": -3,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
     "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
     "history": [
@@ -1553,6 +1562,15 @@
         "elo": 2721,
         "wins": 323,
         "losses": 311
+      },
+      {
+        "run": "2026-10-10T08:09:14Z",
+        "tier": "DIAMOND",
+        "division": "I",
+        "lp": 2,
+        "elo": 2702,
+        "wins": 323,
+        "losses": 312
       }
     ],
     "baseline": {
@@ -1563,8 +1581,14 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-10T07:41:54Z",
+    "lastSync": "2026-10-10T08:09:14Z",
     "recent": [
+      {
+        "id": "LA2_1629593425",
+        "win": false,
+        "remake": false,
+        "ts": 1791619060203
+      },
       {
         "id": "LA2_1629541384",
         "win": false,
@@ -1618,12 +1642,6 @@
         "win": false,
         "remake": false,
         "ts": 1791507173684
-      },
-      {
-        "id": "LA2_1629241688",
-        "win": false,
-        "remake": false,
-        "ts": 1791499310000
       }
     ]
   },
@@ -1846,7 +1864,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-10T07:41:54Z",
+    "lastSync": "2026-10-10T08:09:14Z",
     "recent": [
       {
         "id": "LA2_1629579948",
@@ -1967,7 +1985,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-10T07:41:54Z",
+    "lastSync": "2026-10-10T08:09:14Z",
     "recent": [
       {
         "id": "LA2_1629112610",
