@@ -6,17 +6,17 @@
     "region": "las",
     "role": "TOP",
     "tier": "GOLD",
-    "division": "III",
-    "lp": 26,
-    "wins": 388,
-    "losses": 392,
+    "division": "IV",
+    "lp": 98,
+    "wins": 391,
+    "losses": 396,
     "champions": [
       "Sett",
       "Garen",
       "Pantheon"
     ],
     "profileIconId": 7094,
-    "streak": 2,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/D+WOLF-HMBLE",
     "opgg": "https://www.op.gg/summoners/las/D%20WOLF-HMBLE",
     "history": [
@@ -100,6 +100,15 @@
         "elo": 1326,
         "wins": 388,
         "losses": 392
+      },
+      {
+        "run": "2026-10-11T23:10:28Z",
+        "tier": "GOLD",
+        "division": "IV",
+        "lp": 98,
+        "elo": 1298,
+        "wins": 391,
+        "losses": 396
       }
     ],
     "baseline": {
@@ -110,8 +119,50 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-10T17:40:41Z",
+    "lastSync": "2026-10-11T23:10:28Z",
     "recent": [
+      {
+        "id": "LA2_1629735092",
+        "win": false,
+        "remake": false,
+        "ts": 1791683049066
+      },
+      {
+        "id": "LA2_1629721726",
+        "win": true,
+        "remake": false,
+        "ts": 1791681048094
+      },
+      {
+        "id": "LA2_1629682830",
+        "win": true,
+        "remake": false,
+        "ts": 1791671154606
+      },
+      {
+        "id": "LA2_1629674612",
+        "win": true,
+        "remake": false,
+        "ts": 1791668828598
+      },
+      {
+        "id": "LA2_1629667349",
+        "win": false,
+        "remake": false,
+        "ts": 1791666950553
+      },
+      {
+        "id": "LA2_1629643260",
+        "win": false,
+        "remake": false,
+        "ts": 1791659683410
+      },
+      {
+        "id": "LA2_1629635954",
+        "win": false,
+        "remake": false,
+        "ts": 1791657560064
+      },
       {
         "id": "LA2_1629536451",
         "win": true,
@@ -129,48 +180,6 @@
         "win": false,
         "remake": false,
         "ts": 1791598987790
-      },
-      {
-        "id": "LA2_1629473511",
-        "win": false,
-        "remake": false,
-        "ts": 1791591027596
-      },
-      {
-        "id": "LA2_1629466394",
-        "win": false,
-        "remake": false,
-        "ts": 1791588374899
-      },
-      {
-        "id": "LA2_1629294643",
-        "win": true,
-        "remake": false,
-        "ts": 1791511598657
-      },
-      {
-        "id": "LA2_1629158671",
-        "win": true,
-        "remake": false,
-        "ts": 1791445788092
-      },
-      {
-        "id": "LA2_1629161233",
-        "win": false,
-        "remake": false,
-        "ts": 1791443469897
-      },
-      {
-        "id": "LA2_1628565356",
-        "win": true,
-        "remake": false,
-        "ts": 1791179841243
-      },
-      {
-        "id": "LA2_1628556128",
-        "win": true,
-        "remake": false,
-        "ts": 1791175779098
       }
     ]
   },
@@ -182,8 +191,8 @@
     "role": "JGL",
     "tier": "GOLD",
     "division": "I",
-    "lp": 27,
-    "wins": 415,
+    "lp": 44,
+    "wins": 416,
     "losses": 405,
     "champions": [
       "Warwick",
@@ -191,7 +200,7 @@
       "Viego"
     ],
     "profileIconId": 3546,
-    "streak": -3,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/BlackMarvel-paint",
     "opgg": "https://www.op.gg/summoners/las/BlackMarvel-paint",
     "history": [
@@ -383,6 +392,15 @@
         "elo": 1527,
         "wins": 415,
         "losses": 405
+      },
+      {
+        "run": "2026-10-11T23:10:28Z",
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 44,
+        "elo": 1544,
+        "wins": 416,
+        "losses": 405
       }
     ],
     "baseline": {
@@ -393,8 +411,14 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-10T17:40:41Z",
+    "lastSync": "2026-10-11T23:10:28Z",
     "recent": [
+      {
+        "id": "LA2_1629824785",
+        "win": true,
+        "remake": false,
+        "ts": 1791707950123
+      },
       {
         "id": "LA2_1629591026",
         "win": false,
@@ -448,12 +472,6 @@
         "win": true,
         "remake": false,
         "ts": 1791571765754
-      },
-      {
-        "id": "LA2_1629332208",
-        "win": true,
-        "remake": false,
-        "ts": 1791518042572
       }
     ]
   },
@@ -514,7 +532,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-10T17:40:41Z",
+    "lastSync": "2026-10-11T23:10:28Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -586,8 +604,8 @@
     "role": "ADC",
     "tier": "MASTER",
     "division": "I",
-    "lp": 487,
-    "wins": 211,
+    "lp": 506,
+    "wins": 212,
     "losses": 205,
     "champions": [
       "Fiddlesticks",
@@ -595,7 +613,7 @@
       "Mordekaiser"
     ],
     "profileIconId": 7144,
-    "streak": -3,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Alta+Frecuencia-3112",
     "opgg": "https://www.op.gg/summoners/las/Alta%20Frecuencia-3112",
     "history": [
@@ -769,6 +787,15 @@
         "elo": 3287,
         "wins": 211,
         "losses": 205
+      },
+      {
+        "run": "2026-10-11T23:10:28Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 506,
+        "elo": 3306,
+        "wins": 212,
+        "losses": 205
       }
     ],
     "baseline": {
@@ -779,8 +806,14 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-10T17:40:41Z",
+    "lastSync": "2026-10-11T23:10:28Z",
     "recent": [
+      {
+        "id": "LA2_1629626954",
+        "win": true,
+        "remake": false,
+        "ts": 1791654151759
+      },
       {
         "id": "LA2_1629590960",
         "win": false,
@@ -834,12 +867,6 @@
         "win": false,
         "remake": false,
         "ts": 1791515864943
-      },
-      {
-        "id": "LA2_1629311164",
-        "win": true,
-        "remake": false,
-        "ts": 1791513168069
       }
     ]
   },
@@ -849,18 +876,18 @@
     "tag": "JODA",
     "region": "las",
     "role": "SUP",
-    "tier": "EMERALD",
-    "division": "I",
-    "lp": 78,
-    "wins": 74,
-    "losses": 52,
+    "tier": "DIAMOND",
+    "division": "IV",
+    "lp": 1,
+    "wins": 76,
+    "losses": 54,
     "champions": [
       "Diana",
       "MasterYi",
       "XinZhao"
     ],
     "profileIconId": 1162,
-    "streak": -1,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/ZicordS-JODA",
     "opgg": "https://www.op.gg/summoners/las/ZicordS-JODA",
     "history": [
@@ -989,6 +1016,15 @@
         "elo": 2378,
         "wins": 74,
         "losses": 52
+      },
+      {
+        "run": "2026-10-11T23:10:28Z",
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 1,
+        "elo": 2401,
+        "wins": 76,
+        "losses": 54
       }
     ],
     "baseline": {
@@ -999,8 +1035,32 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-10T17:40:41Z",
+    "lastSync": "2026-10-11T23:10:28Z",
     "recent": [
+      {
+        "id": "LA2_1629666775",
+        "win": true,
+        "remake": false,
+        "ts": 1791666725696
+      },
+      {
+        "id": "LA2_1629665303",
+        "win": false,
+        "remake": false,
+        "ts": 1791664932343
+      },
+      {
+        "id": "LA2_1629654469",
+        "win": true,
+        "remake": false,
+        "ts": 1791663127208
+      },
+      {
+        "id": "LA2_1629645393",
+        "win": false,
+        "remake": false,
+        "ts": 1791660254725
+      },
       {
         "id": "LA2_1629627063",
         "win": false,
@@ -1036,30 +1096,6 @@
         "win": true,
         "remake": false,
         "ts": 1791508996563
-      },
-      {
-        "id": "LA2_1629273463",
-        "win": false,
-        "remake": false,
-        "ts": 1791506673887
-      },
-      {
-        "id": "LA2_1629263510",
-        "win": true,
-        "remake": false,
-        "ts": 1791503974349
-      },
-      {
-        "id": "LA2_1629256121",
-        "win": true,
-        "remake": false,
-        "ts": 1791501746685
-      },
-      {
-        "id": "LA2_1629065948",
-        "win": false,
-        "remake": false,
-        "ts": 1791420733350
       }
     ]
   },
@@ -1120,7 +1156,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-10T17:40:41Z",
+    "lastSync": "2026-10-11T23:10:28Z",
     "recent": [
       {
         "id": "LA2_1629533244",
@@ -1226,7 +1262,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-10T17:40:41Z",
+    "lastSync": "2026-10-11T23:10:28Z",
     "recent": [
       {
         "id": "LA2_1629618455",
@@ -1297,17 +1333,17 @@
     "region": "las",
     "role": "JGL",
     "tier": "DIAMOND",
-    "division": "I",
-    "lp": 4,
-    "wins": 324,
-    "losses": 313,
+    "division": "II",
+    "lp": 50,
+    "wins": 326,
+    "losses": 318,
     "champions": [
       "Sylas",
       "LeeSin",
       "Briar"
     ],
-    "profileIconId": 7,
-    "streak": 1,
+    "profileIconId": 7143,
+    "streak": -3,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
     "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
     "history": [
@@ -1625,6 +1661,15 @@
         "elo": 2704,
         "wins": 324,
         "losses": 313
+      },
+      {
+        "run": "2026-10-11T23:10:28Z",
+        "tier": "DIAMOND",
+        "division": "II",
+        "lp": 50,
+        "elo": 2650,
+        "wins": 326,
+        "losses": 318
       }
     ],
     "baseline": {
@@ -1635,8 +1680,50 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-10T17:40:41Z",
+    "lastSync": "2026-10-11T23:10:28Z",
     "recent": [
+      {
+        "id": "LA2_1629908021",
+        "win": false,
+        "remake": false,
+        "ts": 1791753292325
+      },
+      {
+        "id": "LA2_1629896487",
+        "win": false,
+        "remake": false,
+        "ts": 1791752086269
+      },
+      {
+        "id": "LA2_1629888320",
+        "win": false,
+        "remake": false,
+        "ts": 1791749720434
+      },
+      {
+        "id": "LA2_1629880013",
+        "win": true,
+        "remake": false,
+        "ts": 1791746722497
+      },
+      {
+        "id": "LA2_1629816962",
+        "win": false,
+        "remake": false,
+        "ts": 1791703338077
+      },
+      {
+        "id": "LA2_1629812969",
+        "win": true,
+        "remake": false,
+        "ts": 1791701182080
+      },
+      {
+        "id": "LA2_1629806669",
+        "win": false,
+        "remake": false,
+        "ts": 1791699189801
+      },
       {
         "id": "LA2_1629599034",
         "win": true,
@@ -1654,48 +1741,6 @@
         "win": false,
         "remake": false,
         "ts": 1791619060203
-      },
-      {
-        "id": "LA2_1629541384",
-        "win": false,
-        "remake": false,
-        "ts": 1791604261469
-      },
-      {
-        "id": "LA2_1629524706",
-        "win": false,
-        "remake": false,
-        "ts": 1791602067574
-      },
-      {
-        "id": "LA2_1629508815",
-        "win": true,
-        "remake": false,
-        "ts": 1791599596318
-      },
-      {
-        "id": "LA2_1629488943",
-        "win": false,
-        "remake": false,
-        "ts": 1791595004411
-      },
-      {
-        "id": "LA2_1629430440",
-        "win": false,
-        "remake": false,
-        "ts": 1791577822723
-      },
-      {
-        "id": "LA2_1629424242",
-        "win": false,
-        "remake": false,
-        "ts": 1791575063902
-      },
-      {
-        "id": "LA2_1629353553",
-        "win": false,
-        "remake": false,
-        "ts": 1791521296262
       }
     ]
   },
@@ -1706,17 +1751,17 @@
     "region": "las",
     "role": "ADC",
     "tier": "DIAMOND",
-    "division": "IV",
-    "lp": 19,
-    "wins": 317,
-    "losses": 292,
+    "division": "III",
+    "lp": 1,
+    "wins": 325,
+    "losses": 296,
     "champions": [
       "Jhin",
       "Lucian",
       "Vayne"
     ],
     "profileIconId": 1388,
-    "streak": 1,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/L3CKER-LAS",
     "opgg": "https://www.op.gg/summoners/las/L3CKER-LAS",
     "history": [
@@ -1926,6 +1971,15 @@
         "elo": 2419,
         "wins": 317,
         "losses": 292
+      },
+      {
+        "run": "2026-10-11T23:10:28Z",
+        "tier": "DIAMOND",
+        "division": "III",
+        "lp": 1,
+        "elo": 2501,
+        "wins": 325,
+        "losses": 296
       }
     ],
     "baseline": {
@@ -1936,67 +1990,67 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-10T17:40:41Z",
+    "lastSync": "2026-10-11T23:10:28Z",
     "recent": [
       {
-        "id": "LA2_1629619301",
-        "win": true,
-        "remake": false,
-        "ts": 1791650538863
-      },
-      {
-        "id": "LA2_1629613520",
+        "id": "LA2_1629857943",
         "win": false,
         "remake": false,
-        "ts": 1791647994409
+        "ts": 1791740640171
       },
       {
-        "id": "LA2_1629579948",
+        "id": "LA2_1629826492",
+        "win": true,
+        "remake": false,
+        "ts": 1791706569458
+      },
+      {
+        "id": "LA2_1629808229",
+        "win": true,
+        "remake": false,
+        "ts": 1791698525820
+      },
+      {
+        "id": "LA2_1629782234",
+        "win": true,
+        "remake": false,
+        "ts": 1791692880645
+      },
+      {
+        "id": "LA2_1629737411",
+        "win": true,
+        "remake": false,
+        "ts": 1791684417962
+      },
+      {
+        "id": "LA2_1629719754",
+        "win": true,
+        "remake": false,
+        "ts": 1791679337789
+      },
+      {
+        "id": "LA2_1629704702",
+        "win": true,
+        "remake": false,
+        "ts": 1791676487796
+      },
+      {
+        "id": "LA2_1629699592",
         "win": false,
         "remake": false,
-        "ts": 1791613962240
+        "ts": 1791674658735
       },
       {
-        "id": "LA2_1629448333",
+        "id": "LA2_1629666775",
         "win": true,
         "remake": false,
-        "ts": 1791583948225
+        "ts": 1791666725696
       },
       {
-        "id": "LA2_1629433619",
-        "win": true,
-        "remake": false,
-        "ts": 1791579303468
-      },
-      {
-        "id": "LA2_1629381851",
-        "win": true,
-        "remake": false,
-        "ts": 1791553580625
-      },
-      {
-        "id": "LA2_1629296633",
-        "win": true,
-        "remake": false,
-        "ts": 1791510824792
-      },
-      {
-        "id": "LA2_1629286518",
-        "win": true,
-        "remake": false,
-        "ts": 1791508996563
-      },
-      {
-        "id": "LA2_1629273463",
+        "id": "LA2_1629665303",
         "win": false,
         "remake": false,
-        "ts": 1791506673887
-      },
-      {
-        "id": "LA2_1629263510",
-        "win": true,
-        "remake": false,
-        "ts": 1791503974349
+        "ts": 1791664932343
       }
     ]
   },
@@ -2008,8 +2062,8 @@
     "role": "SUP",
     "tier": "DIAMOND",
     "division": "IV",
-    "lp": 20,
-    "wins": 138,
+    "lp": 40,
+    "wins": 139,
     "losses": 123,
     "champions": [
       "Sett",
@@ -2017,7 +2071,7 @@
       "Akali"
     ],
     "profileIconId": 5455,
-    "streak": 1,
+    "streak": 2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Lanoni-2403",
     "opgg": "https://www.op.gg/summoners/las/Lanoni-2403",
     "history": [
@@ -2047,6 +2101,15 @@
         "elo": 2420,
         "wins": 138,
         "losses": 123
+      },
+      {
+        "run": "2026-10-11T23:10:28Z",
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 40,
+        "elo": 2440,
+        "wins": 139,
+        "losses": 123
       }
     ],
     "baseline": {
@@ -2057,8 +2120,14 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-10T17:40:41Z",
+    "lastSync": "2026-10-11T23:10:28Z",
     "recent": [
+      {
+        "id": "LA2_1629750059",
+        "win": true,
+        "remake": false,
+        "ts": 1791686786846
+      },
       {
         "id": "LA2_1629112610",
         "win": true,
@@ -2106,12 +2175,6 @@
         "win": true,
         "remake": false,
         "ts": 1791212125838
-      },
-      {
-        "id": "LA2_1628488964",
-        "win": true,
-        "remake": false,
-        "ts": 1791163597209
       }
     ]
   }
