@@ -119,7 +119,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-12T02:11:24Z",
+    "lastSync": "2026-10-12T02:45:56Z",
     "recent": [
       {
         "id": "LA2_1629735092",
@@ -191,16 +191,16 @@
     "role": "JGL",
     "tier": "GOLD",
     "division": "I",
-    "lp": 44,
+    "lp": 21,
     "wins": 416,
-    "losses": 405,
+    "losses": 406,
     "champions": [
       "Warwick",
       "Sylas",
       "Viego"
     ],
     "profileIconId": 3546,
-    "streak": 1,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/BlackMarvel-paint",
     "opgg": "https://www.op.gg/summoners/las/BlackMarvel-paint",
     "history": [
@@ -401,6 +401,15 @@
         "elo": 1544,
         "wins": 416,
         "losses": 405
+      },
+      {
+        "run": "2026-10-12T02:45:56Z",
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 21,
+        "elo": 1521,
+        "wins": 416,
+        "losses": 406
       }
     ],
     "baseline": {
@@ -411,8 +420,14 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-12T02:11:24Z",
+    "lastSync": "2026-10-12T02:45:56Z",
     "recent": [
+      {
+        "id": "LA2_1629991521",
+        "win": false,
+        "remake": false,
+        "ts": 1791772518717
+      },
       {
         "id": "LA2_1629824785",
         "win": true,
@@ -466,12 +481,6 @@
         "win": false,
         "remake": false,
         "ts": 1791588315617
-      },
-      {
-        "id": "LA2_1629413848",
-        "win": true,
-        "remake": false,
-        "ts": 1791571765754
       }
     ]
   },
@@ -532,7 +541,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-12T02:11:24Z",
+    "lastSync": "2026-10-12T02:45:56Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -806,7 +815,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-12T02:11:24Z",
+    "lastSync": "2026-10-12T02:45:56Z",
     "recent": [
       {
         "id": "LA2_1629626954",
@@ -1035,7 +1044,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-12T02:11:24Z",
+    "lastSync": "2026-10-12T02:45:56Z",
     "recent": [
       {
         "id": "LA2_1629666775",
@@ -1156,7 +1165,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-12T02:11:24Z",
+    "lastSync": "2026-10-12T02:45:56Z",
     "recent": [
       {
         "id": "LA2_1629533244",
@@ -1262,7 +1271,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-12T02:11:24Z",
+    "lastSync": "2026-10-12T02:45:56Z",
     "recent": [
       {
         "id": "LA2_1629618455",
@@ -1689,7 +1698,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-12T02:11:24Z",
+    "lastSync": "2026-10-12T02:45:56Z",
     "recent": [
       {
         "id": "LA2_1629939508",
@@ -1761,16 +1770,16 @@
     "role": "ADC",
     "tier": "DIAMOND",
     "division": "IV",
-    "lp": 99,
+    "lp": 77,
     "wins": 326,
-    "losses": 298,
+    "losses": 299,
     "champions": [
       "Jhin",
       "Lucian",
       "Vayne"
     ],
     "profileIconId": 1388,
-    "streak": -1,
+    "streak": -2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/L3CKER-LAS",
     "opgg": "https://www.op.gg/summoners/las/L3CKER-LAS",
     "history": [
@@ -2016,6 +2025,15 @@
         "elo": 2499,
         "wins": 326,
         "losses": 298
+      },
+      {
+        "run": "2026-10-12T02:45:56Z",
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 77,
+        "elo": 2477,
+        "wins": 326,
+        "losses": 299
       }
     ],
     "baseline": {
@@ -2026,8 +2044,14 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-12T02:11:24Z",
+    "lastSync": "2026-10-12T02:45:56Z",
     "recent": [
+      {
+        "id": "LA2_1629987776",
+        "win": false,
+        "remake": false,
+        "ts": 1791771775201
+      },
       {
         "id": "LA2_1629969117",
         "win": false,
@@ -2081,12 +2105,6 @@
         "win": true,
         "remake": false,
         "ts": 1791679337789
-      },
-      {
-        "id": "LA2_1629704702",
-        "win": true,
-        "remake": false,
-        "ts": 1791676487796
       }
     ]
   },
@@ -2156,7 +2174,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-12T02:11:24Z",
+    "lastSync": "2026-10-12T02:45:56Z",
     "recent": [
       {
         "id": "LA2_1629750059",
