@@ -119,7 +119,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-12T05:45:45Z",
+    "lastSync": "2026-10-12T06:15:55Z",
     "recent": [
       {
         "id": "LA2_1629735092",
@@ -420,7 +420,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-12T05:45:45Z",
+    "lastSync": "2026-10-12T06:15:55Z",
     "recent": [
       {
         "id": "LA2_1629991521",
@@ -541,7 +541,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-12T05:45:45Z",
+    "lastSync": "2026-10-12T06:15:55Z",
     "recent": [
       {
         "id": "LA2_1629190782",
@@ -1044,7 +1044,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-12T05:45:45Z",
+    "lastSync": "2026-10-12T06:15:55Z",
     "recent": [
       {
         "id": "LA2_1629666775",
@@ -1165,7 +1165,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-12T05:45:45Z",
+    "lastSync": "2026-10-12T06:15:55Z",
     "recent": [
       {
         "id": "LA2_1629533244",
@@ -1271,7 +1271,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-12T05:45:45Z",
+    "lastSync": "2026-10-12T06:15:55Z",
     "recent": [
       {
         "id": "LA2_1629618455",
@@ -1343,16 +1343,16 @@
     "role": "JGL",
     "tier": "DIAMOND",
     "division": "II",
-    "lp": 50,
+    "lp": 30,
     "wins": 327,
-    "losses": 319,
+    "losses": 320,
     "champions": [
       "Sylas",
       "LeeSin",
       "Briar"
     ],
     "profileIconId": 7143,
-    "streak": 1,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
     "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
     "history": [
@@ -1697,6 +1697,15 @@
         "elo": 2650,
         "wins": 327,
         "losses": 319
+      },
+      {
+        "run": "2026-10-12T06:15:55Z",
+        "tier": "DIAMOND",
+        "division": "II",
+        "lp": 30,
+        "elo": 2630,
+        "wins": 327,
+        "losses": 320
       }
     ],
     "baseline": {
@@ -1707,8 +1716,14 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-12T05:45:45Z",
+    "lastSync": "2026-10-12T06:15:55Z",
     "recent": [
+      {
+        "id": "LA2_1630057869",
+        "win": false,
+        "remake": false,
+        "ts": 1791784953060
+      },
       {
         "id": "LA2_1630050600",
         "win": true,
@@ -1762,12 +1777,6 @@
         "win": false,
         "remake": false,
         "ts": 1791699189801
-      },
-      {
-        "id": "LA2_1629599034",
-        "win": true,
-        "remake": false,
-        "ts": 1791623180164
       }
     ]
   },
@@ -2053,7 +2062,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-12T05:45:45Z",
+    "lastSync": "2026-10-12T06:15:55Z",
     "recent": [
       {
         "id": "LA2_1629987776",
@@ -2183,7 +2192,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-12T05:45:45Z",
+    "lastSync": "2026-10-12T06:15:55Z",
     "recent": [
       {
         "id": "LA2_1629750059",
