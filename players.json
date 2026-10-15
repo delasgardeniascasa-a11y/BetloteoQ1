@@ -128,7 +128,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-15T04:57:37Z",
+    "lastSync": "2026-10-15T05:25:05Z",
     "recent": [
       {
         "id": "LA2_1630314059",
@@ -200,8 +200,8 @@
     "role": "JGL",
     "tier": "GOLD",
     "division": "I",
-    "lp": 1,
-    "wins": 420,
+    "lp": 19,
+    "wins": 421,
     "losses": 410,
     "champions": [
       "Warwick",
@@ -209,7 +209,7 @@
       "Viego"
     ],
     "profileIconId": 5642,
-    "streak": 1,
+    "streak": 2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/BlackMarvel-paint",
     "opgg": "https://www.op.gg/summoners/las/BlackMarvel-paint",
     "history": [
@@ -455,6 +455,15 @@
         "elo": 1501,
         "wins": 420,
         "losses": 410
+      },
+      {
+        "run": "2026-10-15T05:25:05Z",
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 19,
+        "elo": 1519,
+        "wins": 421,
+        "losses": 410
       }
     ],
     "baseline": {
@@ -465,8 +474,14 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-15T04:57:37Z",
+    "lastSync": "2026-10-15T05:25:05Z",
     "recent": [
+      {
+        "id": "LA2_1630745187",
+        "win": true,
+        "remake": false,
+        "ts": 1792041205448
+      },
       {
         "id": "LA2_1630723883",
         "win": true,
@@ -514,12 +529,6 @@
         "win": false,
         "remake": false,
         "ts": 1791846129489
-      },
-      {
-        "id": "LA2_1629991521",
-        "win": false,
-        "remake": false,
-        "ts": 1791772518717
       }
     ]
   },
@@ -589,7 +598,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-15T04:57:37Z",
+    "lastSync": "2026-10-15T05:25:05Z",
     "recent": [
       {
         "id": "LA2_1630348510",
@@ -1092,7 +1101,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-15T04:57:37Z",
+    "lastSync": "2026-10-15T05:25:05Z",
     "recent": [
       {
         "id": "LA2_1629666775",
@@ -1222,7 +1231,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-15T04:57:37Z",
+    "lastSync": "2026-10-15T05:25:05Z",
     "recent": [
       {
         "id": "LA2_1630737790",
@@ -1343,7 +1352,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-15T04:57:37Z",
+    "lastSync": "2026-10-15T05:25:05Z",
     "recent": [
       {
         "id": "LA2_1630537526",
@@ -1415,16 +1424,16 @@
     "role": "JGL",
     "tier": "DIAMOND",
     "division": "II",
-    "lp": 51,
+    "lp": 31,
     "wins": 342,
-    "losses": 335,
+    "losses": 336,
     "champions": [
       "Sylas",
       "LeeSin",
       "Briar"
     ],
     "profileIconId": 7143,
-    "streak": -1,
+    "streak": -2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
     "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
     "history": [
@@ -1859,6 +1868,15 @@
         "elo": 2651,
         "wins": 342,
         "losses": 335
+      },
+      {
+        "run": "2026-10-15T05:25:05Z",
+        "tier": "DIAMOND",
+        "division": "II",
+        "lp": 31,
+        "elo": 2631,
+        "wins": 342,
+        "losses": 336
       }
     ],
     "baseline": {
@@ -1869,8 +1887,14 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-15T04:57:37Z",
+    "lastSync": "2026-10-15T05:25:05Z",
     "recent": [
+      {
+        "id": "LA2_1630745411",
+        "win": false,
+        "remake": false,
+        "ts": 1792041433028
+      },
       {
         "id": "LA2_1630700187",
         "win": false,
@@ -1924,12 +1948,6 @@
         "win": false,
         "remake": false,
         "ts": 1792007889174
-      },
-      {
-        "id": "LA2_1630593273",
-        "win": false,
-        "remake": false,
-        "ts": 1792005868359
       }
     ]
   },
@@ -2251,7 +2269,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-15T04:57:37Z",
+    "lastSync": "2026-10-15T05:25:05Z",
     "recent": [
       {
         "id": "LA2_1630698403",
@@ -2393,7 +2411,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-15T04:57:37Z",
+    "lastSync": "2026-10-15T05:25:05Z",
     "recent": [
       {
         "id": "LA2_1630710861",
