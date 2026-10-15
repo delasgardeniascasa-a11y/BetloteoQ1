@@ -128,7 +128,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-15T02:58:20Z",
+    "lastSync": "2026-10-15T03:27:17Z",
     "recent": [
       {
         "id": "LA2_1630314059",
@@ -456,7 +456,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-15T02:58:20Z",
+    "lastSync": "2026-10-15T03:27:17Z",
     "recent": [
       {
         "id": "LA2_1630657738",
@@ -586,7 +586,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-15T02:58:20Z",
+    "lastSync": "2026-10-15T03:27:17Z",
     "recent": [
       {
         "id": "LA2_1630348510",
@@ -1089,7 +1089,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-15T02:58:20Z",
+    "lastSync": "2026-10-15T03:27:17Z",
     "recent": [
       {
         "id": "LA2_1629666775",
@@ -1210,7 +1210,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-15T02:58:20Z",
+    "lastSync": "2026-10-15T03:27:17Z",
     "recent": [
       {
         "id": "LA2_1629533244",
@@ -1325,7 +1325,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-15T02:58:20Z",
+    "lastSync": "2026-10-15T03:27:17Z",
     "recent": [
       {
         "id": "LA2_1630537526",
@@ -1851,7 +1851,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-15T02:58:20Z",
+    "lastSync": "2026-10-15T03:27:17Z",
     "recent": [
       {
         "id": "LA2_1630700187",
@@ -2233,7 +2233,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-15T02:58:20Z",
+    "lastSync": "2026-10-15T03:27:17Z",
     "recent": [
       {
         "id": "LA2_1630698403",
@@ -2299,8 +2299,8 @@
     "role": "SUP",
     "tier": "DIAMOND",
     "division": "III",
-    "lp": 1,
-    "wins": 143,
+    "lp": 21,
+    "wins": 144,
     "losses": 124,
     "champions": [
       "Sett",
@@ -2308,7 +2308,7 @@
       "Akali"
     ],
     "profileIconId": 5455,
-    "streak": -1,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Lanoni-2403",
     "opgg": "https://www.op.gg/summoners/las/Lanoni-2403",
     "history": [
@@ -2356,6 +2356,15 @@
         "elo": 2501,
         "wins": 143,
         "losses": 124
+      },
+      {
+        "run": "2026-10-15T03:27:17Z",
+        "tier": "DIAMOND",
+        "division": "III",
+        "lp": 21,
+        "elo": 2521,
+        "wins": 144,
+        "losses": 124
       }
     ],
     "baseline": {
@@ -2366,8 +2375,14 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-15T02:58:20Z",
+    "lastSync": "2026-10-15T03:27:17Z",
     "recent": [
+      {
+        "id": "LA2_1630710861",
+        "win": true,
+        "remake": false,
+        "ts": 1792034416915
+      },
       {
         "id": "LA2_1630556583",
         "win": false,
@@ -2421,12 +2436,6 @@
         "win": false,
         "remake": false,
         "ts": 1791343068491
-      },
-      {
-        "id": "LA2_1628780515",
-        "win": false,
-        "remake": false,
-        "ts": 1791297447125
       }
     ]
   }
