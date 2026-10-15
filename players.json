@@ -128,7 +128,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-15T09:59:57Z",
+    "lastSync": "2026-10-15T10:32:34Z",
     "recent": [
       {
         "id": "LA2_1630314059",
@@ -474,7 +474,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-15T09:59:57Z",
+    "lastSync": "2026-10-15T10:32:34Z",
     "recent": [
       {
         "id": "LA2_1630745187",
@@ -598,7 +598,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-15T09:59:57Z",
+    "lastSync": "2026-10-15T10:32:34Z",
     "recent": [
       {
         "id": "LA2_1630348510",
@@ -1101,7 +1101,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-15T09:59:57Z",
+    "lastSync": "2026-10-15T10:32:34Z",
     "recent": [
       {
         "id": "LA2_1629666775",
@@ -1249,7 +1249,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-15T09:59:57Z",
+    "lastSync": "2026-10-15T10:32:34Z",
     "recent": [
       {
         "id": "LA2_1630758683",
@@ -1370,7 +1370,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-15T09:59:57Z",
+    "lastSync": "2026-10-15T10:32:34Z",
     "recent": [
       {
         "id": "LA2_1630537526",
@@ -1914,7 +1914,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-15T09:59:57Z",
+    "lastSync": "2026-10-15T10:32:34Z",
     "recent": [
       {
         "id": "LA2_1630747916",
@@ -1988,14 +1988,14 @@
     "division": "III",
     "lp": 43,
     "wins": 339,
-    "losses": 308,
+    "losses": 309,
     "champions": [
       "Jhin",
       "Lucian",
       "Vayne"
     ],
     "profileIconId": 1388,
-    "streak": 2,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/L3CKER-LAS",
     "opgg": "https://www.op.gg/summoners/las/L3CKER-LAS",
     "history": [
@@ -2304,6 +2304,15 @@
         "elo": 2543,
         "wins": 339,
         "losses": 308
+      },
+      {
+        "run": "2026-10-15T10:32:34Z",
+        "tier": "DIAMOND",
+        "division": "III",
+        "lp": 43,
+        "elo": 2543,
+        "wins": 339,
+        "losses": 309
       }
     ],
     "baseline": {
@@ -2314,8 +2323,14 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-15T09:59:57Z",
+    "lastSync": "2026-10-15T10:32:34Z",
     "recent": [
+      {
+        "id": "LA2_1630768221",
+        "win": false,
+        "remake": false,
+        "ts": 1792060321813
+      },
       {
         "id": "LA2_1630763835",
         "win": true,
@@ -2363,12 +2378,6 @@
         "win": true,
         "remake": false,
         "ts": 1791965669526
-      },
-      {
-        "id": "LA2_1630543266",
-        "win": false,
-        "remake": false,
-        "ts": 1791961255046
       }
     ]
   },
@@ -2456,7 +2465,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-15T09:59:57Z",
+    "lastSync": "2026-10-15T10:32:34Z",
     "recent": [
       {
         "id": "LA2_1630710861",
