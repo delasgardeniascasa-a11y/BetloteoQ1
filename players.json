@@ -7,8 +7,8 @@
     "role": "TOP",
     "tier": "GOLD",
     "division": "IV",
-    "lp": 33,
-    "wins": 405,
+    "lp": 51,
+    "wins": 406,
     "losses": 410,
     "champions": [
       "Sett",
@@ -16,7 +16,7 @@
       "Pantheon"
     ],
     "profileIconId": 7094,
-    "streak": -3,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/D+WOLF-HMBLE",
     "opgg": "https://www.op.gg/summoners/las/D%20WOLF-HMBLE",
     "history": [
@@ -217,6 +217,15 @@
         "elo": 1233,
         "wins": 405,
         "losses": 410
+      },
+      {
+        "run": "2026-10-17T20:52:03Z",
+        "tier": "GOLD",
+        "division": "IV",
+        "lp": 51,
+        "elo": 1251,
+        "wins": 406,
+        "losses": 410
       }
     ],
     "baseline": {
@@ -227,8 +236,14 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-17T20:13:09Z",
+    "lastSync": "2026-10-17T20:52:03Z",
     "recent": [
+      {
+        "id": "LA2_1631255434",
+        "win": true,
+        "remake": false,
+        "ts": 1792269463224
+      },
       {
         "id": "LA2_1631243780",
         "win": false,
@@ -276,12 +291,6 @@
         "win": false,
         "remake": false,
         "ts": 1792215603889
-      },
-      {
-        "id": "LA2_1631156024",
-        "win": false,
-        "remake": false,
-        "ts": 1792212988255
       }
     ]
   },
@@ -293,8 +302,8 @@
     "role": "JGL",
     "tier": "GOLD",
     "division": "I",
-    "lp": 28,
-    "wins": 423,
+    "lp": 45,
+    "wins": 424,
     "losses": 413,
     "champions": [
       "Warwick",
@@ -302,7 +311,7 @@
       "Viego"
     ],
     "profileIconId": 5642,
-    "streak": -3,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/BlackMarvel-paint",
     "opgg": "https://www.op.gg/summoners/las/BlackMarvel-paint",
     "history": [
@@ -602,6 +611,15 @@
         "elo": 1528,
         "wins": 423,
         "losses": 413
+      },
+      {
+        "run": "2026-10-17T20:52:03Z",
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 45,
+        "elo": 1545,
+        "wins": 424,
+        "losses": 413
       }
     ],
     "baseline": {
@@ -612,8 +630,14 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-17T20:13:09Z",
+    "lastSync": "2026-10-17T20:52:03Z",
     "recent": [
+      {
+        "id": "LA2_1631255434",
+        "win": true,
+        "remake": false,
+        "ts": 1792269463224
+      },
       {
         "id": "LA2_1631062113",
         "win": false,
@@ -661,12 +685,6 @@
         "win": false,
         "remake": false,
         "ts": 1792025111315
-      },
-      {
-        "id": "LA2_1630645557",
-        "win": false,
-        "remake": false,
-        "ts": 1792023138848
       }
     ]
   },
@@ -745,7 +763,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-17T20:13:09Z",
+    "lastSync": "2026-10-17T20:52:03Z",
     "recent": [
       {
         "id": "LA2_1631227570",
@@ -1257,7 +1275,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-17T20:13:09Z",
+    "lastSync": "2026-10-17T20:52:03Z",
     "recent": [
       {
         "id": "LA2_1631181084",
@@ -1405,7 +1423,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-17T20:13:09Z",
+    "lastSync": "2026-10-17T20:52:03Z",
     "recent": [
       {
         "id": "LA2_1630758683",
@@ -1535,7 +1553,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-17T20:13:09Z",
+    "lastSync": "2026-10-17T20:52:03Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -1607,8 +1625,8 @@
     "role": "JGL",
     "tier": "DIAMOND",
     "division": "III",
-    "lp": 59,
-    "wins": 351,
+    "lp": 78,
+    "wins": 352,
     "losses": 349,
     "champions": [
       "Sylas",
@@ -1616,7 +1634,7 @@
       "Briar"
     ],
     "profileIconId": 3868,
-    "streak": 5,
+    "streak": 6,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
     "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
     "history": [
@@ -2195,6 +2213,15 @@
         "elo": 2559,
         "wins": 351,
         "losses": 349
+      },
+      {
+        "run": "2026-10-17T20:52:03Z",
+        "tier": "DIAMOND",
+        "division": "III",
+        "lp": 78,
+        "elo": 2578,
+        "wins": 352,
+        "losses": 349
       }
     ],
     "baseline": {
@@ -2205,8 +2232,14 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-17T20:13:09Z",
+    "lastSync": "2026-10-17T20:52:03Z",
     "recent": [
+      {
+        "id": "LA2_1631254939",
+        "win": true,
+        "remake": false,
+        "ts": 1792269707101
+      },
       {
         "id": "LA2_1631244643",
         "win": true,
@@ -2260,12 +2293,6 @@
         "win": true,
         "remake": false,
         "ts": 1792204440511
-      },
-      {
-        "id": "LA2_1631077746",
-        "win": false,
-        "remake": false,
-        "ts": 1792198251808
       }
     ]
   },
@@ -2731,7 +2758,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-17T20:13:09Z",
+    "lastSync": "2026-10-17T20:52:03Z",
     "recent": [
       {
         "id": "LA2_1631238817",
@@ -2900,7 +2927,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-17T20:13:09Z",
+    "lastSync": "2026-10-17T20:52:03Z",
     "recent": [
       {
         "id": "LA2_1631126740",
