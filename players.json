@@ -7,8 +7,8 @@
     "role": "TOP",
     "tier": "GOLD",
     "division": "III",
-    "lp": 34,
-    "wins": 401,
+    "lp": 53,
+    "wins": 402,
     "losses": 402,
     "champions": [
       "Sett",
@@ -16,7 +16,7 @@
       "Pantheon"
     ],
     "profileIconId": 7094,
-    "streak": 4,
+    "streak": 5,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/D+WOLF-HMBLE",
     "opgg": "https://www.op.gg/summoners/las/D%20WOLF-HMBLE",
     "history": [
@@ -190,6 +190,15 @@
         "elo": 1334,
         "wins": 401,
         "losses": 402
+      },
+      {
+        "run": "2026-10-17T02:56:39Z",
+        "tier": "GOLD",
+        "division": "III",
+        "lp": 53,
+        "elo": 1353,
+        "wins": 402,
+        "losses": 402
       }
     ],
     "baseline": {
@@ -200,8 +209,14 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-17T02:22:27Z",
+    "lastSync": "2026-10-17T02:56:39Z",
     "recent": [
+      {
+        "id": "LA2_1631109654",
+        "win": true,
+        "remake": false,
+        "ts": 1792204505142
+      },
       {
         "id": "LA2_1631100138",
         "win": true,
@@ -243,24 +258,6 @@
         "win": true,
         "remake": false,
         "ts": 1792130671329
-      },
-      {
-        "id": "LA2_1630943698",
-        "win": true,
-        "remake": false,
-        "ts": 1792125530532
-      },
-      {
-        "id": "LA2_1630927834",
-        "win": false,
-        "remake": false,
-        "ts": 1792122436759
-      },
-      {
-        "id": "LA2_1630314059",
-        "win": false,
-        "remake": false,
-        "ts": 1791873047895
       }
     ]
   },
@@ -591,7 +588,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-17T02:22:27Z",
+    "lastSync": "2026-10-17T02:56:39Z",
     "recent": [
       {
         "id": "LA2_1631062113",
@@ -715,7 +712,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-17T02:22:27Z",
+    "lastSync": "2026-10-17T02:56:39Z",
     "recent": [
       {
         "id": "LA2_1630348510",
@@ -1218,7 +1215,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-17T02:22:27Z",
+    "lastSync": "2026-10-17T02:56:39Z",
     "recent": [
       {
         "id": "LA2_1629666775",
@@ -1366,7 +1363,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-17T02:22:27Z",
+    "lastSync": "2026-10-17T02:56:39Z",
     "recent": [
       {
         "id": "LA2_1630758683",
@@ -1487,7 +1484,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-17T02:22:27Z",
+    "lastSync": "2026-10-17T02:56:39Z",
     "recent": [
       {
         "id": "LA2_1630537526",
@@ -1559,8 +1556,8 @@
     "role": "JGL",
     "tier": "DIAMOND",
     "division": "III",
-    "lp": 16,
-    "wins": 345,
+    "lp": 34,
+    "wins": 346,
     "losses": 346,
     "champions": [
       "Sylas",
@@ -1568,7 +1565,7 @@
       "Briar"
     ],
     "profileIconId": 3868,
-    "streak": -5,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
     "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
     "history": [
@@ -2120,6 +2117,15 @@
         "elo": 2516,
         "wins": 345,
         "losses": 346
+      },
+      {
+        "run": "2026-10-17T02:56:39Z",
+        "tier": "DIAMOND",
+        "division": "III",
+        "lp": 34,
+        "elo": 2534,
+        "wins": 346,
+        "losses": 346
       }
     ],
     "baseline": {
@@ -2130,8 +2136,14 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-17T02:22:27Z",
+    "lastSync": "2026-10-17T02:56:39Z",
     "recent": [
+      {
+        "id": "LA2_1631110627",
+        "win": true,
+        "remake": false,
+        "ts": 1792204440511
+      },
       {
         "id": "LA2_1631077746",
         "win": false,
@@ -2179,12 +2191,6 @@
         "win": false,
         "remake": false,
         "ts": 1792131457203
-      },
-      {
-        "id": "LA2_1630957219",
-        "win": false,
-        "remake": false,
-        "ts": 1792128560381
       }
     ]
   },
@@ -2641,7 +2647,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-17T02:22:27Z",
+    "lastSync": "2026-10-17T02:56:39Z",
     "recent": [
       {
         "id": "LA2_1631065959",
@@ -2706,17 +2712,17 @@
     "region": "las",
     "role": "SUP",
     "tier": "DIAMOND",
-    "division": "III",
-    "lp": 1,
+    "division": "IV",
+    "lp": 81,
     "wins": 144,
-    "losses": 125,
+    "losses": 126,
     "champions": [
       "Sett",
       "Malphite",
       "Akali"
     ],
     "profileIconId": 5455,
-    "streak": -1,
+    "streak": -2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Lanoni-2403",
     "opgg": "https://www.op.gg/summoners/las/Lanoni-2403",
     "history": [
@@ -2782,6 +2788,15 @@
         "elo": 2501,
         "wins": 144,
         "losses": 125
+      },
+      {
+        "run": "2026-10-17T02:56:39Z",
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 81,
+        "elo": 2481,
+        "wins": 144,
+        "losses": 126
       }
     ],
     "baseline": {
@@ -2792,8 +2807,14 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-17T02:22:27Z",
+    "lastSync": "2026-10-17T02:56:39Z",
     "recent": [
+      {
+        "id": "LA2_1631116757",
+        "win": false,
+        "remake": false,
+        "ts": 1792205680274
+      },
       {
         "id": "LA2_1630911875",
         "win": false,
@@ -2847,12 +2868,6 @@
         "win": true,
         "remake": false,
         "ts": 1791429894590
-      },
-      {
-        "id": "LA2_1628965312",
-        "win": false,
-        "remake": false,
-        "ts": 1791382194883
       }
     ]
   }
