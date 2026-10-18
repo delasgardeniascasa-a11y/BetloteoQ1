@@ -299,7 +299,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-18T18:55:39Z",
+    "lastSync": "2026-10-18T19:16:34Z",
     "recent": [
       {
         "id": "LA2_1631429113",
@@ -717,7 +717,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-18T18:55:39Z",
+    "lastSync": "2026-10-18T19:16:34Z",
     "recent": [
       {
         "id": "LA2_1631432301",
@@ -850,7 +850,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-18T18:55:39Z",
+    "lastSync": "2026-10-18T19:16:34Z",
     "recent": [
       {
         "id": "LA2_1631227570",
@@ -1160,7 +1160,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-18T18:55:39Z",
+    "lastSync": "2026-10-18T19:16:34Z",
     "recent": [
       {
         "id": "LA2_1631460895",
@@ -1232,16 +1232,16 @@
     "role": "SUP",
     "tier": "EMERALD",
     "division": "I",
-    "lp": 75,
+    "lp": 53,
     "wins": 77,
-    "losses": 58,
+    "losses": 59,
     "champions": [
       "Diana",
       "MasterYi",
       "XinZhao"
     ],
     "profileIconId": 1162,
-    "streak": -3,
+    "streak": -4,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/ZicordS-JODA",
     "opgg": "https://www.op.gg/summoners/las/ZicordS-JODA",
     "history": [
@@ -1397,6 +1397,15 @@
         "elo": 2375,
         "wins": 77,
         "losses": 58
+      },
+      {
+        "run": "2026-10-18T19:16:34Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 53,
+        "elo": 2353,
+        "wins": 77,
+        "losses": 59
       }
     ],
     "baseline": {
@@ -1407,8 +1416,14 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-18T18:55:39Z",
+    "lastSync": "2026-10-18T19:16:34Z",
     "recent": [
+      {
+        "id": "LA2_1631471739",
+        "win": false,
+        "remake": false,
+        "ts": 1792350125403
+      },
       {
         "id": "LA2_1631470140",
         "win": false,
@@ -1462,12 +1477,6 @@
         "win": false,
         "remake": false,
         "ts": 1791660254725
-      },
-      {
-        "id": "LA2_1629627063",
-        "win": false,
-        "remake": false,
-        "ts": 1791652734457
       }
     ]
   },
@@ -1555,7 +1564,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-18T18:55:39Z",
+    "lastSync": "2026-10-18T19:16:34Z",
     "recent": [
       {
         "id": "LA2_1630758683",
@@ -1685,7 +1694,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-18T18:55:39Z",
+    "lastSync": "2026-10-18T19:16:34Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -2382,7 +2391,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-18T18:55:39Z",
+    "lastSync": "2026-10-18T19:16:34Z",
     "recent": [
       {
         "id": "LA2_1631470140",
@@ -2908,7 +2917,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-18T18:55:39Z",
+    "lastSync": "2026-10-18T19:16:34Z",
     "recent": [
       {
         "id": "LA2_1631238817",
@@ -3077,7 +3086,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-18T18:55:39Z",
+    "lastSync": "2026-10-18T19:16:34Z",
     "recent": [
       {
         "id": "LA2_1631126740",
