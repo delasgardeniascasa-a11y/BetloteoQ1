@@ -299,7 +299,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-18T16:53:33Z",
+    "lastSync": "2026-10-18T17:16:58Z",
     "recent": [
       {
         "id": "LA2_1631429113",
@@ -717,7 +717,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-18T16:53:33Z",
+    "lastSync": "2026-10-18T17:16:58Z",
     "recent": [
       {
         "id": "LA2_1631432301",
@@ -850,7 +850,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-18T16:53:33Z",
+    "lastSync": "2026-10-18T17:16:58Z",
     "recent": [
       {
         "id": "LA2_1631227570",
@@ -922,8 +922,8 @@
     "role": "ADC",
     "tier": "MASTER",
     "division": "I",
-    "lp": 592,
-    "wins": 220,
+    "lp": 630,
+    "wins": 221,
     "losses": 210,
     "champions": [
       "Fiddlesticks",
@@ -931,7 +931,7 @@
       "Mordekaiser"
     ],
     "profileIconId": 7144,
-    "streak": 1,
+    "streak": 2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Brynden+Rivers-Rave",
     "opgg": "https://www.op.gg/summoners/las/Brynden%20Rivers-Rave",
     "history": [
@@ -1132,6 +1132,15 @@
         "elo": 3392,
         "wins": 220,
         "losses": 210
+      },
+      {
+        "run": "2026-10-18T17:16:58Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 630,
+        "elo": 3430,
+        "wins": 221,
+        "losses": 210
       }
     ],
     "baseline": {
@@ -1142,8 +1151,14 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-18T16:53:33Z",
+    "lastSync": "2026-10-18T17:16:58Z",
     "recent": [
+      {
+        "id": "LA2_1631456778",
+        "win": true,
+        "remake": false,
+        "ts": 1792343459846
+      },
       {
         "id": "LA2_1631451917",
         "win": true,
@@ -1197,12 +1212,6 @@
         "win": true,
         "remake": false,
         "ts": 1791821493473
-      },
-      {
-        "id": "LA2_1630092471",
-        "win": true,
-        "remake": false,
-        "ts": 1791819517403
       }
     ]
   },
@@ -1380,7 +1389,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-18T16:53:33Z",
+    "lastSync": "2026-10-18T17:16:58Z",
     "recent": [
       {
         "id": "LA2_1631181084",
@@ -1528,7 +1537,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-18T16:53:33Z",
+    "lastSync": "2026-10-18T17:16:58Z",
     "recent": [
       {
         "id": "LA2_1630758683",
@@ -1658,7 +1667,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-18T16:53:33Z",
+    "lastSync": "2026-10-18T17:16:58Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -2346,7 +2355,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-18T16:53:33Z",
+    "lastSync": "2026-10-18T17:16:58Z",
     "recent": [
       {
         "id": "LA2_1631265335",
@@ -2872,7 +2881,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-18T16:53:33Z",
+    "lastSync": "2026-10-18T17:16:58Z",
     "recent": [
       {
         "id": "LA2_1631238817",
@@ -3041,7 +3050,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-18T16:53:33Z",
+    "lastSync": "2026-10-18T17:16:58Z",
     "recent": [
       {
         "id": "LA2_1631126740",
