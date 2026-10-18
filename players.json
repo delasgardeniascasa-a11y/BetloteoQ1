@@ -299,7 +299,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-18T18:15:24Z",
+    "lastSync": "2026-10-18T18:55:39Z",
     "recent": [
       {
         "id": "LA2_1631429113",
@@ -717,7 +717,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-18T18:15:24Z",
+    "lastSync": "2026-10-18T18:55:39Z",
     "recent": [
       {
         "id": "LA2_1631432301",
@@ -850,7 +850,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-18T18:15:24Z",
+    "lastSync": "2026-10-18T18:55:39Z",
     "recent": [
       {
         "id": "LA2_1631227570",
@@ -1160,7 +1160,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-18T18:15:24Z",
+    "lastSync": "2026-10-18T18:55:39Z",
     "recent": [
       {
         "id": "LA2_1631460895",
@@ -1230,18 +1230,18 @@
     "tag": "JODA",
     "region": "las",
     "role": "SUP",
-    "tier": "DIAMOND",
-    "division": "IV",
-    "lp": 0,
+    "tier": "EMERALD",
+    "division": "I",
+    "lp": 75,
     "wins": 77,
-    "losses": 57,
+    "losses": 58,
     "champions": [
       "Diana",
       "MasterYi",
       "XinZhao"
     ],
     "profileIconId": 1162,
-    "streak": -2,
+    "streak": -3,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/ZicordS-JODA",
     "opgg": "https://www.op.gg/summoners/las/ZicordS-JODA",
     "history": [
@@ -1388,6 +1388,15 @@
         "elo": 2400,
         "wins": 77,
         "losses": 57
+      },
+      {
+        "run": "2026-10-18T18:55:39Z",
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 75,
+        "elo": 2375,
+        "wins": 77,
+        "losses": 58
       }
     ],
     "baseline": {
@@ -1398,8 +1407,14 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-18T18:15:24Z",
+    "lastSync": "2026-10-18T18:55:39Z",
     "recent": [
+      {
+        "id": "LA2_1631470140",
+        "win": false,
+        "remake": false,
+        "ts": 1792347473327
+      },
       {
         "id": "LA2_1631181084",
         "win": false,
@@ -1453,12 +1468,6 @@
         "win": false,
         "remake": false,
         "ts": 1791652734457
-      },
-      {
-        "id": "LA2_1629619301",
-        "win": true,
-        "remake": false,
-        "ts": 1791650538863
       }
     ]
   },
@@ -1546,7 +1555,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-18T18:15:24Z",
+    "lastSync": "2026-10-18T18:55:39Z",
     "recent": [
       {
         "id": "LA2_1630758683",
@@ -1676,7 +1685,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-18T18:15:24Z",
+    "lastSync": "2026-10-18T18:55:39Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -1748,16 +1757,16 @@
     "role": "JGL",
     "tier": "DIAMOND",
     "division": "III",
-    "lp": 98,
+    "lp": 77,
     "wins": 353,
-    "losses": 349,
+    "losses": 350,
     "champions": [
       "Sylas",
       "LeeSin",
       "Briar"
     ],
     "profileIconId": 3868,
-    "streak": 7,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
     "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
     "history": [
@@ -2354,6 +2363,15 @@
         "elo": 2598,
         "wins": 353,
         "losses": 349
+      },
+      {
+        "run": "2026-10-18T18:55:39Z",
+        "tier": "DIAMOND",
+        "division": "III",
+        "lp": 77,
+        "elo": 2577,
+        "wins": 353,
+        "losses": 350
       }
     ],
     "baseline": {
@@ -2364,8 +2382,14 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-18T18:15:24Z",
+    "lastSync": "2026-10-18T18:55:39Z",
     "recent": [
+      {
+        "id": "LA2_1631470140",
+        "win": false,
+        "remake": false,
+        "ts": 1792347473327
+      },
       {
         "id": "LA2_1631265335",
         "win": true,
@@ -2419,12 +2443,6 @@
         "win": false,
         "remake": false,
         "ts": 1792208977391
-      },
-      {
-        "id": "LA2_1631124079",
-        "win": false,
-        "remake": false,
-        "ts": 1792207047407
       }
     ]
   },
@@ -2890,7 +2908,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-18T18:15:24Z",
+    "lastSync": "2026-10-18T18:55:39Z",
     "recent": [
       {
         "id": "LA2_1631238817",
@@ -3059,7 +3077,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-18T18:15:24Z",
+    "lastSync": "2026-10-18T18:55:39Z",
     "recent": [
       {
         "id": "LA2_1631126740",
