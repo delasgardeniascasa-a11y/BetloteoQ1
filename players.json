@@ -7,8 +7,8 @@
     "role": "TOP",
     "tier": "SILVER",
     "division": "I",
-    "lp": 50,
-    "wins": 406,
+    "lp": 69,
+    "wins": 407,
     "losses": 414,
     "champions": [
       "Sett",
@@ -16,7 +16,7 @@
       "Pantheon"
     ],
     "profileIconId": 7094,
-    "streak": -4,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/D+WOLF-HMBLE",
     "opgg": "https://www.op.gg/summoners/las/D%20WOLF-HMBLE",
     "history": [
@@ -262,6 +262,15 @@
         "elo": 1150,
         "wins": 406,
         "losses": 414
+      },
+      {
+        "run": "2026-10-18T07:06:11Z",
+        "tier": "SILVER",
+        "division": "I",
+        "lp": 69,
+        "elo": 1169,
+        "wins": 407,
+        "losses": 414
       }
     ],
     "baseline": {
@@ -272,8 +281,14 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-10-18T06:20:22Z",
+    "lastSync": "2026-10-18T07:06:11Z",
     "recent": [
+      {
+        "id": "LA2_1631418518",
+        "win": true,
+        "remake": false,
+        "ts": 1792306444413
+      },
       {
         "id": "LA2_1631414385",
         "win": false,
@@ -321,12 +336,6 @@
         "win": false,
         "remake": false,
         "ts": 1792227957936
-      },
-      {
-        "id": "LA2_1631185883",
-        "win": true,
-        "remake": false,
-        "ts": 1792225201905
       }
     ]
   },
@@ -675,7 +684,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-10-18T06:20:22Z",
+    "lastSync": "2026-10-18T07:06:11Z",
     "recent": [
       {
         "id": "LA2_1631298803",
@@ -808,7 +817,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-10-18T06:20:22Z",
+    "lastSync": "2026-10-18T07:06:11Z",
     "recent": [
       {
         "id": "LA2_1631227570",
@@ -1091,7 +1100,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-10-18T06:20:22Z",
+    "lastSync": "2026-10-18T07:06:11Z",
     "recent": [
       {
         "id": "LA2_1631234757",
@@ -1329,7 +1338,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-10-18T06:20:22Z",
+    "lastSync": "2026-10-18T07:06:11Z",
     "recent": [
       {
         "id": "LA2_1631181084",
@@ -1477,7 +1486,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-10-18T06:20:22Z",
+    "lastSync": "2026-10-18T07:06:11Z",
     "recent": [
       {
         "id": "LA2_1630758683",
@@ -1607,7 +1616,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-10-18T06:20:22Z",
+    "lastSync": "2026-10-18T07:06:11Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -2295,7 +2304,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-10-18T06:20:22Z",
+    "lastSync": "2026-10-18T07:06:11Z",
     "recent": [
       {
         "id": "LA2_1631265335",
@@ -2821,7 +2830,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-10-18T06:20:22Z",
+    "lastSync": "2026-10-18T07:06:11Z",
     "recent": [
       {
         "id": "LA2_1631238817",
@@ -2990,7 +2999,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-10-18T06:20:22Z",
+    "lastSync": "2026-10-18T07:06:11Z",
     "recent": [
       {
         "id": "LA2_1631126740",
