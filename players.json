@@ -326,7 +326,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-11-03T19:42:28Z",
+    "lastSync": "2026-11-03T20:37:13Z",
     "recent": [
       {
         "id": "LA2_1633075638",
@@ -789,7 +789,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-11-03T19:42:28Z",
+    "lastSync": "2026-11-03T20:37:13Z",
     "recent": [
       {
         "id": "LA2_1635046006",
@@ -943,7 +943,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-11-03T19:42:28Z",
+    "lastSync": "2026-11-03T20:37:13Z",
     "recent": [
       {
         "id": "LA2_1634952099",
@@ -1283,7 +1283,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-11-03T19:42:28Z",
+    "lastSync": "2026-11-03T20:37:13Z",
     "recent": [
       {
         "id": "LA2_1634855640",
@@ -1548,7 +1548,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-11-03T19:42:28Z",
+    "lastSync": "2026-11-03T20:37:13Z",
     "recent": [
       {
         "id": "LA2_1632715574",
@@ -1696,7 +1696,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-11-03T19:42:28Z",
+    "lastSync": "2026-11-03T20:37:13Z",
     "recent": [
       {
         "id": "LA2_1630758683",
@@ -1826,7 +1826,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-11-03T19:42:28Z",
+    "lastSync": "2026-11-03T20:37:13Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -2658,7 +2658,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-11-03T19:42:28Z",
+    "lastSync": "2026-11-03T20:37:13Z",
     "recent": [
       {
         "id": "LA2_1635044949",
@@ -3247,7 +3247,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-11-03T19:42:28Z",
+    "lastSync": "2026-11-03T20:37:13Z",
     "recent": [
       {
         "id": "LA2_1635087668",
@@ -3319,16 +3319,16 @@
     "role": "SUP",
     "tier": "DIAMOND",
     "division": "IV",
-    "lp": 88,
+    "lp": 68,
     "wins": 165,
-    "losses": 147,
+    "losses": 148,
     "champions": [
       "Sett",
       "Malphite",
       "Akali"
     ],
     "profileIconId": 3166,
-    "streak": 9,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Lanoni-2403",
     "opgg": "https://www.op.gg/summoners/las/Lanoni-2403",
     "history": [
@@ -3484,6 +3484,15 @@
         "elo": 2488,
         "wins": 165,
         "losses": 147
+      },
+      {
+        "run": "2026-11-03T20:37:13Z",
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 68,
+        "elo": 2468,
+        "wins": 165,
+        "losses": 148
       }
     ],
     "baseline": {
@@ -3494,8 +3503,14 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-11-03T19:42:28Z",
+    "lastSync": "2026-11-03T20:37:13Z",
     "recent": [
+      {
+        "id": "LA2_1635105385",
+        "win": false,
+        "remake": false,
+        "ts": 1793736726452
+      },
       {
         "id": "LA2_1635100364",
         "win": true,
@@ -3549,12 +3564,6 @@
         "win": true,
         "remake": false,
         "ts": 1793563534395
-      },
-      {
-        "id": "LA2_1634631645",
-        "win": false,
-        "remake": false,
-        "ts": 1793553832650
       }
     ]
   }
