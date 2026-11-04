@@ -326,7 +326,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-11-04T00:09:44Z",
+    "lastSync": "2026-11-04T01:34:16Z",
     "recent": [
       {
         "id": "LA2_1633075638",
@@ -789,7 +789,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-11-04T00:09:44Z",
+    "lastSync": "2026-11-04T01:34:16Z",
     "recent": [
       {
         "id": "LA2_1635046006",
@@ -943,7 +943,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-11-04T00:09:44Z",
+    "lastSync": "2026-11-04T01:34:16Z",
     "recent": [
       {
         "id": "LA2_1634952099",
@@ -1283,7 +1283,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-11-04T00:09:44Z",
+    "lastSync": "2026-11-04T01:34:16Z",
     "recent": [
       {
         "id": "LA2_1634855640",
@@ -1548,7 +1548,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-11-04T00:09:44Z",
+    "lastSync": "2026-11-04T01:34:16Z",
     "recent": [
       {
         "id": "LA2_1632715574",
@@ -1696,7 +1696,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-11-04T00:09:44Z",
+    "lastSync": "2026-11-04T01:34:16Z",
     "recent": [
       {
         "id": "LA2_1630758683",
@@ -1826,7 +1826,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-11-04T00:09:44Z",
+    "lastSync": "2026-11-04T01:34:16Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -2658,7 +2658,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-11-04T00:09:44Z",
+    "lastSync": "2026-11-04T01:34:16Z",
     "recent": [
       {
         "id": "LA2_1635044949",
@@ -2729,17 +2729,17 @@
     "region": "las",
     "role": "ADC",
     "tier": "EMERALD",
-    "division": "I",
-    "lp": 4,
+    "division": "II",
+    "lp": 82,
     "wins": 383,
-    "losses": 363,
+    "losses": 364,
     "champions": [
       "Jhin",
       "Lucian",
       "Vayne"
     ],
     "profileIconId": 1388,
-    "streak": 1,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/L3CKER-LAS",
     "opgg": "https://www.op.gg/summoners/las/L3CKER-LAS",
     "history": [
@@ -3246,6 +3246,15 @@
         "elo": 2304,
         "wins": 383,
         "losses": 363
+      },
+      {
+        "run": "2026-11-04T01:34:16Z",
+        "tier": "EMERALD",
+        "division": "II",
+        "lp": 82,
+        "elo": 2282,
+        "wins": 383,
+        "losses": 364
       }
     ],
     "baseline": {
@@ -3256,8 +3265,14 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-11-04T00:09:44Z",
+    "lastSync": "2026-11-04T01:34:16Z",
     "recent": [
+      {
+        "id": "LA2_1635158140",
+        "win": false,
+        "remake": false,
+        "ts": 1793751769927
+      },
       {
         "id": "LA2_1635122818",
         "win": true,
@@ -3311,12 +3326,6 @@
         "win": false,
         "remake": false,
         "ts": 1793658429675
-      },
-      {
-        "id": "LA2_1634908052",
-        "win": false,
-        "remake": false,
-        "ts": 1793655911146
       }
     ]
   },
@@ -3329,15 +3338,15 @@
     "tier": "DIAMOND",
     "division": "IV",
     "lp": 68,
-    "wins": 165,
-    "losses": 148,
+    "wins": 166,
+    "losses": 149,
     "champions": [
       "Sett",
       "Malphite",
       "Akali"
     ],
     "profileIconId": 3166,
-    "streak": -1,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Lanoni-2403",
     "opgg": "https://www.op.gg/summoners/las/Lanoni-2403",
     "history": [
@@ -3502,6 +3511,15 @@
         "elo": 2468,
         "wins": 165,
         "losses": 148
+      },
+      {
+        "run": "2026-11-04T01:34:16Z",
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 68,
+        "elo": 2468,
+        "wins": 166,
+        "losses": 149
       }
     ],
     "baseline": {
@@ -3512,8 +3530,20 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-11-04T00:09:44Z",
+    "lastSync": "2026-11-04T01:34:16Z",
     "recent": [
+      {
+        "id": "LA2_1635178044",
+        "win": true,
+        "remake": false,
+        "ts": 1793755369621
+      },
+      {
+        "id": "LA2_1635166476",
+        "win": false,
+        "remake": false,
+        "ts": 1793753061248
+      },
       {
         "id": "LA2_1635105385",
         "win": false,
@@ -3561,18 +3591,6 @@
         "win": true,
         "remake": false,
         "ts": 1793640327876
-      },
-      {
-        "id": "LA2_1634790646",
-        "win": true,
-        "remake": false,
-        "ts": 1793590286406
-      },
-      {
-        "id": "LA2_1634654900",
-        "win": true,
-        "remake": false,
-        "ts": 1793563534395
       }
     ]
   }
