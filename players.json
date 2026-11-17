@@ -353,7 +353,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-11-17T10:56:59Z",
+    "lastSync": "2026-11-17T19:39:32Z",
     "recent": [
       {
         "id": "LA2_1637574858",
@@ -843,7 +843,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-11-17T10:56:59Z",
+    "lastSync": "2026-11-17T19:39:32Z",
     "recent": [
       {
         "id": "LA2_1638104485",
@@ -1030,7 +1030,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-11-17T10:56:59Z",
+    "lastSync": "2026-11-17T19:39:32Z",
     "recent": [
       {
         "id": "LA2_1637804217",
@@ -1394,7 +1394,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-11-17T10:56:59Z",
+    "lastSync": "2026-11-17T19:39:32Z",
     "recent": [
       {
         "id": "LA2_1637664294",
@@ -1668,7 +1668,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-11-17T10:56:59Z",
+    "lastSync": "2026-11-17T19:39:32Z",
     "recent": [
       {
         "id": "LA2_1635879805",
@@ -1739,17 +1739,17 @@
     "region": "las",
     "role": "TOP",
     "tier": "SILVER",
-    "division": "I",
-    "lp": 10,
+    "division": "II",
+    "lp": 90,
     "wins": 7,
-    "losses": 10,
+    "losses": 12,
     "champions": [
       "Sett",
       "Ekko",
       "Ezreal"
     ],
     "profileIconId": 4652,
-    "streak": -1,
+    "streak": -2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/dachito34-LCP",
     "opgg": "https://www.op.gg/summoners/las/dachito34-LCP",
     "history": [
@@ -1833,6 +1833,15 @@
         "elo": 1110,
         "wins": 7,
         "losses": 10
+      },
+      {
+        "run": "2026-11-17T19:39:32Z",
+        "tier": "SILVER",
+        "division": "II",
+        "lp": 90,
+        "elo": 1090,
+        "wins": 7,
+        "losses": 12
       }
     ],
     "baseline": {
@@ -1843,8 +1852,14 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-11-17T10:56:59Z",
+    "lastSync": "2026-11-17T19:39:32Z",
     "recent": [
+      {
+        "id": "LA2_1638190151",
+        "win": false,
+        "remake": false,
+        "ts": 1794943775978
+      },
       {
         "id": "LA2_1638142924",
         "win": false,
@@ -1886,18 +1901,6 @@
         "win": true,
         "remake": false,
         "ts": 1792039758150
-      },
-      {
-        "id": "LA2_1629533244",
-        "win": true,
-        "remake": false,
-        "ts": 1791603268851
-      },
-      {
-        "id": "LA2_1629519340",
-        "win": false,
-        "remake": false,
-        "ts": 1791600487973
       }
     ]
   },
@@ -1967,7 +1970,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-11-17T10:56:59Z",
+    "lastSync": "2026-11-17T19:39:32Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -2826,7 +2829,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-11-17T10:56:59Z",
+    "lastSync": "2026-11-17T19:39:32Z",
     "recent": [
       {
         "id": "LA2_1638143778",
@@ -3451,7 +3454,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-11-17T10:56:59Z",
+    "lastSync": "2026-11-17T19:39:32Z",
     "recent": [
       {
         "id": "LA2_1637859682",
@@ -3734,7 +3737,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-11-17T10:56:59Z",
+    "lastSync": "2026-11-17T19:39:32Z",
     "recent": [
       {
         "id": "LA2_1637958144",
