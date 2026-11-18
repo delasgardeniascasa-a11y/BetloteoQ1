@@ -353,7 +353,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-11-17T19:39:32Z",
+    "lastSync": "2026-11-18T02:05:31Z",
     "recent": [
       {
         "id": "LA2_1637574858",
@@ -843,7 +843,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-11-17T19:39:32Z",
+    "lastSync": "2026-11-18T02:05:31Z",
     "recent": [
       {
         "id": "LA2_1638104485",
@@ -1030,7 +1030,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-11-17T19:39:32Z",
+    "lastSync": "2026-11-18T02:05:31Z",
     "recent": [
       {
         "id": "LA2_1637804217",
@@ -1394,7 +1394,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-11-17T19:39:32Z",
+    "lastSync": "2026-11-18T02:05:31Z",
     "recent": [
       {
         "id": "LA2_1637664294",
@@ -1668,7 +1668,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-11-17T19:39:32Z",
+    "lastSync": "2026-11-18T02:05:31Z",
     "recent": [
       {
         "id": "LA2_1635879805",
@@ -1852,7 +1852,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-11-17T19:39:32Z",
+    "lastSync": "2026-11-18T02:05:31Z",
     "recent": [
       {
         "id": "LA2_1638190151",
@@ -1970,7 +1970,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-11-17T19:39:32Z",
+    "lastSync": "2026-11-18T02:05:31Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -2042,16 +2042,16 @@
     "role": "JGL",
     "tier": "DIAMOND",
     "division": "II",
-    "lp": 47,
-    "wins": 415,
-    "losses": 407,
+    "lp": 7,
+    "wins": 416,
+    "losses": 410,
     "champions": [
       "Sylas",
       "LeeSin",
       "Briar"
     ],
     "profileIconId": 3862,
-    "streak": -1,
+    "streak": 1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
     "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
     "history": [
@@ -2819,6 +2819,15 @@
         "elo": 2647,
         "wins": 415,
         "losses": 407
+      },
+      {
+        "run": "2026-11-18T02:05:31Z",
+        "tier": "DIAMOND",
+        "division": "II",
+        "lp": 7,
+        "elo": 2607,
+        "wins": 416,
+        "losses": 410
       }
     ],
     "baseline": {
@@ -2829,8 +2838,32 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-11-17T19:39:32Z",
+    "lastSync": "2026-11-18T02:05:31Z",
     "recent": [
+      {
+        "id": "LA2_1638247958",
+        "win": true,
+        "remake": false,
+        "ts": 1794961267496
+      },
+      {
+        "id": "LA2_1638213265",
+        "win": false,
+        "remake": false,
+        "ts": 1794951206245
+      },
+      {
+        "id": "LA2_1638206628",
+        "win": false,
+        "remake": false,
+        "ts": 1794949159675
+      },
+      {
+        "id": "LA2_1638199833",
+        "win": false,
+        "remake": false,
+        "ts": 1794947494336
+      },
       {
         "id": "LA2_1638143778",
         "win": false,
@@ -2866,30 +2899,6 @@
         "win": false,
         "remake": false,
         "ts": 1794885389336
-      },
-      {
-        "id": "LA2_1638073389",
-        "win": true,
-        "remake": false,
-        "ts": 1794883350388
-      },
-      {
-        "id": "LA2_1638042471",
-        "win": false,
-        "remake": false,
-        "ts": 1794878024855
-      },
-      {
-        "id": "LA2_1638031290",
-        "win": true,
-        "remake": false,
-        "ts": 1794875320534
-      },
-      {
-        "id": "LA2_1638018869",
-        "win": false,
-        "remake": false,
-        "ts": 1794872855865
       }
     ]
   },
@@ -3454,7 +3463,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-11-17T19:39:32Z",
+    "lastSync": "2026-11-18T02:05:31Z",
     "recent": [
       {
         "id": "LA2_1637859682",
@@ -3737,7 +3746,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-11-17T19:39:32Z",
+    "lastSync": "2026-11-18T02:05:31Z",
     "recent": [
       {
         "id": "LA2_1637958144",
