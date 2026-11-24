@@ -353,7 +353,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-11-23T22:31:55Z",
+    "lastSync": "2026-11-24T06:43:01Z",
     "recent": [
       {
         "id": "LA2_1637574858",
@@ -425,9 +425,9 @@
     "role": "JGL",
     "tier": "SILVER",
     "division": "II",
-    "lp": 48,
-    "wins": 466,
-    "losses": 469,
+    "lp": 44,
+    "wins": 467,
+    "losses": 470,
     "champions": [
       "Warwick",
       "Sylas",
@@ -905,6 +905,15 @@
         "elo": 1048,
         "wins": 466,
         "losses": 469
+      },
+      {
+        "run": "2026-11-24T06:43:01Z",
+        "tier": "SILVER",
+        "division": "II",
+        "lp": 44,
+        "elo": 1044,
+        "wins": 467,
+        "losses": 470
       }
     ],
     "baseline": {
@@ -915,8 +924,20 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-11-23T22:31:55Z",
+    "lastSync": "2026-11-24T06:43:01Z",
     "recent": [
+      {
+        "id": "LA2_1639639261",
+        "win": true,
+        "remake": false,
+        "ts": 1795492061760
+      },
+      {
+        "id": "LA2_1639553904",
+        "win": false,
+        "remake": false,
+        "ts": 1795474949626
+      },
       {
         "id": "LA2_1639453426",
         "win": true,
@@ -958,18 +979,6 @@
         "win": true,
         "remake": false,
         "ts": 1795249102296
-      },
-      {
-        "id": "LA2_1638975155",
-        "win": false,
-        "remake": false,
-        "ts": 1795245692458
-      },
-      {
-        "id": "LA2_1638922778",
-        "win": false,
-        "remake": false,
-        "ts": 1795233258928
       }
     ]
   },
@@ -981,9 +990,9 @@
     "role": "MID",
     "tier": "MASTER",
     "division": "I",
-    "lp": 26,
-    "wins": 139,
-    "losses": 126,
+    "lp": 28,
+    "wins": 140,
+    "losses": 127,
     "champions": [
       "Kled",
       "Talon",
@@ -1128,6 +1137,15 @@
         "elo": 2826,
         "wins": 139,
         "losses": 126
+      },
+      {
+        "run": "2026-11-24T06:43:01Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 28,
+        "elo": 2828,
+        "wins": 140,
+        "losses": 127
       }
     ],
     "baseline": {
@@ -1138,8 +1156,20 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-11-23T22:31:55Z",
+    "lastSync": "2026-11-24T06:43:01Z",
     "recent": [
+      {
+        "id": "LA2_1639596490",
+        "win": true,
+        "remake": false,
+        "ts": 1795484473552
+      },
+      {
+        "id": "LA2_1639582913",
+        "win": false,
+        "remake": false,
+        "ts": 1795482150734
+      },
       {
         "id": "LA2_1639428483",
         "win": true,
@@ -1175,18 +1205,6 @@
         "win": false,
         "remake": false,
         "ts": 1795230316717
-      },
-      {
-        "id": "LA2_1638890923",
-        "win": false,
-        "remake": false,
-        "ts": 1795227734594
-      },
-      {
-        "id": "LA2_1638877286",
-        "win": true,
-        "remake": false,
-        "ts": 1795223405460
       }
     ]
   },
@@ -1508,7 +1526,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-11-23T22:31:55Z",
+    "lastSync": "2026-11-24T06:43:01Z",
     "recent": [
       {
         "id": "LA2_1639399633",
@@ -1782,7 +1800,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-11-23T22:31:55Z",
+    "lastSync": "2026-11-24T06:43:01Z",
     "recent": [
       {
         "id": "LA2_1635879805",
@@ -1966,7 +1984,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-11-23T22:31:55Z",
+    "lastSync": "2026-11-24T06:43:01Z",
     "recent": [
       {
         "id": "LA2_1638190151",
@@ -2084,7 +2102,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-11-23T22:31:55Z",
+    "lastSync": "2026-11-24T06:43:01Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -2155,10 +2173,10 @@
     "region": "las",
     "role": "JGL",
     "tier": "DIAMOND",
-    "division": "IV",
-    "lp": 72,
-    "wins": 423,
-    "losses": 423,
+    "division": "III",
+    "lp": 9,
+    "wins": 426,
+    "losses": 425,
     "champions": [
       "Sylas",
       "LeeSin",
@@ -3014,6 +3032,15 @@
         "elo": 2472,
         "wins": 423,
         "losses": 423
+      },
+      {
+        "run": "2026-11-24T06:43:01Z",
+        "tier": "DIAMOND",
+        "division": "III",
+        "lp": 9,
+        "elo": 2509,
+        "wins": 426,
+        "losses": 425
       }
     ],
     "baseline": {
@@ -3024,8 +3051,38 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-11-23T22:31:55Z",
+    "lastSync": "2026-11-24T06:43:01Z",
     "recent": [
+      {
+        "id": "LA2_1639652855",
+        "win": false,
+        "remake": false,
+        "ts": 1795495636433
+      },
+      {
+        "id": "LA2_1639637945",
+        "win": true,
+        "remake": false,
+        "ts": 1795492570645
+      },
+      {
+        "id": "LA2_1639619486",
+        "win": true,
+        "remake": false,
+        "ts": 1795488250424
+      },
+      {
+        "id": "LA2_1639597942",
+        "win": true,
+        "remake": false,
+        "ts": 1795485897755
+      },
+      {
+        "id": "LA2_1639555410",
+        "win": false,
+        "remake": false,
+        "ts": 1795475412013
+      },
       {
         "id": "LA2_1639546352",
         "win": false,
@@ -3055,30 +3112,6 @@
         "win": false,
         "remake": false,
         "ts": 1795233928123
-      },
-      {
-        "id": "LA2_1638889246",
-        "win": true,
-        "remake": false,
-        "ts": 1795226387737
-      },
-      {
-        "id": "LA2_1638747370",
-        "win": true,
-        "remake": false,
-        "ts": 1795153425393
-      },
-      {
-        "id": "LA2_1638730945",
-        "win": true,
-        "remake": false,
-        "ts": 1795148353611
-      },
-      {
-        "id": "LA2_1638638147",
-        "win": false,
-        "remake": false,
-        "ts": 1795128627876
       }
     ]
   },
@@ -3643,7 +3676,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-11-23T22:31:55Z",
+    "lastSync": "2026-11-24T06:43:01Z",
     "recent": [
       {
         "id": "LA2_1637859682",
@@ -3926,7 +3959,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-11-23T22:31:55Z",
+    "lastSync": "2026-11-24T06:43:01Z",
     "recent": [
       {
         "id": "LA2_1637958144",
