@@ -353,7 +353,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-11-24T06:43:01Z",
+    "lastSync": "2026-11-24T18:37:15Z",
     "recent": [
       {
         "id": "LA2_1637574858",
@@ -924,7 +924,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-11-24T06:43:01Z",
+    "lastSync": "2026-11-24T18:37:15Z",
     "recent": [
       {
         "id": "LA2_1639639261",
@@ -990,16 +990,16 @@
     "role": "MID",
     "tier": "MASTER",
     "division": "I",
-    "lp": 28,
+    "lp": 9,
     "wins": 140,
-    "losses": 127,
+    "losses": 128,
     "champions": [
       "Kled",
       "Talon",
       "Jax"
     ],
     "profileIconId": 7037,
-    "streak": 1,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Rekito+sad-ptm",
     "opgg": "https://www.op.gg/summoners/las/Rekito%20sad-ptm",
     "history": [
@@ -1146,6 +1146,15 @@
         "elo": 2828,
         "wins": 140,
         "losses": 127
+      },
+      {
+        "run": "2026-11-24T18:37:15Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 9,
+        "elo": 2809,
+        "wins": 140,
+        "losses": 128
       }
     ],
     "baseline": {
@@ -1156,8 +1165,14 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-11-24T06:43:01Z",
+    "lastSync": "2026-11-24T18:37:15Z",
     "recent": [
+      {
+        "id": "LA2_1639705786",
+        "win": false,
+        "remake": false,
+        "ts": 1795543126258
+      },
       {
         "id": "LA2_1639596490",
         "win": true,
@@ -1199,12 +1214,6 @@
         "win": false,
         "remake": false,
         "ts": 1795316783988
-      },
-      {
-        "id": "LA2_1638905966",
-        "win": false,
-        "remake": false,
-        "ts": 1795230316717
       }
     ]
   },
@@ -1526,7 +1535,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-11-24T06:43:01Z",
+    "lastSync": "2026-11-24T18:37:15Z",
     "recent": [
       {
         "id": "LA2_1639399633",
@@ -1800,7 +1809,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-11-24T06:43:01Z",
+    "lastSync": "2026-11-24T18:37:15Z",
     "recent": [
       {
         "id": "LA2_1635879805",
@@ -1984,7 +1993,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-11-24T06:43:01Z",
+    "lastSync": "2026-11-24T18:37:15Z",
     "recent": [
       {
         "id": "LA2_1638190151",
@@ -2102,7 +2111,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-11-24T06:43:01Z",
+    "lastSync": "2026-11-24T18:37:15Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -3051,7 +3060,7 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-11-24T06:43:01Z",
+    "lastSync": "2026-11-24T18:37:15Z",
     "recent": [
       {
         "id": "LA2_1639652855",
@@ -3676,7 +3685,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-11-24T06:43:01Z",
+    "lastSync": "2026-11-24T18:37:15Z",
     "recent": [
       {
         "id": "LA2_1637859682",
@@ -3959,7 +3968,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-11-24T06:43:01Z",
+    "lastSync": "2026-11-24T18:37:15Z",
     "recent": [
       {
         "id": "LA2_1637958144",
