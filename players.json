@@ -353,7 +353,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-11-24T18:37:15Z",
+    "lastSync": "2026-11-25T02:55:11Z",
     "recent": [
       {
         "id": "LA2_1637574858",
@@ -924,7 +924,7 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-11-24T18:37:15Z",
+    "lastSync": "2026-11-25T02:55:11Z",
     "recent": [
       {
         "id": "LA2_1639639261",
@@ -990,8 +990,8 @@
     "role": "MID",
     "tier": "MASTER",
     "division": "I",
-    "lp": 9,
-    "wins": 140,
+    "lp": 51,
+    "wins": 142,
     "losses": 128,
     "champions": [
       "Kled",
@@ -999,7 +999,7 @@
       "Jax"
     ],
     "profileIconId": 7037,
-    "streak": -1,
+    "streak": 2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Rekito+sad-ptm",
     "opgg": "https://www.op.gg/summoners/las/Rekito%20sad-ptm",
     "history": [
@@ -1155,6 +1155,15 @@
         "elo": 2809,
         "wins": 140,
         "losses": 128
+      },
+      {
+        "run": "2026-11-25T02:55:11Z",
+        "tier": "MASTER",
+        "division": "I",
+        "lp": 51,
+        "elo": 2851,
+        "wins": 142,
+        "losses": 128
       }
     ],
     "baseline": {
@@ -1165,8 +1174,20 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-11-24T18:37:15Z",
+    "lastSync": "2026-11-25T02:55:11Z",
     "recent": [
+      {
+        "id": "LA2_1639724513",
+        "win": true,
+        "remake": false,
+        "ts": 1795550188769
+      },
+      {
+        "id": "LA2_1639716124",
+        "win": true,
+        "remake": false,
+        "ts": 1795545720823
+      },
       {
         "id": "LA2_1639705786",
         "win": false,
@@ -1208,12 +1229,6 @@
         "win": true,
         "remake": false,
         "ts": 1795326690534
-      },
-      {
-        "id": "LA2_1639141925",
-        "win": false,
-        "remake": false,
-        "ts": 1795316783988
       }
     ]
   },
@@ -1535,7 +1550,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-11-24T18:37:15Z",
+    "lastSync": "2026-11-25T02:55:11Z",
     "recent": [
       {
         "id": "LA2_1639399633",
@@ -1809,7 +1824,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-11-24T18:37:15Z",
+    "lastSync": "2026-11-25T02:55:11Z",
     "recent": [
       {
         "id": "LA2_1635879805",
@@ -1993,7 +2008,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-11-24T18:37:15Z",
+    "lastSync": "2026-11-25T02:55:11Z",
     "recent": [
       {
         "id": "LA2_1638190151",
@@ -2111,7 +2126,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-11-24T18:37:15Z",
+    "lastSync": "2026-11-25T02:55:11Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -2182,17 +2197,17 @@
     "region": "las",
     "role": "JGL",
     "tier": "DIAMOND",
-    "division": "III",
-    "lp": 9,
-    "wins": 426,
-    "losses": 425,
+    "division": "II",
+    "lp": 54,
+    "wins": 435,
+    "losses": 427,
     "champions": [
       "Sylas",
       "LeeSin",
       "Briar"
     ],
-    "profileIconId": 3862,
-    "streak": -1,
+    "profileIconId": 6283,
+    "streak": 3,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/MAESTRO+POCHI-POOM",
     "opgg": "https://www.op.gg/summoners/las/MAESTRO%20POCHI-POOM",
     "history": [
@@ -3050,6 +3065,15 @@
         "elo": 2509,
         "wins": 426,
         "losses": 425
+      },
+      {
+        "run": "2026-11-25T02:55:11Z",
+        "tier": "DIAMOND",
+        "division": "II",
+        "lp": 54,
+        "elo": 2654,
+        "wins": 435,
+        "losses": 427
       }
     ],
     "baseline": {
@@ -3060,67 +3084,67 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-11-24T18:37:15Z",
+    "lastSync": "2026-11-25T02:55:11Z",
     "recent": [
       {
-        "id": "LA2_1639652855",
-        "win": false,
-        "remake": false,
-        "ts": 1795495636433
-      },
-      {
-        "id": "LA2_1639637945",
+        "id": "LA2_1639827309",
         "win": true,
         "remake": false,
-        "ts": 1795492570645
+        "ts": 1795575340770
       },
       {
-        "id": "LA2_1639619486",
+        "id": "LA2_1639809936",
         "win": true,
         "remake": false,
-        "ts": 1795488250424
+        "ts": 1795573770560
       },
       {
-        "id": "LA2_1639597942",
+        "id": "LA2_1639793743",
         "win": true,
         "remake": false,
-        "ts": 1795485897755
+        "ts": 1795570335693
       },
       {
-        "id": "LA2_1639555410",
+        "id": "LA2_1639776173",
         "win": false,
         "remake": false,
-        "ts": 1795475412013
+        "ts": 1795565594552
       },
       {
-        "id": "LA2_1639546352",
-        "win": false,
-        "remake": false,
-        "ts": 1795472683456
-      },
-      {
-        "id": "LA2_1639539040",
+        "id": "LA2_1639765383",
         "win": true,
         "remake": false,
-        "ts": 1795470049220
+        "ts": 1795563438309
       },
       {
-        "id": "LA2_1639522498",
-        "win": false,
-        "remake": false,
-        "ts": 1795466454205
-      },
-      {
-        "id": "LA2_1639400838",
+        "id": "LA2_1639755909",
         "win": true,
         "remake": false,
-        "ts": 1795403817383
+        "ts": 1795561061326
       },
       {
-        "id": "LA2_1638932251",
-        "win": false,
+        "id": "LA2_1639748877",
+        "win": true,
         "remake": false,
-        "ts": 1795233928123
+        "ts": 1795558464029
+      },
+      {
+        "id": "LA2_1639742129",
+        "win": true,
+        "remake": false,
+        "ts": 1795555254985
+      },
+      {
+        "id": "LA2_1639734512",
+        "win": true,
+        "remake": false,
+        "ts": 1795553161109
+      },
+      {
+        "id": "LA2_1639728497",
+        "win": true,
+        "remake": false,
+        "ts": 1795550983875
       }
     ]
   },
@@ -3685,7 +3709,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-11-24T18:37:15Z",
+    "lastSync": "2026-11-25T02:55:11Z",
     "recent": [
       {
         "id": "LA2_1637859682",
@@ -3968,7 +3992,7 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-11-24T18:37:15Z",
+    "lastSync": "2026-11-25T02:55:11Z",
     "recent": [
       {
         "id": "LA2_1637958144",
