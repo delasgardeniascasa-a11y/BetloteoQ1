@@ -353,7 +353,7 @@
       "wins": 384,
       "losses": 388
     },
-    "lastSync": "2026-11-27T23:12:26Z",
+    "lastSync": "2026-11-28T04:50:49Z",
     "recent": [
       {
         "id": "LA2_1637574858",
@@ -425,8 +425,8 @@
     "role": "JGL",
     "tier": "SILVER",
     "division": "II",
-    "lp": 47,
-    "wins": 472,
+    "lp": 65,
+    "wins": 473,
     "losses": 476,
     "champions": [
       "Warwick",
@@ -434,7 +434,7 @@
       "Viego"
     ],
     "profileIconId": 5992,
-    "streak": 1,
+    "streak": 2,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/BlackMarvel-paint",
     "opgg": "https://www.op.gg/summoners/las/BlackMarvel-paint",
     "history": [
@@ -950,6 +950,15 @@
         "elo": 1047,
         "wins": 472,
         "losses": 476
+      },
+      {
+        "run": "2026-11-28T04:50:49Z",
+        "tier": "SILVER",
+        "division": "II",
+        "lp": 65,
+        "elo": 1065,
+        "wins": 473,
+        "losses": 476
       }
     ],
     "baseline": {
@@ -960,8 +969,14 @@
       "wins": 405,
       "losses": 393
     },
-    "lastSync": "2026-11-27T23:12:26Z",
+    "lastSync": "2026-11-28T04:50:49Z",
     "recent": [
+      {
+        "id": "LA2_1640412896",
+        "win": true,
+        "remake": false,
+        "ts": 1795834433380
+      },
       {
         "id": "LA2_1640277456",
         "win": true,
@@ -1009,12 +1024,6 @@
         "win": true,
         "remake": false,
         "ts": 1795629733323
-      },
-      {
-        "id": "LA2_1639910167",
-        "win": false,
-        "remake": false,
-        "ts": 1795627349535
       }
     ]
   },
@@ -1219,7 +1228,7 @@
       "wins": 119,
       "losses": 101
     },
-    "lastSync": "2026-11-27T23:12:26Z",
+    "lastSync": "2026-11-28T04:50:49Z",
     "recent": [
       {
         "id": "LA2_1640112928",
@@ -1595,7 +1604,7 @@
       "wins": 202,
       "losses": 196
     },
-    "lastSync": "2026-11-27T23:12:26Z",
+    "lastSync": "2026-11-28T04:50:49Z",
     "recent": [
       {
         "id": "LA2_1639399633",
@@ -1869,7 +1878,7 @@
       "wins": 66,
       "losses": 47
     },
-    "lastSync": "2026-11-27T23:12:26Z",
+    "lastSync": "2026-11-28T04:50:49Z",
     "recent": [
       {
         "id": "LA2_1635879805",
@@ -2062,7 +2071,7 @@
       "wins": 3,
       "losses": 5
     },
-    "lastSync": "2026-11-27T23:12:26Z",
+    "lastSync": "2026-11-28T04:50:49Z",
     "recent": [
       {
         "id": "LA2_1640309776",
@@ -2180,7 +2189,7 @@
       "wins": 11,
       "losses": 6
     },
-    "lastSync": "2026-11-27T23:12:26Z",
+    "lastSync": "2026-11-28T04:50:49Z",
     "recent": [
       {
         "id": "LA2_1631159808",
@@ -2252,9 +2261,9 @@
     "role": "JGL",
     "tier": "DIAMOND",
     "division": "II",
-    "lp": 53,
-    "wins": 444,
-    "losses": 436,
+    "lp": 52,
+    "wins": 445,
+    "losses": 437,
     "champions": [
       "Sylas",
       "Briar",
@@ -3191,6 +3200,15 @@
         "elo": 2653,
         "wins": 444,
         "losses": 436
+      },
+      {
+        "run": "2026-11-28T04:50:49Z",
+        "tier": "DIAMOND",
+        "division": "II",
+        "lp": 52,
+        "elo": 2652,
+        "wins": 445,
+        "losses": 437
       }
     ],
     "baseline": {
@@ -3201,8 +3219,20 @@
       "wins": 310,
       "losses": 291
     },
-    "lastSync": "2026-11-27T23:12:26Z",
+    "lastSync": "2026-11-28T04:50:49Z",
     "recent": [
+      {
+        "id": "LA2_1640445737",
+        "win": false,
+        "remake": false,
+        "ts": 1795841263957
+      },
+      {
+        "id": "LA2_1640433509",
+        "win": true,
+        "remake": false,
+        "ts": 1795838363501
+      },
       {
         "id": "LA2_1640356066",
         "win": false,
@@ -3244,18 +3274,6 @@
         "win": false,
         "remake": false,
         "ts": 1795743377152
-      },
-      {
-        "id": "LA2_1640186765",
-        "win": true,
-        "remake": false,
-        "ts": 1795741925759
-      },
-      {
-        "id": "LA2_1640174464",
-        "win": false,
-        "remake": false,
-        "ts": 1795737813343
       }
     ]
   },
@@ -3820,7 +3838,7 @@
       "wins": 301,
       "losses": 286
     },
-    "lastSync": "2026-11-27T23:12:26Z",
+    "lastSync": "2026-11-28T04:50:49Z",
     "recent": [
       {
         "id": "LA2_1637859682",
@@ -3892,16 +3910,16 @@
     "role": "SUP",
     "tier": "DIAMOND",
     "division": "III",
-    "lp": 29,
+    "lp": 10,
     "wins": 172,
-    "losses": 152,
+    "losses": 153,
     "champions": [
       "Sett",
       "Malphite",
       "Akali"
     ],
     "profileIconId": 3166,
-    "streak": 3,
+    "streak": -1,
     "leagueOfGraphs": "https://www.leagueofgraphs.com/summoner/las/Lanoni-2403",
     "opgg": "https://www.op.gg/summoners/las/Lanoni-2403",
     "history": [
@@ -4093,6 +4111,15 @@
         "elo": 2529,
         "wins": 172,
         "losses": 152
+      },
+      {
+        "run": "2026-11-28T04:50:49Z",
+        "tier": "DIAMOND",
+        "division": "III",
+        "lp": 10,
+        "elo": 2510,
+        "wins": 172,
+        "losses": 153
       }
     ],
     "baseline": {
@@ -4103,8 +4130,14 @@
       "wins": 137,
       "losses": 122
     },
-    "lastSync": "2026-11-27T23:12:26Z",
+    "lastSync": "2026-11-28T04:50:49Z",
     "recent": [
+      {
+        "id": "LA2_1640425528",
+        "win": false,
+        "remake": false,
+        "ts": 1795837435451
+      },
       {
         "id": "LA2_1637958144",
         "win": true,
@@ -4158,12 +4191,6 @@
         "win": true,
         "remake": false,
         "ts": 1793819157179
-      },
-      {
-        "id": "LA2_1635178044",
-        "win": true,
-        "remake": false,
-        "ts": 1793755369621
       }
     ]
   }
